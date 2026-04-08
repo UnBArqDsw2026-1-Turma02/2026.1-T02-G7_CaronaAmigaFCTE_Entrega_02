@@ -11,7 +11,7 @@
 
 ## Introdução
 
-Este documento apresenta o cronograma planejado para a execução dos três módulos exigidos na segunda entrega da disciplina. O planejamento foi adaptado para uma equipe de 10 pessoas, em que todos os integrantes participam de todas as modelagens, garantindo colaboração integral em cada etapa.
+Este documento descreve o cronograma previsto para a realização dos três módulos solicitados na segunda entrega da disciplina de Arquitetura e Desenho de Software. O plano foi estruturado para uma equipe de 10 pessoas, com participação de todos os integrantes em todas as modelagens, assegurando colaboração completa em cada fase.
 
 Prazo final de entrega: 23/04/2026.
 
