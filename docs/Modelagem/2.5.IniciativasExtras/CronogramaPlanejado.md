@@ -71,9 +71,13 @@ Prazo final de entrega: 23/04/2026.
 | 17/04 (Sex)  | Estudo sobre Diagrama de Casos de Uso                                  | [Integrantes](#alunos) |
 | 20/04 (Seg)  | Produção do Diagrama de Casos de Uso                                   | [Integrantes](#alunos) |
 | 21/04 (Ter)  | Verificação dos diagramas de Pacotes e de Casos de Uso                | [Integrantes](#alunos) |
-| 22/04 (Qua)  | Revisão geral e ajustes nos diagramas                                  | [Integrantes](#alunos) |                                   | [Integrantes](#alunos) |
+| 22/04 (Qua)  | Revisão geral e ajustes nos diagramas                                  | [Integrantes](#alunos) |
+| 23/04 (Qui)  | Atualização do GitHub Pages                                            | [Integrantes](#alunos) |
 | 23/04 (Qui)  | Tempo extra para terminar pendências                                   | [Integrantes](#alunos) |
 
+## Referências
+
+> 1. GALAXIA CONECTADA. Cronograma planejado. Disponível em: <https://unbarqdsw2025-1-turma02.github.io/2025.1_T02_G9_GalaxiaConectada_Entrega02/#/Modelagem/IniciativasExtras/CronogramaPlanejado>. Acesso em: 08 abr. 2026.
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
