@@ -4,8 +4,12 @@
 - [Projetos](/docs/Projeto/Projeto.md)
 
 - **Modelagem**
-  - [2. Desenho de Software (Modelagem)](/docs/Modelagem/2.Modelagem.md)
-    - [2.1. Modelagem UML Estática](/docs/Modelagem/2.1.ModelagemEstatica.md)
+  - [2. Desenho de Software (Modelagem)](Modelagem/2.Modelagem.md)
+    * 2.1. Modelagem UML Estática
+      - [2.1.1  Diagrama de Classes](Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md)
+      - [2.1.2  Diagrama de Componentes](Modelagem/2.1.ModelagemEstatica/Diagrama_de_componentes.md)
+      - [2.1.1  Diagrama de Implantação](Modelagem/2.1.ModelagemEstatica/Diagrama_de_implantacao.md)
+
     - [2.2. Modelagem UML Dinâmica](/docs/Modelagem/2.2.ModelagemDinamica.md)
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](/docs/Modelagem/2.3.ModelagemOrganizacionalCasosDeUso.md)
     - [2.4. Participações - Modelagem](/docs/Modelagem/2.4.ParticipacoesModelagem.md)
