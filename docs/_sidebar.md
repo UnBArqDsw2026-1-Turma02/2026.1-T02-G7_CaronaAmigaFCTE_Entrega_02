@@ -24,4 +24,7 @@
       - [2.4.1 Participações](Modelagem/2.4.ParticipacoesModelagem/Participacoes.md)
     
       
-    - [2.5. Iniciativas Extras - Modelagem](/docs/Modelagem/2.5.IniciativasExtras.md)
+    * 2.5. Iniciativas Extras - Modelagem
+      - [2.5.1 Iniciativas Extras](Modelagem/2.5.IniciativasExtras/IniciativasExtras.md)
+      - [2.5.2 Cronograma Planejado](Modelagem/2.5.IniciativasExtras/CronogramaPlanejado.md)
+      - [2.5.3 Cronograma Executado](Modelagem/2.5.IniciativasExtras/CronogramaExecutado.md)
