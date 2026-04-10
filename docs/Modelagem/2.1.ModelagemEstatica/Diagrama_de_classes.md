@@ -42,7 +42,7 @@ Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02
 
 4. Por fim, o diagrama será elaborado e, em seguida, verificado de acordo com uma [tabela de verificação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md) baseada nos critérios sintáticos e semânticos da UML.
 
-# Composição — Notação UML
+## Composição — Notação UML
 
 | Elemento | Composição | Descrição |
 |---|---|---|
@@ -58,3 +58,33 @@ Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02
 | **Pacote** | `┌─Package──────┐`<br>`│Packaged elem1│`<br>`└──────────────┘` | Agrupa classes relacionadas. |
 
 
+## Tipos de Relacionamento 
+
+Com o objetivo de construir o diagrama da forma mais completa e mais correta possível, foi realizado um estudo por meio do artigo [Class Diagram | Unified Modeling Language (UML)](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/) [2](#ref2) sobre os tipos de relacionamentos necessários para o sistema da **Carona Amiga**. Esses relacionamentos descrevem como as classes interagem e se conectam entre si, cada um com seu próprio significado e nível de acoplamento.
+
+| Tipo de Relacionamento | O que é | Exemplo no Projeto | Símbolo | Observação/Extra |
+|:-----------------------|:--------|:-------------------|:--------|:-----------------|
+| Dependência | Indica que uma classe utiliza outra de forma pontual, sem criar um vínculo permanente entre elas. | | Linha tracejada com seta. | |
+| Associação | Estabelece uma conexão entre classes onde uma delas tem conhecimento da outra e pode interagir com ela. | | Linha contínua simples. | |
+| Agregação | Modela uma relação de "parte-todo" flexível, onde as partes continuam existindo mesmo sem o objeto principal. | | Linha contínua com losango branco no "todo". | |
+| Composição | Modela uma relação de "parte-todo" rígida, onde as partes dependem totalmente do objeto principal para existir. | | Linha contínua com losango preto no "todo". | |
+| Generalização | Expressa uma relação de herança entre classes, onde a subclasse absorve características e comportamentos da superclasse. | | Linha contínua com seta aberta (vazia) para a superclasse. | |
+| Realização | Indica que uma classe concreta cumpre o contrato definido por uma interface, implementando todos os seus comportamentos. | | Linha tracejada com seta aberta (vazia) para a interface. | |
+
+### Conceitos Importantes
+
+### Superclasse
+
+- **Definição**: Uma superclasse é uma classe mais genérica que contém atributos e métodos comuns a várias outras classes.
+- **Exemplo**: A classe **Conteúdo** pode ser a superclasse de **Artigo** e **Vídeo**, pois ambos compartilham características como `título`, `descrição` e `Data de publicação`.
+
+### Subclasse
+
+- **Definição**: Uma subclasse é uma classe mais específica que herda tudo da superclasse e pode adicionar seus próprios atributos e comportamentos.
+- **Exemplo**: **Artigo** seria uma subclasse de **Conteúdo**.
+
+### Os Relacionamentos no Diagrama de Classes
+
+## Conclusão
+
+A elaboração do Diagrama de Classes para o projeto **Carona Amiga** possibilitou a representação estruturada das principais entidades do sistema e suas interações.
