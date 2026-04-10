@@ -28,6 +28,7 @@
       - [2.5.1 Iniciativas Extras](Modelagem/2.5.IniciativasExtras/IniciativasExtras.md)
       - [2.5.2 Cronograma Planejado](Modelagem/2.5.IniciativasExtras/CronogramaPlanejado.md)
       - [2.5.3 Cronograma Executado](Modelagem/2.5.IniciativasExtras/CronogramaExecutado.md)
+      - [2.5.4 Requisitos Elicitados](Modelagem/2.5.IniciativasExtras/RequisitosElicitados.md)
 
     * 2.6. Verificação dos Diagramas
       - [2.6.1 Verificação dos Diagramas](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md)
