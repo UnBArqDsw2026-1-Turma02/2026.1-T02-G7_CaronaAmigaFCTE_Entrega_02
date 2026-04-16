@@ -81,9 +81,26 @@ Com o objetivo de construir o diagrama da forma mais completa e mais correta pos
 ### Subclasse
 
 - **Definição**: Uma subclasse é uma classe mais específica que herda tudo da superclasse e pode adicionar seus próprios atributos e comportamentos.
-- **Exemplo**: **Artigo** seria uma subclasse de **Conteúdo**.
+- * *Exemplo**: **Artigo** seria uma subclasse de **Conteúdo**.
 
 ### Os Relacionamentos no Diagrama de Classes
+| Cardinalidade | Uso | Significado  
+| 1 | 1 .. 1 | Uma instância se comunica com no máximo outra instância |
+| * | * .. 1 | Muitos se comunicam com no máximo uma instância |
+| 1 .. 1 | * .. 1 | Muitos se comunicam com no máximo uma instância |
+Fonte: Aula Modelagem UML Estática |
+
+## Diagrama de Classes
+
+
+<div align="center">
+              Figura 1: Diagrama de Classes.
+
+![Diagrama de Classes](../assets/diagrama_de_classes.png)
+
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+</div>
 
 ## Conclusão
 
