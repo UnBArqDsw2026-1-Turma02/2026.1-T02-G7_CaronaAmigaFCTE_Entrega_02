@@ -32,3 +32,4 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 07/04/2026 | Criação do artefato | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
+| 1.1  | 15/04/2026 | Atualização da Modelagem de Classes | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
