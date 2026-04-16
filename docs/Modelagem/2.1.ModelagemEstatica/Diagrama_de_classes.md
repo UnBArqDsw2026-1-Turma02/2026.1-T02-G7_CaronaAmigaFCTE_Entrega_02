@@ -113,3 +113,4 @@ A elaboração do Diagrama de Classes para o projeto **Carona Amiga** possibilit
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 09/04/2026 | Criação do documento | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
 | 1.1  | 15/04/2026 | Adicionando img do diagrama | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
+| 1.2 | 15/04/2026 | Ajustando diagrama (WIP) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
