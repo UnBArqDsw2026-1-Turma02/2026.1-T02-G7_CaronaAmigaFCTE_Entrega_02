@@ -16,13 +16,13 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 
 | Artefato                  | Início da Produção | Última Atualização | Total de Versões |
 |--------------------------|--------------------|---------------------|------------------|
-| Diagrama de Classes      | -                  | -                   | -                |
+| Diagrama de Classes      | 11/04                  | 13/04                   | -                |
 | Diagrama de Componentes  | -                  | -                   | -                |
 | Diagrama de Implantação  | -                  | -                   | -                |
-| Diagrama de Atividades   | -                  | -                   | -                |
-| Diagrama de Comunicação  | -                  | -                   | -                |
-| Diagrama de Estados      | -                  | -                   | -                |
 | Diagrama de Sequência    | -                  | -                   | -                |
+| Diagrama de Atividades   | -                  | -                   | -                |
+| Diagrama de Comunicação/Colaboração  | -                  | -                   | -                |
+| Diagrama de Estados      | -                  | -                   | -                |
 | Diagrama de Casos de Uso | -                  | -                   | -                |
 | Diagrama de Pacotes      | -                  | -                   | -                |
 
