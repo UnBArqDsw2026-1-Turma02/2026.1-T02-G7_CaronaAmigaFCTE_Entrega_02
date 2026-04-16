@@ -51,8 +51,8 @@ Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02
 | **Método** | ![Método](https://spaceprogrammer.com/wp-content/uploads/2017/09/notacao-de-diagrama-de-classe-3.jpg) | Funções ou comportamentos que a classe pode executar. |
 | **Associação** | `──────────────` | Relacionamento entre duas ou mais classes. |
 | **Herança** | `──────────────►` | Relação onde uma classe herda atributos e métodos de outra. |
-| **Agregação** | `──────────────◇` | Relacionamento onde uma classe contém outra, mas com menos dependência. |
-| **Composição** | `──────────────◆` | Relacionamento mais forte onde uma classe contém outra de forma dependente. |
+| **Agregação** | `──────────────◇` | Relacionamento onde uma classe contém outra, mas a parte existe sem o todo. |
+| **Composição** | `──────────────◆` | Relacionamento mais forte onde uma classe contém outra de forma dependente, parte não existe sem o todo. |
 | **Dependência** | `- - - - - - - ►` | Indica que uma classe usa outra, mas não a possui. |
 | **Visibilidade** |`┌──────────────┐`<br>`│  Classname   │`<br>`├──────────────┤`<br>`│+ field: type │`<br>`├──────────────┤`<br>`│- method(): type│`<br>`└──────────────┘`  | Define o acesso aos membros de uma classe (público, privado, protegido). |
 | **Pacote** | `┌─Package──────┐`<br>`│Packaged elem1│`<br>`└──────────────┘` | Agrupa classes relacionadas. |
@@ -84,6 +84,7 @@ Com o objetivo de construir o diagrama da forma mais completa e mais correta pos
 - * *Exemplo**: **Artigo** seria uma subclasse de **Conteúdo**.
 
 ### Os Relacionamentos no Diagrama de Classes
+
 | Cardinalidade | Uso | Significado  
 | 1 | 1 .. 1 | Uma instância se comunica com no máximo outra instância |
 | * | * .. 1 | Muitos se comunicam com no máximo uma instância |
