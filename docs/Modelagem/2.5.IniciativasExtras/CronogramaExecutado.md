@@ -16,7 +16,7 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 
 | Artefato                  | Início da Produção | Última Atualização | Total de Versões |
 |--------------------------|--------------------|---------------------|------------------|
-| Diagrama de Classes      | 11/04                  | 13/04                   | -                |
+| Diagrama de Classes      | 11/04                  | 16/04                   | 1.4-                |
 | Diagrama de Componentes  | -                  | -                   | -                |
 | Diagrama de Implantação  | -                  | -                   | -                |
 | Diagrama de Sequência    | -                  | -                   | -                |
@@ -33,3 +33,4 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 07/04/2026 | Criação do artefato | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
 | 1.1  | 15/04/2026 | Atualização da Modelagem de Classes | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
+| 1.2  | 16/04/2026 | Atualizando o cronograma do Diagrama de Classes | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
