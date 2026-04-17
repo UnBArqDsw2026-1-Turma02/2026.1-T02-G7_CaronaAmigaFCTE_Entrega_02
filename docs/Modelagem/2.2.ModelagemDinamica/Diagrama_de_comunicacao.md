@@ -50,19 +50,23 @@ Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02
 
 ## Composição — Notação UML
 
-| Elemento | Descrição Elemento | Composição | Explicação |
-|---|:--:|---|---|
-| **Frame** | Retângulo utilizado para **nomear** diagramas de comunicação, com o nome num compartimento no canto superior esquerdo. | ![Frame](/Modelagem/assets/communication-frame-long.png) |**_Frame_** "_Interaction"_ para **Diagrama de Comunicação** _BuyItem_ |
-| **Frame** | Obs: Ambos reference à nomeações plausíveis para esse diagrama. | ![Frame](/Modelagem/assets/communication-frame-short.png) |**_Frame_** "_Sd"_ para **Diagrama de Comunicação** _BuyItem_ |
-| **Lifeline** | Representa um **participante individual** na interação, pode-se entender como uma relação 1 para 1. | ![Lifeline](/Modelagem/assets/communication-lifeline-named.png) | _Lifeline_ anônimo da classe _User_ |
-|  | | ![Lifeline](/Modelagem/assets/communication-lifeline-no-name.png)  | **_Lifeline_** _"data"_ da classe _Stock_ |
-|  | | ![Lifeline](/Modelagem/assets/communication-lifeline-selector.png)  | **_Lifeline_** _"x"_ da classe _X_ selecionado com *seletor* [k] |
-| **Message** | Linha com sequência de expressão e uma seta acima, indicando a direção da comunicação. |![Message](/Modelagem/assets/communication-message.png) | Instância da classe **_A_ envia mensagem _remove()_ para** a instância de **_B_ se _s1_ for igual a _s2_**. |
-| **Message** | |![Message](/Modelagem/assets/communication-message-sequence.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_**, depois **_B_ envia _paint()_ para C**. |
-| **Message** | |![Message](/Modelagem/assets/communication-message-concurrent.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_** e instância de **C**, **concomitantemente**. |
-| **Message** | |![Message](/Modelagem/assets/communication-message-guard.png) | Instância da classe **_A_ enviará mensagem _draw()_ para** a instância de **_C_ se _x_ for maior que _y_**. |
-| **Message** | |![Message](/Modelagem/assets/communication-message-loop-sequence.png) | Instância da classe **_A_ enviará mensagem _search()_ para** a instância de **_B_ _n_ vezes, uma a uma**. |
-| **Message** | |![Message](/Modelagem/assets/communication-message-loop-concurrent.png) | Instância da classe **_A_ enviará _n_ mensagens _search()_ concomitantemente para** a instância de **_B_**. |
+- **_Frame_**:  Retângulo utilizado para **nomear** diagramas de comunicação, com o nome num compartimento no canto superior esquerdo. Ambas as formas "_interaction_" e "_sd_" são nomeações válidas para um Diagrama de Comunicação.
+- **_Lifeline_**: Representa um **participante individual** na interação, pode-se entender como uma relação 1 para 1.
+- **_Message_**: Linha com sequência de expressão e uma seta acima, indicando a direção da comunicação.
+
+| Elemento | Composição | Explicação |
+|---|:--:|---|
+| **Frame**  | ![Frame](/Modelagem/assets/communication-frame-long.png) |**_Frame_** "_Interaction"_ para **Diagrama de Comunicação** _BuyItem_ |
+|  | ![Frame](/Modelagem/assets/communication-frame-short.png) |**_Frame_** "_Sd"_ para **Diagrama de Comunicação** _BuyItem_ |
+| **Lifeline**  | ![Lifeline](/Modelagem/assets/communication-lifeline-named.png) | _Lifeline_ anônimo da classe _User_ |
+|  | ![Lifeline](/Modelagem/assets/communication-lifeline-no-name.png)  | **_Lifeline_** _"data"_ da classe _Stock_ |
+|  | ![Lifeline](/Modelagem/assets/communication-lifeline-selector.png)  | **_Lifeline_** _"x"_ da classe _X_ selecionado com *seletor* [k] |
+| **Message** |![Message](/Modelagem/assets/communication-message.png) | Instância da classe **_A_ envia mensagem _remove()_ para** a instância de **_B_ se _s1_ for igual a _s2_**. |
+| |![Message](/Modelagem/assets/communication-message-sequence.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_**, depois **_B_ envia _paint()_ para C**. |
+| |![Message](/Modelagem/assets/communication-message-concurrent.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_** e instância de **C**, **concomitantemente**. |
+| |![Message](/Modelagem/assets/communication-message-guard.png) | Instância da classe **_A_ enviará mensagem _draw()_ para** a instância de **_C_ se _x_ for maior que _y_**. |
+| |![Message](/Modelagem/assets/communication-message-loop-sequence.png) | Instância da classe **_A_ enviará mensagem _search()_ para** a instância de **_B_ _n_ vezes, uma a uma**. |
+| |![Message](/Modelagem/assets/communication-message-loop-concurrent.png) | Instância da classe **_A_ enviará _n_ mensagens _search()_ concomitantemente para** a instância de **_B_**. |
 
 ## Diagrama de Comunicação
 
