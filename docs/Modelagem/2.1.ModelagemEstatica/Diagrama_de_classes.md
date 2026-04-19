@@ -130,6 +130,30 @@ Autores: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Lui
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 </div>
 
+---
+
+## Gravação da discussão do Diagrama de Classes
+
+As gravações abaixo registram a elaboração e a discussão do Diagrama de Classes do **Carona Amiga**, incluindo o alinhamento sobre classes, atributos e relacionamentos, além das decisões tomadas durante a modelagem.
+
+### Parte 1
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/qKlQyKdYY50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/qKlQyKdYY50" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+### Parte 2
+
+Continuação da discussão, com refinamentos no diagrama e validação das escolhas de relacionamentos e cardinalidades.
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/mFwFGs4yMP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/mFwFGs4yMP4" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
 ## Conclusão
 
 A elaboração do Diagrama de Classes do projeto **Carona Amiga** permitiu representar, de forma estruturada, as principais entidades do sistema, seus atributos e relacionamentos. O artefato contribui para o alinhamento e a comunicação entre a equipe, além de servir como apoio à validação dos requisitos e à implementação. Dessa forma, o diagrama também se torna uma referência para evolução e manutenção do sistema ao longo do projeto.
@@ -154,3 +178,5 @@ A elaboração do Diagrama de Classes do projeto **Carona Amiga** permitiu repre
 | 1.1  | 15/04/2026 | Adicionando img do diagrama | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
 | 1.2 | 15/04/2026 | Ajustando diagrama (WIP) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
 | 1.3 | 16/04/2026 | Conclusão do diagrama de classes | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Artefato revisado |
+| 1.4 | 19/04/2026 | Adicionando referências e consertando os links | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Ana Victória Guedes da Costa](https://github.com/navicg) | Artefato revisado |
+| 1.5 | 19/04/2026 | Adicionando os videos da discussão | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Luiza da Silva Pugas](https://github.com/luizaxx) | Artefato revisado |
