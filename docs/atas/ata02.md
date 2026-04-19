@@ -1,129 +1,74 @@
-# Ata da [Nº] Reunião de Arquitetura e Desenho de Software – Grupo 7
+# Ata da 2ª Reunião de Arquitetura e Desenho de Software - Grupo 7
 
 ### Local
-Reunião realizada via **[Plataforma - Ex: Microsoft Teams, Google Meet]**.
+
+Reunião realizada via **plataforma de videoconferência**.
 
 ### Horário da Reunião
 
-|          | Data       | Início | Término |
-|----------|------------|--------|---------|
-| Previsto | DD/MM/AAAA | HH:MM  | HH:MM   |
-| Realizado| DD/MM/AAAA | HH:MM  | HH:MM   |
+|           | Data       | Início | Término |
+| --------- | ---------- | ------ | ------- |
+| Previsto  | 16/04/2026 | 21:30  | 21:30   |
+| Realizado | 16/04/2026 | 21:34  | 21:48   |
 
-<font size="2"><p style="text-align: left">Fonte: [Autor/Organização](link), ano.</p></font>
+<font size="2"><p style="text-align: left">Fonte: elaboração própria com base na transcrição automática da reunião, 2026.</p></font>
 
 ## Participantes presentes:
-- [x] [Nome Completo](link_github)
-- [x] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
 
-> Marcar com `[x]` quem esteve presente.
+- [x] [João Vitor Santos de Oliveira](https://github.com/Jauzimm)
+- [x] [Karoline Luz da Conceição](https://github.com/KarolineLuz)
+- [x] [Ana Victória Guedes da Costa](https://github.com/navicg)
+- [x] [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)
 
 ---
 
 ## Pauta:
-* [Tópico 1 discutido]
-* [Tópico 2 discutido]
-* [Tópico 3 discutido]
-* [Tópico 4 discutido]
+
+- organizar a divisão de tarefas da entrega 02
+- definir uma dinâmica de colaboração para modelagem e revisão dos artefatos
+- alinhar como registrar comentários e revisões no GitHub, além das conversas no WhatsApp
+- discutir qual abordagem de modelagem seria mais adequada ao escopo do sistema
+- definir responsáveis pelas atas e pelas revisões
 
 ---
 
 ## Decisões:
-* [Decisão tomada 1]
-* [Decisão tomada 2]
-* [Definições importantes]
-* [Tecnologias, ferramentas ou abordagens escolhidas]
+
+- a equipe adotará uma dinâmica inspirada em XP/pair programming, com trabalho em duplas e revisão contínua entre os integrantes
+- João Vitor e Gabriel ficarão responsáveis pela frente de modelagem, com foco inicial nas decisões relacionadas a infraestrutura e redes
+- Ana Victória e Karoline ficarão responsáveis pela elaboração dos artefatos textuais, acompanhando a modelagem para manter consistência com o que for produzido
+- o grupo combinará dúvidas e alinhamentos pelo WhatsApp, mas também registrará observações e revisões nas branches e no GitHub para manter o histórico documentado
+- a equipe entendeu que o sistema tem escopo relativamente pequeno; por isso, o diagrama de implantação tende a ser simples e poderá ser ajustado conforme a necessidade para uma visão de componentes
+- a modelagem inicial deverá considerar elementos básicos da solução, como web app, banco de dados, backend, frontend, servidor, IP e firewall
+- Ana Victória e Karoline revisarão a modelagem produzida por João Vitor e Gabriel; em contrapartida, João Vitor e Gabriel revisarão os artefatos produzidos por Ana Victória e Karoline
+- ficou definido que Ana Victória fará a ata da primeira reunião, com revisão de Gabriel, e Karoline fará a ata da segunda reunião, com revisão de João Vitor
 
 ---
 
 ## Link da gravação
-[Link da reunião](URL_AQUI)
+
+[Gravação da reunião](https://www.youtube.com/watch?v=D_kRKRohL50)
+
+Transcrição utilizada na elaboração desta ata: `Reunião de definição de tarefas.docx` (arquivo local, não versionado no repositório).
 
 ---
 
 ## Próxima Reunião
-Data: DD/MM/AAAA  
-Horário: HH:MM  
-Local: [Plataforma]
+
+Data: A definir  
+Horário: A definir  
+Local: alinhamento presencial em aula e pelo grupo da disciplina
 
 ---
 
 ## Bibliografia
 
-SOBRENOME, Nome. *Título do livro*. Cidade: Editora, ano.
-
-SOBRENOME, Nome. *Título do artigo*. Nome do site/revista, ano. Disponível em: <link>. Acesso em: DD MMM. AAAA.
+MICROSOFT. _Transcrição automática da reunião de definição de tarefas_. Documento interno do grupo, 16 abr. 2026.
 
 ---
 
 ## Histórico de versão
 
-Versão | Data | Descrição | Autor(es) | Revisor(es) | Data da Revisão
--------|------|-----------|-----------|-------------|-----------------
-1.0 | DD/MM/AAAA | Criação da ata | [Nome](link) | [Nome](link) | DD/MM/AAAA# Ata da [Nº] Reunião de Arquitetura e Desenho de Software – Grupo 7
-
-### Local
-Reunião realizada via **[Plataforma - Ex: Microsoft Teams, Google Meet]**.
-
-### Horário da Reunião
-
-|          | Data       | Início | Término |
-|----------|------------|--------|---------|
-| Previsto | DD/MM/AAAA | HH:MM  | HH:MM   |
-| Realizado| DD/MM/AAAA | HH:MM  | HH:MM   |
-
-<font size="2"><p style="text-align: left">Fonte: [Autor/Organização](link), ano.</p></font>
-
-## Participantes presentes:
-- [x] [Nome Completo](link_github)
-- [x] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
-
-> Marcar com `[x]` quem esteve presente.
-
----
-
-## Pauta:
-* [Tópico 1 discutido]
-* [Tópico 2 discutido]
-* [Tópico 3 discutido]
-* [Tópico 4 discutido]
-
----
-
-## Decisões:
-* [Decisão tomada 1]
-* [Decisão tomada 2]
-* [Definições importantes]
-* [Tecnologias, ferramentas ou abordagens escolhidas]
-
----
-
-## Link da gravação
-[Link da reunião](URL_AQUI)
-
----
-
-## Próxima Reunião
-Data: DD/MM/AAAA  
-Horário: HH:MM  
-Local: [Plataforma]
-
----
-
-## Bibliografia
-
-SOBRENOME, Nome. *Título do livro*. Cidade: Editora, ano.
-
-SOBRENOME, Nome. *Título do artigo*. Nome do site/revista, ano. Disponível em: <link>. Acesso em: DD MMM. AAAA.
-
----
-
-## Histórico de versão
-
-Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da Revisão
--------|------|-----------|-----------|-------------|-----------------
-1.0 | DD/MM/AAAA | Criação da ata | [Nome](link) | [Nome](link) | Revisão
+| Versão | Data       | Descrição                          | Autor(es)                                                   | Revisor(es)                                                 | Detalhes da Revisão                              |
+| ------ | ---------- | ---------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------ |
+| 1.0    | 19/04/2026 | Preenchimento da ata da 2ª reunião | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Ata elaborada com base na transcrição da reunião |
