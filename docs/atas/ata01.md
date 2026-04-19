@@ -1,124 +1,60 @@
-# Ata da [Nº] Reunião de Arquitetura e Desenho de Software – Grupo 7
+# Ata da 1ª Reunião de Arquitetura e Desenho de Software – Grupo 7
 
 ### Local
-Reunião realizada via **[Plataforma - Ex: Microsoft Teams, Google Meet]**.
+Reunião realizada via **Microsoft Teams**.
 
 ### Horário da Reunião
 
 |          | Data       | Início | Término |
 |----------|------------|--------|---------|
-| Previsto | DD/MM/AAAA | HH:MM  | HH:MM   |
-| Realizado| DD/MM/AAAA | HH:MM  | HH:MM   |
+| Previsto | 14/04/2026 | 14:30 | 14:40   |
+| Realizado| 14/04/2026 | 14:27  | 14:31   |
 
-<font size="2"><p style="text-align: left">Fonte: [Autor/Organização](link), ano.</p></font>
+<font size="2"><p style="text-align: left">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), 2026.</p></font>
 
 ## Participantes presentes:
-- [x] [Nome Completo](link_github)
-- [x] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
 
-> Marcar com `[x]` quem esteve presente.
+- [x] [João Vitor Santos de Oliveira](https://github.com/Jauzimm)
+- [x] [Karoline Luz da Conceição](https://github.com/KarolineLuz)
+- [x] [Ana Victória Guedes da Costa](https://github.com/navicg)
+- [x] [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)
 
 ---
 
 ## Pauta:
-* [Tópico 1 discutido]
-* [Tópico 2 discutido]
-* [Tópico 3 discutido]
-* [Tópico 4 discutido]
+* Alinhamento inicial sobre o Diagrama de Implantação  
+* Definição de como será conduzido o estudo do diagrama  
+* Discussão sobre dependências com outros diagramas (componentes e classes)  
+* Organização inicial das tarefas entre os membros  
 
 ---
 
 ## Decisões:
-* [Decisão tomada 1]
-* [Decisão tomada 2]
-* [Definições importantes]
-* [Tecnologias, ferramentas ou abordagens escolhidas]
+* O grupo decidiu focar inicialmente no **estudo do Diagrama de Implantação** antes da construção  
+* Foi definido que todos devem buscar entender melhor o diagrama por meio de **materiais de apoio (vídeos da professora e projetos anteriores)**  
+* Identificado que pode existir **dependência com o Diagrama de Componentes e de Classes**, sendo necessário alinhar com outros membros do grupo  
+* Caso não haja dependência direta, o grupo poderá desenvolver o diagrama de forma mais independente  
+* O Diagrama de Classes do outro subgrupo poderá servir como **base de referência**  
+* A atividade foi considerada como um **primeiro passo exploratório**, com foco em entendimento antes da execução  
 
 ---
 
 ## Link da gravação
-[Link da reunião](URL_AQUI)
+[Gravação da 1ª reunião](https://youtu.be/L7cldaCjV-4)
 
 ---
 
 ## Próxima Reunião
-Data: DD/MM/AAAA  
-Horário: HH:MM  
-Local: [Plataforma]
+
+**Data**: 16/04/2026<br> 
+**Horário**: 21:30<br>
+**Local**: Microsoft Teams  
 
 ---
 
 ## Bibliografia
 
-SOBRENOME, Nome. *Título do livro*. Cidade: Editora, ano.
-
-SOBRENOME, Nome. *Título do artigo*. Nome do site/revista, ano. Disponível em: <link>. Acesso em: DD MMM. AAAA.
-
----
-
-## Histórico de versão
-
-Versão | Data | Descrição | Autor(es) | Revisor(es) | Data da Revisão
--------|------|-----------|-----------|-------------|-----------------
-1.0 | DD/MM/AAAA | Criação da ata | [Nome](link) | [Nome](link) | DD/MM/AAAA# Ata da [Nº] Reunião de Arquitetura e Desenho de Software – Grupo 7
-
-### Local
-Reunião realizada via **[Plataforma - Ex: Microsoft Teams, Google Meet]**.
-
-### Horário da Reunião
-
-|          | Data       | Início | Término |
-|----------|------------|--------|---------|
-| Previsto | DD/MM/AAAA | HH:MM  | HH:MM   |
-| Realizado| DD/MM/AAAA | HH:MM  | HH:MM   |
-
-<font size="2"><p style="text-align: left">Fonte: [Autor/Organização](link), ano.</p></font>
-
-## Participantes presentes:
-- [x] [Nome Completo](link_github)
-- [x] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
-- [ ] [Nome Completo](link_github)
-
-> Marcar com `[x]` quem esteve presente.
-
----
-
-## Pauta:
-* [Tópico 1 discutido]
-* [Tópico 2 discutido]
-* [Tópico 3 discutido]
-* [Tópico 4 discutido]
-
----
-
-## Decisões:
-* [Decisão tomada 1]
-* [Decisão tomada 2]
-* [Definições importantes]
-* [Tecnologias, ferramentas ou abordagens escolhidas]
-
----
-
-## Link da gravação
-[Link da reunião](URL_AQUI)
-
----
-
-## Próxima Reunião
-Data: DD/MM/AAAA  
-Horário: HH:MM  
-Local: [Plataforma]
-
----
-
-## Bibliografia
-
-SOBRENOME, Nome. *Título do livro*. Cidade: Editora, ano.
-
-SOBRENOME, Nome. *Título do artigo*. Nome do site/revista, ano. Disponível em: <link>. Acesso em: DD MMM. AAAA.
+> COCKBURN, Alistair. *Agile Software Development*. Boston: Addison-Wesley, 2002.
 
 ---
 
@@ -126,4 +62,4 @@ SOBRENOME, Nome. *Título do artigo*. Nome do site/revista, ano. Disponível em:
 
 Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da Revisão
 -------|------|-----------|-----------|-------------|-----------------
-1.0 | DD/MM/AAAA | Criação da ata | [Nome](link) | [Nome](link) | Revisão
+1.0 | 19/04/2026 | Preenchimento da ata da 1ª reunião |[Ana Victória Guedes da Costa](https://github.com/navicg) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)| Artefato revisado
