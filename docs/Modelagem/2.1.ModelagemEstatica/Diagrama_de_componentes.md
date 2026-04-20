@@ -125,7 +125,7 @@ Para embasar a escolha dos relacionamentos presentes no diagrama, foi consultado
 <div align="center">
   Figura 1: Diagrama de Componentes.
 
-![Diagrama de componentes](https://postimg.cc/dZJ9VkqV)
+![Diagrama de componentes](https://i.postimg.cc/2yZ9ThMh/Untitled-Diagram-drawio-(8).png)
 
 <font size="2"><p style="text-align: center">Fonte: Elaborado pelos autores, 2026.</p></font>
 </div>
