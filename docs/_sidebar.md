@@ -31,3 +31,8 @@
 
     * 2.6. Verificação dos Diagramas
       - [2.6.1 Verificação dos Diagramas](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md)
+
+- **Atas**
+  - [1. Ata de Reunião](atas/ata01.md)
+  - [2. Ata de Reunião](atas/ata02.md)
+  - [Modelo de Ata](atas/modelo_ata.md)
