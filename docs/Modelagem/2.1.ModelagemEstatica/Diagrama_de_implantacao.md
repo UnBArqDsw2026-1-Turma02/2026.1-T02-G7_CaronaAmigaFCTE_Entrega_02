@@ -42,7 +42,7 @@ A elaboração do diagrama de implantação do projeto **Carona Amiga FCTE** foi
 
 3. Em seguida, será construída a versão inicial do diagrama na ferramenta **Miro**, com a identificação dos nós, artefatos e relações de comunicação entre os elementos.
 
-4. Após a construção, o diagrama passará por uma fase de [verificação](/Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md), com o objetivo de garantir sua coerência.
+4. Após a construção, o diagrama passará por uma fase de [verificação](/Modelagem/2.6.VerificacaoDosDiagramas/2.6.1.VerificacaoDiagramaImplantacao.md), com o objetivo de garantir sua coerência.
 
 ---
 
@@ -93,7 +93,3 @@ Dessa forma, o artefato contribui para o entendimento da arquitetura do sistema 
 |  1.0   | 16/04/2026 | Criação do documento                                                | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)              |  Artefato revisado  |
 |  1.1   | 19/04/2026 | Adição da Introdução,objetivos e legenda do Diagrama de Implantação | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            |  Artefato revisado  |
 |  1.2   | 20/04/2026 | Adição da metodologia e conclusão do Diagrama de Implantação        | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
-|  1.3   | 20/04/2026 | Simplificação e reorganização da metodologia                        | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
-|  1.4   | 20/04/2026 | Reorganização da metodologia em etapas numeradas                   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
-|  1.5   | 20/04/2026 | Ajuste do link de verificação na metodologia                        | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
-|  1.6   | 20/04/2026 | Ajuste do item inicial da metodologia para Projeto                 | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
