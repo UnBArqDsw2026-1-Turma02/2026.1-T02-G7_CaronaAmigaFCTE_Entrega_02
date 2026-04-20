@@ -1,44 +1,42 @@
 # Diagrama de Comunicação
 
-# Introdução
-Diagrama de Comunicação, ou Diagrama de Colaboração no UML 1.x, é um tipo de UML que foca na interação entre elementos, representados como _lifeline_ ("linha de vida" em tradução livre), utilizando mensagens sequenciadas de formato livre.
-Os elementos mais importantes nessa diagramação são: _frame_, _lifeline_, _message_. [1](#referências-bibliográfias)
+## Introdução
+O Diagrama de Comunicação (também conhecido como Diagrama de Colaboração no UML 1.x) é um artefato de modelagem dinâmica que descreve como participantes de um cenário (objetos/instâncias) se relacionam e trocam mensagens para realizar uma funcionalidade. Diferente de um diagrama de sequência, seu foco é destacar a estrutura da colaboração (vínculos) e a numeração das mensagens, facilitando a leitura do “quem fala com quem” no fluxo. [[1]](#ref1)
+
+Neste artefato, os principais elementos da notação utilizados são: _frame_, _lifeline_ e _message_, conforme discutido em aula. [[2]](#ref2)
 
 ## Objetivos
 
-O objetivo desse artefato é representar de forma estruturada e sequencial as principais comunicações entre elementos do sistema Carona Amiga, com intuito de facilitar o desenvolvimento posterior do projeto, provendo clareamento para ambiguidades entre relacionamentos.
- Sendo assim, as metas principais desse artefato são:
+Este artefato tem como objetivo representar, de forma estruturada, as principais comunicações entre participantes do sistema **Carona Amiga**, contribuindo para reduzir ambiguidades de interação e apoiar decisões de implementação. Sendo assim, busca-se:
 
-- Apresentar o Diagrama de Comunicação do web app Carona Amiga, destacando as principais comunicações entre elementos;
+- Apresentar o Diagrama de Comunicação do web app **Carona Amiga**, destacando as principais comunicações entre elementos;
 
-- Documentar os relacionamentos entre atores do sistema;
+- Documentar os relacionamentos de comunicação entre atores, fronteiras e entidades envolvidas no cenário modelado;
 
-- Fornecer uma base sólida para o desenvolvimento e manutenção do sistema;
+- Servir como base de consulta para desenvolvimento, validação e manutenção do sistema.
 
 ## Metodologia
+O diagrama foi elaborado no [Draw.io](https://app.diagrams.net/). Como insumos, foram utilizados os artefatos da [Entrega 01 do Projeto](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/) (requisitos e iniciativas extras) e o [Diagrama de Classes](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md), para garantir consistência entre participantes, responsabilidades e mensagens. Como apoio para organização do texto e checagem do que deveria constar no artefato, consultou-se também um artefato equivalente de outra turma. [[3]](#ref3)
 
-### Material Suplementar
+Principais artefatos consultados (Entrega 01):
 
-1.  <img src="https://store-images.s-microsoft.com/image/apps.1409.13851527096222888.2b60149a-04a5-4578-a6b2-d7b7377332d5.c22d8e97-4d44-4304-9bd2-55f9d29c0f82?h=210" width="25" height="25" align="center">  O **Diagrama de Comunicação** será desenvolvido utilizando a ferramenta [Draw.io](https://app.diagrams.net/), a qual permite a criação de diagramas UML de forma prática e visual.
+- [MoSCoW (Requisitos Funcionais e Não Funcionais)](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/MoSCoW);
+- [5W2H](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/5w2h), [Brainstorming](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/Brainstorm), [Benchmarking](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/Benchmarking) e [Personas](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/5-Iniciativas-Extras/PerfilUsuario);
+- [Atores do sistema (Rich Picture)](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/1.3.RichPicture).
 
-2. Como base para a definição do Diagrama de Comunicação, serão utilizadas as informações coletadas na [Entrega 01 do Projeto](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01), a qual inclui:
+Em linhas gerais, o processo adotado foi:
 
-- **Requisitos Funcionais:** para identificar as funcionalidades que o sistema deve oferecer e, consequentemente, as Comunicação necessárias para implementá-las. [Requisitos funcionais](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md#rf01);
-
-- **Requisitos Não Funcionais:** para considerar aspectos como desempenho, segurança, usabilidade, etc., que podem influenciar a estrutura do sistema e as Comunicação envolvidas.
-[Requisitos não funcionais](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md#rf01);
-
-Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/5w2h.md), [Brainstorming](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/Brainstorm.md), [Benchmarking](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/Benchmarking.md) e [Personas](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/5-Iniciativas-Extras/Personas.md), também serão consideradas para garantir que o diagrama de Comunicação reflita adequadamente as necessidades do sistema.
-
-- **Atores do sistema:** [Atores do sistema identificados no Rich Picture](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/1.3.RichPicture.md);
-
-3. Será utilizado o [Diagrama de Classes](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md) construído na etapa de Modelagem Estática como suporte para desenvolvimento das comunicações.
+- Selecionar o cenário e o recorte do fluxo com base nos requisitos elicitados na Entrega 01;
+- Identificar participantes (atores, fronteiras, entidades/serviços) a partir do Diagrama de Classes e da descrição do cenário;
+- Definir vínculos de comunicação e mensagens, numerando-as para explicitar a sequência lógica;
+- Revisar coerência do fluxo com os requisitos, e verificar consistência com o Diagrama de Classes;
+- Validar o resultado por checklist de verificação. 
 
 ### Construção
 
 1. Será definido o _frame heading_, nomeando o elemento e o tipo de diagrama.
 
-2. Serão definidas os objetos/partes do projeto;
+2. Serão definidos os objetos/partes do projeto;
 
 3. Serão elencados os relacionamentos e suas ligações;
 
@@ -46,7 +44,7 @@ Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02
 
 5. Será feita a verificação e validação conforme a lógica construída no [Diagrama de Classes](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md);
 
-6. Por fim, será verificado de acordo com uma [tabela de verificação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md) baseada nos critérios sintáticos e semânticos da UML.
+6. Por fim, será verificado de acordo com uma [tabela de verificação](/Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md) baseada nos critérios sintáticos e semânticos da UML.
 
 ## Composição — Notação UML
 
@@ -54,19 +52,25 @@ Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02
 - **_Lifeline_**: Representa um **participante individual** na interação, pode-se entender como uma relação 1 para 1.
 - **_Message_**: Linha com sequência de expressão e uma seta acima, indicando a direção da comunicação.
 
+<font size="3"><p style="text-align: center">Tabela 1: Legenda do Elementos</p></font>
+
 | Elemento | Composição | Explicação |
 |---|:--:|---|
-| **Frame**  | ![Frame](/Modelagem/assets/communication-frame-long.png) |**_Frame_** "_Interaction"_ para **Diagrama de Comunicação** _BuyItem_ |
-|  | ![Frame](/Modelagem/assets/communication-frame-short.png) |**_Frame_** "_Sd"_ para **Diagrama de Comunicação** _BuyItem_ |
-| **Lifeline**  | ![Lifeline](/Modelagem/assets/communication-lifeline-named.png) | _Lifeline_ anônimo da classe _User_ |
-|  | ![Lifeline](/Modelagem/assets/communication-lifeline-no-name.png)  | **_Lifeline_** _"data"_ da classe _Stock_ |
-|  | ![Lifeline](/Modelagem/assets/communication-lifeline-selector.png)  | **_Lifeline_** _"x"_ da classe _X_ selecionado com *seletor* [k] |
-| **Message** |![Message](/Modelagem/assets/communication-message.png) | Instância da classe **_A_ envia mensagem _remove()_ para** a instância de **_B_ se _s1_ for igual a _s2_**. |
-| |![Message](/Modelagem/assets/communication-message-sequence.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_**, depois **_B_ envia _paint()_ para C**. |
-| |![Message](/Modelagem/assets/communication-message-concurrent.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_** e instância de **C**, **concomitantemente**. |
-| |![Message](/Modelagem/assets/communication-message-guard.png) | Instância da classe **_A_ enviará mensagem _draw()_ para** a instância de **_C_ se _x_ for maior que _y_**. |
-| |![Message](/Modelagem/assets/communication-message-loop-sequence.png) | Instância da classe **_A_ enviará mensagem _search()_ para** a instância de **_B_ _n_ vezes, uma a uma**. |
-| |![Message](/Modelagem/assets/communication-message-loop-concurrent.png) | Instância da classe **_A_ enviará _n_ mensagens _search()_ concomitantemente para** a instância de **_B_**. |
+| **Frame**  | ![Frame](../assets/communication-frame-long.png) |**_Frame_** "_Interaction"_ para **Diagrama de Comunicação** _BuyItem_ |
+|  | ![Frame](../assets/communication-frame-short.png) |**_Frame_** "_Sd"_ para **Diagrama de Comunicação** _BuyItem_ |
+| **Lifeline**  | ![Lifeline](../assets/communication-lifeline-named.png) | _Lifeline_ anônimo da classe _User_ |
+|  | ![Lifeline](../assets/communication-lifeline-no-name.png)  | **_Lifeline_** _"data"_ da classe _Stock_ |
+|  | ![Lifeline](../assets/communication-lifeline-selector.png)  | **_Lifeline_** _"x"_ da classe _X_ selecionado com *seletor* [k] |
+| **Message** |![Message](../assets/communication-message.png) | Instância da classe **_A_ envia mensagem _remove()_ para** a instância de **_B_ se _s1_ for igual a _s2_**. |
+| |![Message](../assets/communication-message-sequence.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_**, depois **_B_ envia _paint()_ para C**. |
+| |![Message](../assets/communication-message-concurrent.png) | Instância de **_A_ envia mensagem _draw()_ para** a instância de **_B_** e instância de **C**, **concomitantemente**. |
+| |![Message](../assets/communication-message-guard.png) | Instância da classe **_A_ enviará mensagem _draw()_ para** a instância de **_C_ se _x_ for maior que _y_**. |
+| |![Message](../assets/communication-message-loop-sequence.png) | Instância da classe **_A_ enviará mensagem _search()_ para** a instância de **_B_ _n_ vezes, uma a uma**. |
+| |![Message](../assets/communication-message-loop-concurrent.png) | Instância da classe **_A_ enviará _n_ mensagens _search()_ concomitantemente para** a instância de **_B_**. |
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
 
 ## Diagrama de Comunicação
 
@@ -80,17 +84,37 @@ Informações adicionais, como [5W2H](https://github.com/UnBArqDsw2026-1-Turma02
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 </div>
 
+---
+
+## Gravação da discussão do Diagrama de Comunicação
+
+As gravações abaixo registram a elaboração e a discussão do Diagrama de Comunicação do **Carona Amiga**.
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
+
 ## Conclusão
 
-A elaboração do Diagrama de Colaboração para o projeto **Carona Amiga** possibilitou a representação de forma estruturada das interações entre as partes do projeto, usando mensagens de forma livre.
+A elaboração do Diagrama de Comunicação do projeto **Carona Amiga** permitiu registrar, de forma objetiva, os participantes envolvidos em um cenário e as mensagens trocadas entre eles. Com isso, o artefato apoia o entendimento do comportamento do sistema, facilita a validação do fluxo com base nos requisitos e serve como referência para decisões de implementação, mantendo alinhamento com o modelo estático (Diagrama de Classes).
 
-## Referências Bibliográfias
+---
 
-> 1. https://www.uml-diagrams.org/communication-diagrams.html
-> 2. Materiasi de Aula, DSW-Modelagem - Comunicacao
+## Referências Bibliográficas
+
+> <a name="ref1"></a>[1] UML-DIAGRAMS. Communication Diagrams. Disponível em: https://www.uml-diagrams.org/communication-diagrams.html. Acesso em: 19 abr. 2026.
+>
+> <a name="ref2"></a>[2] Material de aula. DSW-Modelagem — Comunicação (Diagrama de Comunicação/Colaboração). Material disponibilizado pela professora. Acesso em: 19 abr. 2026.
+>
+> <a name="ref3"></a>[3] STÉFANE, Larissa. Diagrama de Comunicação ou Colaboração — Galáxia Conectada (Entrega 02). Disponível em: https://github.com/UnBArqDsw2025-1-Turma02/2025.1_T02_G9_GalaxiaConectada_Entrega02/blob/main/docs/Modelagem/ModelagemDinamica/DiagramaComunicacao.md. Acesso em: 19 abr. 2026.
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 17/04/2026 | Criação do documento | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
+| 1.1  | 19/04/2026 | Adicionando melhorias no documento e arrumando hyperlinks | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
