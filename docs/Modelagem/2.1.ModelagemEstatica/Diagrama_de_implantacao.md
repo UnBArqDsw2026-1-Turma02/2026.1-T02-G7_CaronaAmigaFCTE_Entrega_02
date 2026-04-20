@@ -93,3 +93,7 @@ Dessa forma, o artefato contribui para o entendimento da arquitetura do sistema 
 |  1.0   | 16/04/2026 | Criação do documento                                                | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)              |  Artefato revisado  |
 |  1.1   | 19/04/2026 | Adição da Introdução,objetivos e legenda do Diagrama de Implantação | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            |  Artefato revisado  |
 |  1.2   | 20/04/2026 | Adição da metodologia e conclusão do Diagrama de Implantação        | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
+<<<<<<< HEAD
+=======
+
+>>>>>>> f33be93db0fb1cae3dd0629a207e7296a937e33a
