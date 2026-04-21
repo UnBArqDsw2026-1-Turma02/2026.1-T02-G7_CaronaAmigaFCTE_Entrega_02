@@ -39,13 +39,37 @@ Esses cenários foram escolhidos por representarem as funcionalidades essenciais
 
 ## Metodologia
 
+A elaboração dos diagramas de sequência do **Carona Amiga FCTE** seguirá uma abordagem iterativa, com base nos artefatos previamente construídos pela equipe e nos fluxos definidos no protótipo de alta fidelidade da aplicação <a href="#/Modelagem/2.2.ModelagemDinamica/Diagrama_de_sequencia?id=referencias-bibliograficas-3">[3]</a>. A partir desses fluxos, o comportamento do sistema será observado sob a perspectiva temporal das interações, permitindo identificar a ordem das mensagens trocadas entre os atores, a interface, os serviços internos e a persistência dos dados.
+
+Os fluxos trabalhados foram selecionados por representarem funcionalidades centrais da plataforma:
+
+- **Cadastro e autenticação de usuários**: envolve a criação de conta e o login de passageiros e motoristas, permitindo o acesso seguro à aplicação;
+- **Busca e visualização de caronas**: representa o fluxo em que o passageiro consulta as caronas disponíveis, aplica filtros e acessa os detalhes de uma viagem;
+- **Solicitação de participação em carona**: descreve a interação do passageiro ao enviar uma solicitação para participar de uma carona oferecida;
+- **Publicação de carona**: contempla o processo realizado pelo motorista para cadastrar uma nova viagem, informando rota, horário, vagas e demais dados relevantes;
+- **Gerenciamento e confirmação de embarque**: representa as interações necessárias para acompanhar solicitações, confirmar participantes e validar a participação do passageiro na carona.
+
+Para a construção dos diagramas, foram consideradas as seguintes etapas:
+
+1. Análise do fluxo do protótipo de alta fidelidade, a fim de compreender a navegação esperada do usuário e as principais telas envolvidas em cada funcionalidade;
+2. Identificação dos atores participantes em cada cenário, principalmente passageiro, motorista e sistema;
+3. Levantamento dos objetos e componentes envolvidos nas interações, como interface da aplicação, controladores, serviços, APIs e banco de dados;
+4. Mapeamento das mensagens trocadas entre os participantes, respeitando a ordem cronológica das ações representadas nos fluxos do protótipo;
+5. Construção dos diagramas de sequência na ferramenta Draw.io, utilizando a notação UML adequada para linhas de vida, mensagens, retornos e fragmentos condicionais quando necessário;
+6. Revisão dos diagramas com base nos modelos estruturais do projeto, como os diagramas de classes e de componentes, para manter coerência entre a modelagem estática e a modelagem dinâmica;
+7. Verificação final por meio de checklist, considerando critérios de consistência, completude, clareza e conformidade com a UML.
+
+Dessa forma, a metodologia adotada permite que os diagramas de sequência sejam derivados de fluxos reais de uso da aplicação, mantendo rastreabilidade com o protótipo de alta fidelidade e apoiando a validação do comportamento esperado do sistema **Carona Amiga FCTE**.
+
 ---
 
 ## Referências bibliográficas
 
-> <a id="referencias-bibliograficas-1">1.</a> APOSTILA UML. **Unified Modeling Language – Linguagem de Modelagem Unificada em Português**. Seção sobre diagrama de sequência. Disponibilizada pela professora. Acesso em: 30 abr. 2025.  
+> <a id="referencias-bibliograficas-1">1.</a> APOSTILA UML. **Unified Modeling Language – Linguagem de Modelagem Unificada em Português**. Seção sobre diagrama de sequência. Disponibilizada pela professora. Acesso em: 21 abr. 2026.  
 
-> <a id="referencias-bibliograficas-2">2.</a> IBM. **Diagramas de Sequência**. Disponível em: https://www.ibm.com/docs/pt-br/rsm/7.5.0?topic=uml-sequence-diagrams. Acesso em: 30 abr. 2025.  
+> <a id="referencias-bibliograficas-2">2.</a> IBM. **Diagramas de Sequência**. Disponível em: https://www.ibm.com/docs/pt-br/rsm/7.5.0?topic=uml-sequence-diagrams. Acesso em: 21 abr. 2026.  
+
+> <a id="referencias-bibliograficas-3">3.</a> CARONA AMIGA FCTE. **Protótipo de Alta Fidelidade**. Disponível em: https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo. Acesso em: 21 abr. 2026.
 
 ---
 
@@ -54,3 +78,4 @@ Esses cenários foram escolhidos por representarem as funcionalidades essenciais
 Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da Revisão
 -------|------|-----------|-----------|-------------|-----------------
 1.0 | 21/04/2026 | Criação do artefato |[Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz)| Artefato revisado
+1.1 | 21/04/2026 | Adição da Introdução, objetivos e metodologia| [Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Artefato revisado
