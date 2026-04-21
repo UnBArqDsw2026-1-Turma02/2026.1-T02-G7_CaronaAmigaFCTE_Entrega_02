@@ -52,9 +52,7 @@ A elaboração do Diagrama de Estados do projeto **Carona Amiga FCTE** será rea
 
 ---
 
-## Modelagem
-
----
+## Modelagem-
 
 ---
 
@@ -77,7 +75,7 @@ Legenda do Diagrama de Estados
 | **Ação**               |               | Atividade executada como resultado de uma transição ou durante a permanência em um estado.                               |
 | **Estado Composto**    |               | Estado que contém subestados internos, permitindo detalhamento adicional do comportamento.                               |
 
-<font size="2"><p style="text-align: center">Fonte: Equipe Carona Amiga FCTE, 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
 
 ---
 
@@ -103,6 +101,7 @@ Além disso, o artefato fortalece a coerência entre os requisitos definidos, o 
 
 ## Histórico de Versões
 
-| Versão |    Data    | Descrição            | Autor(es)                          | Revisor(es) | Detalhes da revisão |
-| :----: | :--------: | -------------------- | ---------------------------------- | ----------- | :-----------------: |
-|  1.0   | 21/04/2026 | Criação do documento | Gabriel Henrique Rodrigues de Lima | —           |          —          |
+| Versão |    Data    | Descrição                    | Autor(es)                          | Revisor(es) | Detalhes da revisão |
+| :----: | :--------: | ---------------------------- | ---------------------------------- | ----------- | :-----------------: |
+|  1.0   | 21/04/2026 | Criação do documento         | Gabriel Henrique Rodrigues de Lima | —           |          —          |
+|  1.1   | 21/04/2026 | Criação do corrção dos links | Gabriel Henrique Rodrigues de Lima | —           |          —          |
