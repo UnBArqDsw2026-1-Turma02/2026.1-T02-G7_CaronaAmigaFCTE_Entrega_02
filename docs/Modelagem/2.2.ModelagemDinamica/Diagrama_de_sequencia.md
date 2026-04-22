@@ -10,6 +10,8 @@ No contexto do projeto **Carona Amiga FCTE**, os diagramas de sequência são ut
 
 Dessa forma, a modelagem por meio de diagramas de sequência contribui para o entendimento dos fluxos principais da aplicação, como cadastro, autenticação, busca de caronas, solicitação de participação e gerenciamento de viagens. Além disso, auxilia na identificação de responsabilidades, na validação dos requisitos e no suporte às etapas de implementação e manutenção do sistema.
 
+Tomando como base a legenda já elaborada para o projeto e as convenções da UML descritas na bibliografia adotada <a href="#/Modelagem/2.2.ModelagemDinamica/Diagrama_de_sequencia?id=referencias-bibliograficas-1">[1]</a> <a href="#/Modelagem/2.2.ModelagemDinamica/Diagrama_de_sequencia?id=referencias-bibliograficas-2">[2]</a>, a leitura dos diagramas considera elementos como participante ou objeto, linha de vida, mensagens síncronas e assíncronas, resposta ou retorno e autochamada. Essa padronização fortalece a rastreabilidade entre a fundamentação teórica, a representação visual utilizada pela equipe e os fluxos modelados para o **Carona Amiga FCTE**.
+
 ---
 
 ## Objetivos
@@ -33,7 +35,6 @@ De forma mais específica, os diagramas desenvolvidos visam representar cenário
 - **Confirmação de embarque**: validação da participação do passageiro na carona.
 
 Esses cenários foram escolhidos por representarem as funcionalidades essenciais da aplicação, permitindo uma visão clara e detalhada das interações entre os atores e os módulos do sistema.
-
 
 ---
 
@@ -61,21 +62,209 @@ Para a construção dos diagramas, foram consideradas as seguintes etapas:
 
 Dessa forma, a metodologia adotada permite que os diagramas de sequência sejam derivados de fluxos reais de uso da aplicação, mantendo rastreabilidade com o protótipo de alta fidelidade e apoiando a validação do comportamento esperado do sistema **Carona Amiga FCTE**.
 
+## Sobre o Diagrama de Sequência
+
+<a href="#/Modelagem/2.2.ModelagemDinamica/Diagrama_de_sequencia?id=referencias-bibliograficas-6">[6]</a>
+
+Como apresentado na introdução, o diagrama de sequência é utilizado para representar, em ordem temporal, a interação entre atores, objetos e componentes durante a execução de um fluxo específico do sistema. No contexto do **Carona Amiga FCTE**, as linhas de vida são definidas a partir dos participantes identificados nos artefatos de modelagem, especialmente no diagrama de componentes, o que contribui para a coerência entre a estrutura do sistema e o comportamento descrito neste documento.
+
+Na referência **O que é um diagrama de sequência UML?** <a href="#/Modelagem/2.2.ModelagemDinamica/Diagrama_de_sequencia?id=referencias-bibliograficas-6">[6]</a>, os participantes são organizados horizontalmente e associados a linhas de vida verticais, enquanto as mensagens são representadas por setas que indicam chamadas, respostas e ativações ao longo do tempo. Esses elementos permitem descrever com maior clareza a comunicação entre passageiro, motorista e sistema, facilitando o entendimento dos fluxos modelados.
+
+## Sobre o Diagrama de Sequência
+
+<div style="margin-left: 20px;">
+<details style="margin-bottom: 20px;">
+  <summary style="font-size: 1.1rem;"><strong>Fluxo: Cadastro de usuário</strong></summary>
+
+**Cenário:**
+
+A tabela 1 apresenta a estrutura de apoio para o detalhamento do diagrama de sequência de cadastro de usuário.
+
+| Elemento do Diagrama de Sequência | Descrição na Sequência | Relação com Diagrama de Classes | Relação com Requisitos (RFs) | Relação com Diagrama de Componentes |
+| :-------------------------------- | :--------------------- | :------------------------------ | :--------------------------- | :---------------------------------- |
+|                                   |                        |                                 |                              |                                     |
+
+<div align="center">
+    <b>Autora:</b> <a href="https://github.com/navicg">Ana Victória Guedes da Costa</a>, 2026.
+</div>
+
+Com base na tabela 1, abaixo será inserido o diagrama de sequência correspondente.
+
+<div align="center">
+    Figura 1: Diagrama de Sequência - Cadastro de usuário
+    <br>
+    <i>Inserir diagrama de sequência correspondente.</i>
+    <br>
+</div>
+
+</details>
+</div>
+
+<div style="margin-left: 20px;">
+<details style="margin-bottom: 20px;">
+  <summary style="font-size: 1.1rem;"><strong>Fluxo: Login</strong></summary>
+
+**Cenário:**
+
+A tabela 2 apresenta a estrutura de apoio para o detalhamento do diagrama de sequência de login.
+
+| Elemento do Diagrama de Sequência | Descrição na Sequência | Relação com Diagrama de Classes | Relação com Requisitos (RFs) | Relação com Diagrama de Componentes |
+| :-------------------------------- | :--------------------- | :------------------------------ | :--------------------------- | :---------------------------------- |
+|                                   |                        |                                 |                              |                                     |
+
+<div align="center">
+    <b>Autora:</b> <a href="https://github.com/navicg">Ana Victória Guedes da Costa</a>, 2026.
+</div>
+
+Com base na tabela 2, abaixo será inserido o diagrama de sequência correspondente.
+
+<div align="center">
+    Figura 2: Diagrama de Sequência - Login
+    <br>
+    <i>Inserir diagrama de sequência correspondente.</i>
+    <br>
+</div>
+
+</details>
+</div>
+
+<div style="margin-left: 20px;">
+<details style="margin-bottom: 20px;">
+  <summary style="font-size: 1.1rem;"><strong>Fluxo: Busca de caronas</strong></summary>
+
+**Cenário:**
+
+A tabela 3 apresenta a estrutura de apoio para o detalhamento do diagrama de sequência de busca de caronas.
+
+| Elemento do Diagrama de Sequência | Descrição na Sequência | Relação com Diagrama de Classes | Relação com Requisitos (RFs) | Relação com Diagrama de Componentes |
+| :-------------------------------- | :--------------------- | :------------------------------ | :--------------------------- | :---------------------------------- |
+|                                   |                        |                                 |                              |                                     |
+
+<div align="center">
+    <b>Autora:</b> <a href="https://github.com/navicg">Ana Victória Guedes da Costa</a>, 2026.
+</div>
+
+Com base na tabela 3, abaixo será inserido o diagrama de sequência correspondente.
+
+<div align="center">
+    Figura 3: Diagrama de Sequência - Busca de caronas
+    <br>
+    <i>Inserir diagrama de sequência correspondente.</i>
+    <br>
+</div>
+
+</details>
+</div>
+
+<div style="margin-left: 20px;">
+<details style="margin-bottom: 20px;">
+  <summary style="font-size: 1.1rem;"><strong>Fluxo: Solicitação de participação em carona</strong></summary>
+
+**Cenário:**
+
+A tabela 4 apresenta a estrutura de apoio para o detalhamento do diagrama de sequência de solicitação de participação em carona.
+
+| Elemento do Diagrama de Sequência | Descrição na Sequência | Relação com Diagrama de Classes | Relação com Requisitos (RFs) | Relação com Diagrama de Componentes |
+| :-------------------------------- | :--------------------- | :------------------------------ | :--------------------------- | :---------------------------------- |
+|                                   |                        |                                 |                              |                                     |
+
+<div align="center">
+    <b>Autora:</b> <a href="https://github.com/KarolineLuz">Karoline Luz da Conceição</a>, 2026.
+</div>
+Com base na tabela 4, abaixo será inserido o diagrama de sequência correspondente.
+
+<div align="center">
+    Figura 4: Diagrama de Sequência - Solicitação de participação em carona
+    <br>
+    <i>Inserir diagrama de sequência correspondente.</i>
+    <br>
+</div>
+
+</details>
+</div>
+
+<div style="margin-left: 20px;">
+<details style="margin-bottom: 20px;">
+  <summary style="font-size: 1.1rem;"><strong>Fluxo: Publicação de carona</strong></summary>
+
+**Cenário:**
+
+A tabela 5 apresenta a estrutura de apoio para o detalhamento do diagrama de sequência de publicação de carona.
+
+| Elemento do Diagrama de Sequência | Descrição na Sequência | Relação com Diagrama de Classes | Relação com Requisitos (RFs) | Relação com Diagrama de Componentes |
+| :-------------------------------- | :--------------------- | :------------------------------ | :--------------------------- | :---------------------------------- |
+|                                   |                        |                                 |                              |                                     |
+
+<div align="center">
+    <b>Autora:</b> <a href="https://github.com/KarolineLuz">Karoline Luz da Conceição</a>, 2026.
+</div>
+
+Com base na tabela 5, abaixo será inserido o diagrama de sequência correspondente.
+
+<div align="center">
+    Figura 5: Diagrama de Sequência - Publicação de carona
+    <br>
+    <i>Inserir diagrama de sequência correspondente.</i>
+    <br>
+</div>
+
+</details>
+</div>
+
+<div style="margin-left: 20px;">
+<details style="margin-bottom: 20px;">
+  <summary style="font-size: 1.1rem;"><strong>Fluxo: Confirmação de embarque</strong></summary>
+
+**Cenário:**
+
+A tabela 6 apresenta a estrutura de apoio para o detalhamento do diagrama de sequência de confirmação de embarque.
+
+| Elemento do Diagrama de Sequência | Descrição na Sequência | Relação com Diagrama de Classes | Relação com Requisitos (RFs) | Relação com Diagrama de Componentes |
+| :-------------------------------- | :--------------------- | :------------------------------ | :--------------------------- | :---------------------------------- |
+|                                   |                        |                                 |                              |                                     |
+
+<div align="center">
+    <b>Autora:</b> <a href="https://github.com/KarolineLuz">Karoline Luz da Conceição</a>, 2026.
+</div>
+
+Com base na tabela 6, abaixo será inserido o diagrama de sequência correspondente.
+
+<div align="center">
+    Figura 6: Diagrama de Sequência - Confirmação de embarque
+    <br>
+    <i>Inserir diagrama de sequência correspondente.</i>
+    <br>
+</div>
+
+</details>
+</div>
+
+## Conclusão
+
+O diagrama de sequência amplia a compreensão do comportamento do **Carona Amiga FCTE** ao organizar, de forma temporal, as interações entre usuários e componentes do sistema. Com a definição dos cenários futuros priorizados, a documentação passa a orientar com mais clareza a continuidade da modelagem dinâmica, mantendo coerência com os requisitos e com os demais artefatos do projeto.
+
 ---
 
 ## Referências bibliográficas
 
-> <a id="referencias-bibliograficas-1">1.</a> APOSTILA UML. **Unified Modeling Language – Linguagem de Modelagem Unificada em Português**. Seção sobre diagrama de sequência. Disponibilizada pela professora. Acesso em: 21 abr. 2026.  
+> <a id="referencias-bibliograficas-1">1.</a> APOSTILA UML. **Unified Modeling Language – Linguagem de Modelagem Unificada em Português**. Seção sobre diagrama de sequência. Disponibilizada pela professora. Acesso em: 21 abr. 2026.
 
-> <a id="referencias-bibliograficas-2">2.</a> IBM. **Diagramas de Sequência**. Disponível em: https://www.ibm.com/docs/pt-br/rsm/7.5.0?topic=uml-sequence-diagrams. Acesso em: 21 abr. 2026.  
+> <a id="referencias-bibliograficas-2">2.</a> IBM. **Diagramas de Sequência**. Disponível em: https://www.ibm.com/docs/pt-br/rsm/7.5.0?topic=uml-sequence-diagrams. Acesso em: 21 abr. 2026.
 
 > <a id="referencias-bibliograficas-3">3.</a> CARONA AMIGA FCTE. **Protótipo de Alta Fidelidade**. Disponível em: https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo. Acesso em: 21 abr. 2026.
+
+> <a id="referencias-bibliograficas-4">4.</a> UML Diagrams. **UML Sequence Diagrams Overview**. Disponível em: https://www.uml-diagrams.org/sequence-diagrams.html. Acesso em: 21 set. 2025.
+
+> <a id="referencias-bibliograficas-5">5.</a> CREATELY. **Tutorial do Diagrama de Sequência: Guia completo com exemplos**. Disponível em: https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/. Acesso em: 30 abr. 2025.
+
+> <a id="referencias-bibliograficas-6">6.</a> LUCIDCHART. **O que é um diagrama de sequência UML?** Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml. Acesso em: 30 abr. 2025.
 
 ---
 
 ## Histórico de versão
 
-Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da Revisão
--------|------|-----------|-----------|-------------|-----------------
-1.0 | 21/04/2026 | Criação do artefato |[Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz)| Artefato revisado
-1.1 | 21/04/2026 | Adição da Introdução, objetivos e metodologia| [Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Artefato revisado
+| Versão | Data       | Descrição                                     | Autor(es)                                                   | Revisor(es)                                                 | Detalhes da Revisão |
+| ------ | ---------- | --------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ------------------- |
+| 1.0    | 21/04/2026 | Criação do artefato                           | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Artefato revisado   |
+| 1.1    | 21/04/2026 | Adição da Introdução, objetivos e metodologia | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Artefato revisado   |
+| 1.2    | 22/04/2026 | Adição do modelo do Diagrama de Sequência     | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Aguardando revisão  |
