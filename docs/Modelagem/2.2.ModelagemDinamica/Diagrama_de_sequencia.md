@@ -275,7 +275,9 @@ Com base na tabela 4, abaixo será inserido o diagrama de sequência corresponde
 <div align="center">
     Figura 4: Diagrama de Sequência - Solicitação de participação em carona
     <br>
-    <i>Inserir diagrama de sequência correspondente.</i>
+    <img src="assets/diagramas/diagrama_sequencia-solicitacao-carona.png">
+    <br>
+    <b>Autora:</b> <a href="https://github.com/KarolineLuz">Karoline Luz da Conceição</a>.
     <br>
 </div>
 
@@ -327,7 +329,9 @@ Com base na tabela 5, abaixo será inserido o diagrama de sequência corresponde
 <div align="center">
     Figura 5: Diagrama de Sequência - Publicação de carona
     <br>
-    <i>Inserir diagrama de sequência correspondente.</i>
+    <img src="assets/diagramas/diagrama_sequencia_publicacao-carona.png">
+    <br>
+    <b>Autora:</b> <a href="https://github.com/KarolineLuz">Karoline Luz da Conceição</a>.
     <br>
 </div>
 
@@ -377,7 +381,9 @@ Com base na tabela 6, abaixo será inserido o diagrama de sequência corresponde
 <div align="center">
     Figura 6: Diagrama de Sequência - Confirmação de embarque
     <br>
-    <i>Inserir diagrama de sequência correspondente.</i>
+    <img src="assets/diagramas/diagrama_sequencia-confirm-embarque.png">
+    <br>
+    <b>Autora:</b> <a href="https://github.com/KarolineLuz">Karoline Luz da Conceição</a>.
     <br>
 </div>
 
