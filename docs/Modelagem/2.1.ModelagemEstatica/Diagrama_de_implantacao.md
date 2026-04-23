@@ -52,9 +52,14 @@ A elaboração do diagrama de implantação do projeto **Carona Amiga FCTE** foi
 
 ## Diagrama de Implantação
 
-Legenda do Diagrama de Implantação
+<div style="text-align: center;">
+Legenda do Diagrama de Implantação  
+<br>
+<img src="https://i.postimg.cc/8khN5Bqk/image.png" alt="figura 1">
+<font size="2"><p style="text-align: center">Figura 01.</p></font>
+</div>
 
-| Elemento                         | Representação | Descrição                                                                                                                                                                       |
+<!-- | Elemento                         | Representação | Descrição                                                                                                                                                                       |
 | -------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nó (Node)**                    |               | Entidade física ou virtual responsável por executar componentes do sistema. Pode representar dispositivos de hardware (como servidores e smartphones) ou ambientes de software. |
 | **Dispositivo**                  |               | Representa um recurso computacional físico dentro do sistema, como servidores, máquinas cliente ou dispositivos móveis.                                                         |
@@ -62,7 +67,7 @@ Legenda do Diagrama de Implantação
 | **Artefato**                     |               | Elemento concreto gerado durante o desenvolvimento, como arquivos executáveis, bibliotecas, scripts ou arquivos de configuração.                                                |
 | **Especificação de Implantação** |               | Define configurações necessárias para a implantação de um artefato em um nó, como parâmetros, scripts ou arquivos XML.                                                          |
 | **Caminho de Comunicação**       |               | Representa a conexão entre dois nós, indicando o canal e, possivelmente, o protocolo de comunicação utilizado.                                                                  |
-| **Pacote**                       |               | Utilizado para agrupar elementos do diagrama, organizando nós, artefatos e componentes dentro de uma mesma estrutura lógica.                                                    |
+| **Pacote**                       |               | Utilizado para agrupar elementos do diagrama, organizando nós, artefatos e componentes dentro de uma mesma estrutura lógica.                                                    | -->
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
