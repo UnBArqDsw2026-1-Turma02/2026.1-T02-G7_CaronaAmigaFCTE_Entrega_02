@@ -62,9 +62,13 @@ A elaboração do Diagrama de Estados do projeto **Carona Amiga FCTE** será rea
 
 ## Diagrama de Estados
 
-Legenda do Diagrama de Estados
-
-| Elemento               | Representação | Descrição                                                                                                                |
+<div style="text-align: center;">
+Legenda do Diagrama de Estados  
+<br>
+<img src="https://i.postimg.cc/j5Xk72Kn/image.png" alt="figura 1">
+<font size="2"><p style="text-align: center">Figura 01.</p></font>
+</div>
+<!-- | Elemento               | Representação | Descrição                                                                                                                |
 | ---------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Estado Inicial**     |               | Indica o ponto de início do ciclo de vida do elemento modelado. É representado por um círculo preenchido.                |
 | **Estado**             |               | Representa uma condição ou situação na qual o objeto permanece por determinado período, podendo executar ações internas. |
@@ -73,7 +77,7 @@ Legenda do Diagrama de Estados
 | **Evento**             |               | Fato ou ocorrência que provoca a transição entre estados.                                                                |
 | **Condição de Guarda** |               | Expressão booleana que deve ser satisfeita para que a transição ocorra.                                                  |
 | **Ação**               |               | Atividade executada como resultado de uma transição ou durante a permanência em um estado.                               |
-| **Estado Composto**    |               | Estado que contém subestados internos, permitindo detalhamento adicional do comportamento.                               |
+| **Estado Composto**    |               | Estado que contém subestados internos, permitindo detalhamento adicional do comportamento.                               | -->
 
 <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
 
@@ -101,7 +105,7 @@ Além disso, o artefato fortalece a coerência entre os requisitos definidos, o 
 
 ## Histórico de Versões
 
-| Versão |    Data    | Descrição                    | Autor(es)                          | Revisor(es) | Detalhes da revisão |
-| :----: | :--------: | ---------------------------- | ---------------------------------- | ----------- | :-----------------: |
-|  1.0   | 21/04/2026 | Criação do documento         | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa)           | Artefato Revisado       |
-|  1.1   | 21/04/2026 | Criação do corrção dos links | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa)          | Artefato Revisado        |
+| Versão |    Data    | Descrição                    | Autor(es)                                                              | Revisor(es)                                                 | Detalhes da revisão |
+| :----: | :--------: | ---------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------- | :-----------------: |
+|  1.0   | 21/04/2026 | Criação do documento         | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
+|  1.1   | 21/04/2026 | Criação do corrção dos links | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
