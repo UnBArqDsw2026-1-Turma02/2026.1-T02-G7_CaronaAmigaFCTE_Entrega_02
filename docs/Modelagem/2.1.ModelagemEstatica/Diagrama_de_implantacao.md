@@ -30,61 +30,64 @@ Com base na elaboração do diagrama de implantação para o projeto **Carona Am
 
 ## Metodologia
 
-A elaboração do diagrama de implantação do projeto **Carona Amiga FCTE** foi realizada com base nos artefatos já produzidos pela equipe, buscando representar de forma clara a estrutura física do sistema.
+A elaboração do diagrama de implantação do projeto **Carona Amiga FCTE** foi conduzida por meio de uma abordagem analítico-descritiva, fundamentada nos artefatos de modelagem previamente produzidos pela equipe e nos requisitos elicitados ao longo da etapa de investigação do problema. Tal procedimento teve como propósito assegurar a coerência entre a arquitetura lógica do sistema e sua representação física, evidenciando os ambientes de execução, os artefatos implantados e os meios de comunicação necessários ao funcionamento da aplicação. Além dos modelos estruturais, foram considerados os requisitos identificados no artefato de [Perfil de Usuário](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/5-Iniciativas-Extras/PerfilUsuario), de modo a estabelecer a rastreabilidade entre as necessidades dos usuários e os elementos contemplados na infraestrutura de implantação.
 
-1. Inicialmente será realizada uma análise do material base a partir de:
+1. Em um primeiro momento, realizou-se a análise sistemática dos artefatos-base do projeto, com destaque para o [Diagrama de Classes](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md), o [Diagrama de Componentes](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_componentes.md) e o artefato de [Perfil de Usuário](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/5-Iniciativas-Extras/PerfilUsuario). Essa etapa permitiu identificar os principais elementos estruturais do sistema, suas responsabilidades, dependências, interações e requisitos associados ao contexto de uso da aplicação, fornecendo subsídios para a definição da arquitetura de implantação.
 
-- [Projeto](/Projeto/Projeto.md);
-- [Diagrama de Classes](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md);
-- [Diagrama de Componentes](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_componentes.md).
+2. A partir desse levantamento, elaborou-se uma tabela de apoio com a finalidade de organizar os nós de implantação e seus respectivos papéis na infraestrutura do sistema. Nessa sistematização, foram considerados elementos como dispositivos dos usuários, aplicação e banco de dados, de modo a explicitar a distribuição dos recursos computacionais necessários e registrar a rastreabilidade entre os nós definidos e os requisitos elicitados no artefato de Perfil de Usuário.
 
-2. Com base nessa análise, será elaborada uma tabela de apoio para organizar os nós de implantação necessários ao sistema, como dispositivos dos usuários, aplicação e banco de dados.
+3. Na etapa seguinte, foi construída a versão inicial do diagrama na ferramenta **Draw.io**, contemplando a representação dos nós físicos e lógicos, dos artefatos alocados em cada ambiente de execução e das relações de comunicação estabelecidas entre os componentes do sistema.
 
-3. Em seguida, será construída a versão inicial do diagrama na ferramenta **Miro**, com a identificação dos nós, artefatos e relações de comunicação entre os elementos.
-
-4. Após a construção, o diagrama passará por uma fase de [verificação](/Modelagem/2.6.VerificacaoDosDiagramas/2.6.1.VerificacaoDiagramaImplantacao.md), com o objetivo de garantir sua coerência.
+4. Por fim, o diagrama foi submetido a uma fase de [verificação](/Modelagem/2.6.VerificacaoDosDiagramas/2.6.1.VerificacaoDiagramaImplantacao.md), com o objetivo de avaliar sua consistência interna, sua aderência aos demais modelos produzidos no projeto e sua capacidade de representar adequadamente a infraestrutura necessária para a operacionalização do **Carona Amiga FCTE**.
 
 ---
 
 ## Tabela de Análise
 
-<div style="text-align: center;">
-Legenda do Diagrama de Implantação  
-<br>
-<img src="https://i.postimg.cc/8khN5Bqk/image.png" alt="figura 1">
-<font size="2"><p style="text-align: center">Figura 01.</p></font>
-</div>
+A Tabela 1 tem como finalidade apoiar a análise e a identificação dos nós requeridos para a construção do Diagrama de Implantação do projeto **Carona Amiga FCTE**, considerando a infraestrutura representada no diagrama e os requisitos elicitados a partir do artefato de [Perfil de Usuário](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/5-Iniciativas-Extras/PerfilUsuario), de modo a explicitar a rastreabilidade entre as necessidades identificadas e os elementos de implantação adotados.
 
-<!-- | Elemento                         | Representação | Descrição                                                                                                                                                                       |
-| -------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nó (Node)**                    |               | Entidade física ou virtual responsável por executar componentes do sistema. Pode representar dispositivos de hardware (como servidores e smartphones) ou ambientes de software. |
-| **Dispositivo**                  |               | Representa um recurso computacional físico dentro do sistema, como servidores, máquinas cliente ou dispositivos móveis.                                                         |
-| **Componente**                   |               | Unidade lógica do sistema que encapsula funcionalidades específicas e que é implantada dentro de um nó.                                                                         |
-| **Artefato**                     |               | Elemento concreto gerado durante o desenvolvimento, como arquivos executáveis, bibliotecas, scripts ou arquivos de configuração.                                                |
-| **Especificação de Implantação** |               | Define configurações necessárias para a implantação de um artefato em um nó, como parâmetros, scripts ou arquivos XML.                                                          |
-| **Caminho de Comunicação**       |               | Representa a conexão entre dois nós, indicando o canal e, possivelmente, o protocolo de comunicação utilizado.                                                                  |
-| **Pacote**                       |               | Utilizado para agrupar elementos do diagrama, organizando nós, artefatos e componentes dentro de uma mesma estrutura lógica.                                                    | -->
+<details>
+  <summary><strong>Tabela 1: Análise dos Nós de Implantação</strong></summary>
 
-## <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
+**Tabela 1**: Análise dos Nós de Implantação
+
+|ID | Tipo de Nó  | Nome do Nó  | <<Estereótipo>> / Ícone Usado   | Descrição / Responsabilidade   | Artefatos / Componentes Implantados  | Ambiente de Execução / Software Chave  | Comunicação Principal (Para/De, Protocolo)  | Requisitos Atendidos  |
+| - | :---------| :---------------------| :------------------- | :------------- | :--------- | :----- | :-------------------- | :---------- |
+| 01 | Dispositivo do Usuário | `dispositivo-estudante: computador/celular` | `<<device>>` | Representa o ponto de acesso dos estudantes à plataforma. Nesse nó são executadas as interações de cadastro, consulta de caronas, configuração de preferências, chat e acompanhamento das informações da viagem. | `index.html`<br>`frontend.js`<br>`styles.css` | Navegador Web | [Para] Firewall (HTTPS) | RFU02, RFM01, RFM02, RFS01, RFS03, RFS04, RFF01, RFF02, RFF03, RFF04, RFF05, RFF06, RFF07, RFA01, RFA02, RFP01, RNFM01, RNFF02 |
+| 02 | Rede / Segurança | `Firewall` | `<<firewall>>` | Atua como camada intermediária de proteção entre o dispositivo do estudante e o servidor de backend, controlando o tráfego de entrada e contribuindo para a segurança das comunicações estabelecidas no sistema. | - | Serviço de Firewall / Regras de Rede | [De] Dispositivo-estudante (HTTPS)<br>[Para] Backend: Servidor (TCP/IP) | RNFS01, RNFS02, RNFF01, RNFA01 |
+| 03 | Servidor de Aplicação | `backend: Servidor` | `<<device>>` | Executa a lógica de negócio da aplicação, incluindo autenticação, gerenciamento de perfis, preferências de pareamento, processamento de caronas, chat, avaliações e demais serviços centrais da plataforma. | `api_caronas.js` | `Node.js Runtime` | [De] Firewall (TCP/IP)<br>[Para] Banco: Servidor (TCP/IP) | RFU01, RFU02, RFM01, RFM02, RFS01, RFS02, RFS03, RFS04, RFF01, RFF02, RFF03, RFF04, RFF05, RFF06, RFF07, RFA01, RFA02, RFP01, RNFS01, RNFS02, RNFF01, RNFA01, RNFA02, RNFP01 |
+| 04 | Servidor de Banco de Dados | `banco: Servidor` | `<<device>>` | Responsável pela persistência dos dados da aplicação, armazenando informações de usuários, veículos, corridas e conversas necessárias ao funcionamento dos serviços oferecidos pela plataforma. | `Usuario`<br>`Veiculo`<br>`Corrida`<br>`Conversa` | `PostgreSQL` | [De] Backend: Servidor (TCP/IP) | RFU01, RFU02, RFS02, RFS03, RFS04, RFF01, RFF02, RFF04, RFA01, RFP01, RNFS01, RNFS02, RNFA02, RNFP01 |
+
+<font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
+
+</details>
+
+---
 
 ## Diagrama de Implantação
+
+A fim de proporcionar uma melhor compreensão do diagrama, a Figura 1 apresenta a legenda dos elementos que o compõem.
+
+<div style="text-align: center;">
+Legenda do Diagrama de Implantação
+<br>
+<img src="assets/diagrama_implantacao/diagrama_implantacao.png" alt="Legenda do Diagrama de Implantação">
+<font size="2"><p style="text-align: center;">Figura 1.</p></font>
+</div>
+
+ <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
+
+ ---
+
+### Apresentação do Diagrama de Implantação
 
 <div style="text-align: center;">
 Diagrama de Implantação  
 <br>
-<img src="" alt="figura 2">
-<font size="2"><p style="text-align: center">Figura 02.</p></font>
+<img src="assets/diagrama_implantacao/diagrama_de_implantacao.png" alt="Diagrama de Implantação">
+<font size="2"><p style="text-align: center">Figura 2.</p></font>
 </div>
 
-<!-- | Elemento                         | Representação | Descrição                                                                                                                                                                       |
-| -------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nó (Node)**                    |               | Entidade física ou virtual responsável por executar componentes do sistema. Pode representar dispositivos de hardware (como servidores e smartphones) ou ambientes de software. |
-| **Dispositivo**                  |               | Representa um recurso computacional físico dentro do sistema, como servidores, máquinas cliente ou dispositivos móveis.                                                         |
-| **Componente**                   |               | Unidade lógica do sistema que encapsula funcionalidades específicas e que é implantada dentro de um nó.                                                                         |
-| **Artefato**                     |               | Elemento concreto gerado durante o desenvolvimento, como arquivos executáveis, bibliotecas, scripts ou arquivos de configuração.                                                |
-| **Especificação de Implantação** |               | Define configurações necessárias para a implantação de um artefato em um nó, como parâmetros, scripts ou arquivos XML.                                                          |
-| **Caminho de Comunicação**       |               | Representa a conexão entre dois nós, indicando o canal e, possivelmente, o protocolo de comunicação utilizado.                                                                  |
-| **Pacote**                       |               | Utilizado para agrupar elementos do diagrama, organizando nós, artefatos e componentes dentro de uma mesma estrutura lógica.                                                    | -->
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
@@ -92,9 +95,11 @@ Diagrama de Implantação
 
 ## Conclusão
 
-A construção do Diagrama de Implantação do projeto **Carona Amiga FCTE** possibilitou consolidar, em uma visão única, a infraestrutura necessária para o funcionamento da plataforma de compartilhamento de caronas entre estudantes e colaboradores da FCTE. A representação dos dispositivos dos usuários, da aplicação e do banco de dados tornou mais clara a forma como os elementos do sistema se distribuem fisicamente para viabilizar funcionalidades como oferta e solicitação de caronas, comunicação entre motorista e passageiro e armazenamento das informações.
+A construção do Diagrama de Implantação do projeto **Carona Amiga FCTE** possibilitou consolidar, de forma estruturada, a visão da infraestrutura necessária para o funcionamento da plataforma, articulando os ambientes de execução, os artefatos implantados e os canais de comunicação indispensáveis à operacionalização do sistema. A representação dos dispositivos dos usuários, da camada de aplicação, do mecanismo intermediário de segurança e do banco de dados tornou mais evidente a maneira pela qual os elementos de software e hardware se relacionam para sustentar funcionalidades centrais da solução, tais como cadastro de usuários, gerenciamento de preferências, oferta e solicitação de caronas, troca de mensagens, acompanhamento de corridas e armazenamento persistente das informações.
 
-Dessa forma, o artefato contribui para o entendimento da arquitetura do sistema e apoia o planejamento das próximas etapas do projeto, ao evidenciar os ambientes de execução, os fluxos de comunicação e as dependências técnicas envolvidas na solução. Assim, o diagrama reforça a coerência entre os requisitos levantados, os modelos já produzidos pela equipe e a futura implementação do **Carona Amiga FCTE**.
+Além disso, a elaboração deste artefato demonstrou a importância de integrar os modelos estruturais previamente desenvolvidos aos requisitos elicitados no decorrer do projeto, em especial aqueles derivados do artefato de Perfil de Usuário. Essa articulação ampliou a capacidade explicativa do diagrama, pois permitiu não apenas representar a distribuição física dos componentes, mas também evidenciar a rastreabilidade entre as necessidades identificadas junto aos usuários e os nós definidos para suportá-las em nível de implantação.
+
+Sob essa perspectiva, o diagrama produzido contribui de maneira significativa para o entendimento da arquitetura do sistema e para o planejamento das etapas subsequentes de implementação, ao explicitar dependências técnicas, fluxos de comunicação e responsabilidades associadas a cada nó. Assim, o artefato reforça a coerência entre requisitos, modelagem e infraestrutura, constituindo-se como um instrumento relevante para a validação da solução proposta e para a redução de ambiguidades no desenvolvimento do **Carona Amiga FCTE**.
 
 ---
 
@@ -115,5 +120,6 @@ Dessa forma, o artefato contribui para o entendimento da arquitetura do sistema 
 |  1.0   | 16/04/2026 | Criação do documento                                                | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | [Ana Victória Guedes da Costa](https://github.com/navicg)              |  Artefato revisado  |
 |  1.1   | 19/04/2026 | Adição da Introdução,objetivos e legenda do Diagrama de Implantação | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            |  Artefato revisado  |
 |  1.2   | 20/04/2026 | Adição da metodologia e conclusão do Diagrama de Implantação        | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
-|  1.3   | 23/04/2026 | Adição da legenda do Diagrama de Implantação                        | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |                                                                        |                     |
-|  1.4   | 23/04/2026 | Correção das figuras                                                | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |                                                                        |                     |
+|  1.3   | 23/04/2026 | Adição da legenda do Diagrama de Implantação                        | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |   [João Vitor Santos de Oliveira](https://github.com/Jauzimm)                                                                     |        Artefato revisado              |
+|  1.4   | 23/04/2026 | Correção das figuras                                                | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |  [Ana Victória Guedes da Costa](https://github.com/navicg)                                                                      |         Artefato revisado            |
+|  1.5   | 23/04/2026 | Adição do diagrama de implantação e da tabela de análise | [Ana Victória Guedes da Costa](https://github.com/navicg) |  [Karoline Luz da Conceição](https://github.com/KarolineLuz)                                                                   | Artefato revisado              |
