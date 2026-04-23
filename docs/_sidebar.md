@@ -34,6 +34,8 @@
       - [2.6.1 Verificação Diagrama de Classes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeClasses.md)
       - [2.6.2 Verificação Diagrama de Comunicação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeComunicacao.md)
       - [2.6.3 Verificação Diagrama de Casos de Uso](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeCasoDeUso.md)
+      - [2.6.4 Verificação Diagrama de Implantação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeImplantacao.md)
+      - [2.6.5 Verificação Diagrama de Sequência](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeSequencia.md)
 
 - **Atas**
   - [1. Ata de Reunião](atas/ata01.md)
