@@ -75,7 +75,7 @@ Legenda do Diagrama de Estados
 | **Ação**               |               | Atividade executada como resultado de uma transição ou durante a permanência em um estado.                               |
 | **Estado Composto**    |               | Estado que contém subestados internos, permitindo detalhamento adicional do comportamento.                               | -->
 
-## <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
 
 ## Diagrama de Estados
 
