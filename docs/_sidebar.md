@@ -32,3 +32,6 @@
 
     * 2.6. Verificação dos Diagramas
       - [2.6.1 Verificação dos Diagramas](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md)
+      - [2.6.2 Verificação Diagrama de Classes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeClasses.md)
+      - [2.6.3 Verificação Diagrama de Comunicação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeComunicacao.md)
+       - [2.6.3 Verificação Diagrama de Casos de Uso](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeCasoDeUso.md)
