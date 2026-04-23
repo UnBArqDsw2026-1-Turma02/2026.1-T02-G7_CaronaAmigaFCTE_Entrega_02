@@ -66,27 +66,25 @@ O diagrama foi construído seguindo as seguintes etapas:
 
 | Elemento | Composição | Símbolo | Explicação |
 |---|:--:|---|---|
-| **Nó Inicial**  | ![nome](../assets/nomeimagem.png) | Círculo Preto | Simboliza o início da atividade. |
-| **Atividade**  | ![nome](../assets/nomeimagem.png) | Retângulo Arredondado | Ação em que o usuário ou software realiza uma determinada tarefa. |
-| **Fluxo de Controle** |![nome](../assets/nomeimagem.png) | Seta Direcional | Conectores que mostram o fluxo entre as etapas no diagrama. |
-| **Decisão**  | ![nome](../assets/nomeimagem.png) | Losango | Indica um ponto onde o fluxo pode seguir caminhos diferentes com base em uma condição. |
-| **Swimlane (Raia)**  | ![nome](../assets/nomeimagem.png) | Colunas Verticais | Organiza as atividades por categoria, ator ou funcionalidade. |
-| **Nó Final** |![nome](../assets/nomeimagem.png) | Círculo com borda | Indica o encerramento do fluxo de uma atividade específica. |
+| **Nó Inicial**  | ● | Círculo Preto | Simboliza o início da atividade. |
+| **Atividade**  | ▭ | Retângulo Arredondado | Ação em que o usuário ou software realiza uma determinada tarefa. |
+| **Fluxo de Controle** | → | Seta Direcional | Conectores que mostram o fluxo entre as etapas no diagrama. |
+| **Decisão**  | ◆ | Losango | Indica um ponto onde o fluxo pode seguir caminhos diferentes com base em uma condição. |
+| **Swimlane (Raia)**  | — | Colunas Verticais | Organiza as atividades por categoria, ator ou funcionalidade. |
+| **Nó Final** | ◎ | Círculo com borda | Indica o encerramento do fluxo de uma atividade específica. |
 
-<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: Pedro Henrique Faria da Mota, Gustavo Ribeiro Linhares e Nicolas Bomfim Dias Bandeira, 2026.</p></font>
 
 ---
 
 ## Diagrama de Atividades
-
 
 <div align="center">
 Figura 1: Diagrama de Atividades.
 
 ![Diagrama de Atividades](../assets/diagrama_de_atividades.png)
 
-
-<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: Pedro Henrique Faria da Mota, Gustavo Ribeiro Linhares e Nicolas Bomfim Dias Bandeira, 2026.</p></font>
 </div>
 
 ---
@@ -97,12 +95,19 @@ A construção do Diagrama de Atividades permitiu uma visão muito funcional dos
 
 ---
 
+## Referências
+
+> Lucidchart. _O que é um diagrama de atividades UML?_. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml>.
+
+> UML Diagrams. _UML activity diagrams overview_. Disponível em: https://www.uml-diagrams.org/activity-diagrams.html.
+
+> SERRANO, Milene. _Slides - Diagrama de Atividades UML_. Disponível em: https://aprender3.unb.br/pluginfile.php/3178534/mod_page/content/1/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Modelagem%20UML%20Din%C3%A2mica%20-%20Profa.%20Milene.pdf.
+
+---
+
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :----: | :--: | --------- | ------ | ------ |
-| 1.0 | 22/04/2026 | Criação do documento | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) e [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss)
-
-
-
-
+| 1.0 | 22/04/2026 | Criação do documento | Nicolas Bomfim Dias Bandeira | Pedro Henrique Faria da Mota e Gustavo Ribeiro Linhares |
+| 1.1 | 23/04/2026 | Adição de referências e ajustes no documento | Gustavo Ribeiro Linhares | Pedro Henrique Faria da Mota |
