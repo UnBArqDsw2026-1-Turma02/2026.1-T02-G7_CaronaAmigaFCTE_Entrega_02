@@ -89,10 +89,23 @@ Legenda do Diagrama de Implantação
 ### Apresentação do Diagrama de Implantação
 
 <div style="text-align: center;">
-Diagrama de Implantação  
+Diagrama de Implantação, Versão 2
+
 <br>
 <img src="../../assets/diagrama_implantacao/diagrama_de_implantacao.png" alt="Diagrama de Implantação">
 <font size="2"><p style="text-align: center">Figura 2.</p></font>
+</div>
+
+<font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
+
+<div style="text-align: center;">
+Diagrama de Implantação, Versão 2.
+<br>
+<img src="../../assets/diagrama_implantacao/diagrama_de_implantacao_v2.png" alt="Diagrama de Implantação">
+<font size="2"><p style="text-align: center">Figura 3.</p></font>
+
+Nota:  Com base no feedback da professora, foi realizado uma segunda versão do diagrama de implantação.
+
 </div>
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
@@ -117,6 +130,10 @@ Sob essa perspectiva, o diagrama produzido contribui de maneira significativa pa
 
 > <a id="referencias-bibliograficas-3">3.</a> IBM CORPORATION. **Diagramas de implantação**. IBM Documentation, 2024. Disponível em: https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams. Acesso em: 19 abr. 2026 .
 
+> <a id="referencias-bibliograficas-4">4.</a> UML-DIAGRAMS. **Deployment Diagrams Overview**. Disponível em: https://www.uml-diagrams.org/deployment-diagrams-overview.html. Acesso em: 23 abr. 2026.
+
+> <a id="referencias-bibliograficas-5">5.</a> Curso de UML - Diagrama de Implantação. Disponível em: https://www.youtube.com/watch?v=DgERD0HgggQ. Acesso em: 23 abr. 2026.
+
 ---
 
 ## Histórico de Versões
@@ -131,3 +148,4 @@ Sob essa perspectiva, o diagrama produzido contribui de maneira significativa pa
 |  1.5   | 23/04/2026 | Adição do diagrama de implantação e da tabela de análise                         | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            |  Artefato revisado  |
 |  1.6   | 23/04/2026 | Inclusão de links clicáveis de rastreabilidade na coluna de requisitos atendidos | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |  Artefato revisado  |
 |  1.7   | 23/04/2026 | Correção os links das imagens                                                    | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            |  Artefato revisado  |
+|  1.8   | 23/04/2026 | Adição da V2 no diagrama de implantação | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) |  Artefato revisado  |
