@@ -73,7 +73,7 @@ O diagrama foi construído seguindo as seguintes etapas:
 | **Swimlane (Raia)**  | — | Colunas Verticais | Organiza as atividades por categoria, ator ou funcionalidade. |
 | **Nó Final** | ◎ | Círculo com borda | Indica o encerramento do fluxo de uma atividade específica. |
 
-<font size="2"><p style="text-align: center">Fonte: Pedro Henrique Faria da Mota, Gustavo Ribeiro Linhares e Nicolas Bomfim Dias Bandeira, 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
 
 ---
 
@@ -82,9 +82,9 @@ O diagrama foi construído seguindo as seguintes etapas:
 <div align="center">
 Figura 1: Diagrama de Atividades.
 
-![Diagrama de Atividades](../assets/diagrama_de_atividades.png)
+![Diagrama de Atividades](https://i.postimg.cc/zvGLRv5X/Diagrama-de-Atividades-drawio.png)
 
-<font size="2"><p style="text-align: center">Fonte: Pedro Henrique Faria da Mota, Gustavo Ribeiro Linhares e Nicolas Bomfim Dias Bandeira, 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
 </div>
 
 ---
@@ -109,5 +109,6 @@ A construção do Diagrama de Atividades permitiu uma visão muito funcional dos
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :----: | :--: | --------- | ------ | ------ |
-| 1.0 | 22/04/2026 | Criação do documento | Nicolas Bomfim Dias Bandeira | Pedro Henrique Faria da Mota e Gustavo Ribeiro Linhares |
-| 1.1 | 23/04/2026 | Adição de referências e ajustes no documento | Gustavo Ribeiro Linhares | Pedro Henrique Faria da Mota |
+| 1.0 | 22/04/2026 | Criação do documento | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) |  [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) e [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) |
+| 1.1 | 23/04/2026 | Adição de referências e ajustes no documento | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) |  [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |
+|1.2  | 23/04/2026 | Correção do link da imagem do diagrama e ajustes no documento | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) |
