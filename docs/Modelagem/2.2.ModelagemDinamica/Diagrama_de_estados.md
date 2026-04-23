@@ -58,10 +58,6 @@ A elaboração do Diagrama de Estados do projeto **Carona Amiga FCTE** será rea
 
 ## Tabela de Análise
 
----
-
-## Diagrama de Estados
-
 <div style="text-align: center;">
 Legenda do Diagrama de Estados  
 <br>
@@ -78,6 +74,17 @@ Legenda do Diagrama de Estados
 | **Condição de Guarda** |               | Expressão booleana que deve ser satisfeita para que a transição ocorra.                                                  |
 | **Ação**               |               | Atividade executada como resultado de uma transição ou durante a permanência em um estado.                               |
 | **Estado Composto**    |               | Estado que contém subestados internos, permitindo detalhamento adicional do comportamento.                               | -->
+
+## <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
+
+## Diagrama de Estados
+
+<div style="text-align: center;">
+Diagrama de Estados  
+<br>
+<img src="" alt="figura ">
+<font size="2"><p style="text-align: center">Figura 02.</p></font>
+</div>
 
 <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
 
