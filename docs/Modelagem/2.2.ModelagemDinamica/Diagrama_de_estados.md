@@ -105,7 +105,8 @@ Além disso, o artefato fortalece a coerência entre os requisitos definidos, o 
 
 ## Histórico de Versões
 
-| Versão |    Data    | Descrição                    | Autor(es)                                                              | Revisor(es)                                                 | Detalhes da revisão |
-| :----: | :--------: | ---------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------- | :-----------------: |
-|  1.0   | 21/04/2026 | Criação do documento         | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
-|  1.1   | 21/04/2026 | Criação do corrção dos links | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
+| Versão |    Data    | Descrição                     | Autor(es)                                                              | Revisor(es)                                                 | Detalhes da revisão |
+| :----: | :--------: | ----------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------- | :-----------------: |
+|  1.0   | 21/04/2026 | Criação do documento          | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
+|  1.1   | 21/04/2026 | Criação do corrção dos links  | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
+|  1.2   | 21/04/2026 | Adição da legenda do diagrama | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |                                                             |                     |
