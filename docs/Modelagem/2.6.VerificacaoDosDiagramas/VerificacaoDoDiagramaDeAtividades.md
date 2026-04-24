@@ -99,11 +99,7 @@ Foram observados quatro aspectos principais:
 
 ## Vídeo de Verificação do Diagrama de Atividades
 
-A gravação do vídeo de verificação serviu para validar o modelo desenvolvido, tomando como referência as questões de verificação para detectar falhas e inconsistências. Na sessão de gravação, foram abordados os aspectos positivos do diagrama, além das regiões que requeriam melhorias.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ADICIONAR_LINK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<p style="text-align: center"><a href="https://youtu.be/ADICIONAR_LINK" target="_blank">Clique aqui para assistir no YouTube</a></p>
+A verificação do Diagrama de Atividades foi realizada de forma assíncrona, com cada membro da equipe analisando individualmente o diagrama com base nas perguntas de verificação elaboradas. Cada integrante revisou os componentes, subsistemas, interfaces e dependências de forma independente, registrando suas observações e identificando possíveis inconsistências. As conclusões foram posteriormente consolidadas pela equipe, garantindo que todos os critérios de verificação fossem devidamente avaliados antes da entrega final do artefato.
 
 <font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
 
