@@ -38,8 +38,11 @@
       - [2.6.5 Verificação Diagrama de Sequência](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeSequencia.md)
       - [2.6.6 Verificação Diagrama de Estados](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeEstados.md)
       - [2.6.7 Verificação Diagrama de Pacotes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramDePacotes.md)
+      - [2.6.8 Verificação Diagrama de Componentes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeComponentes.md)
+      - [2.6.9 Verificação Diagrama de Atividades](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeAtividades.md)
 
 - **Atas**
   - [1. Ata de Reunião](atas/ata01.md)
   - [2. Ata de Reunião](atas/ata02.md)
+  - [3. Ata de Reunião](atas/ata03.md)
   - [Modelo de Ata](atas/modelo_ata.md)
