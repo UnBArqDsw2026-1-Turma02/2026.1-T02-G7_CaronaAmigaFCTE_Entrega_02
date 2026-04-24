@@ -187,7 +187,7 @@ A elaboração do Diagrama de Comunicação do projeto **Carona Amiga** permitiu
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 17/04/2026 | Criação do documento | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
-| 1.1  | 19/04/2026 | Adicionando melhorias no documento e arrumando hyperlinks | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
-| 1.2  | 20/04/2026 | Adicionando Diagrama de Comunicação | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
-| 1.3  | 23/04/2026 | Adicionando seções de Diagrama de Comunicação para Motorista e Passageiro | Equipe do projeto | - | Atualização estrutural |
+| 1.0  | 17/04/2026 | Criação do documento | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Criação do artefato e ajuste de notação UML |
+| 1.1  | 19/04/2026 | Adicionando melhorias no documento e arrumando hyperlinks | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Revisão textual e correção de hyperlinks |
+| 1.2  | 20/04/2026 | Adicionando Diagrama de Comunicação | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Publicação do diagrama de comunicação no artefato |
+| 1.3  | 23/04/2026 | Adicionando seções de Diagrama de Comunicação para Motorista e Passageiro | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Inclusão de diagramas por ator e refinos finais do artefato |
