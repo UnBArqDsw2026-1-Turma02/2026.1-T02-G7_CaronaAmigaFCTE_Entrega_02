@@ -2,9 +2,9 @@
 
 ## Introdução
 
-O Diagrama de Casos de Uso integra o conjunto de diagramas comportamentais da UML (Unified Modeling Language) e tem como finalidade representar, de maneira clara, as funcionalidades de um sistema sob a ótica dos usuários. De acordo com a literatura especializada, como apresentado pela [Lucidchart](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml), esse tipo de diagrama permite identificar os atores envolvidos — sejam eles usuários ou sistemas externos — e explicitar as interações realizadas com o sistema, facilitando a compreensão do seu funcionamento.
+O Diagrama de Casos de Uso integra o conjunto de diagramas comportamentais da UML (Unified Modeling Language) e tem como finalidade representar, de maneira clara, as funcionalidades de um sistema sob a ótica dos usuários. De acordo com a literatura especializada, como apresentado pela [Lucidchart](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml)[[3]](#ref3), esse tipo de diagrama permite identificar os atores envolvidos — sejam eles usuários ou sistemas externos — e explicitar as interações realizadas com o sistema, facilitando a compreensão do seu funcionamento.
 
-Além disso, conforme destacado pelo site da [DevMedia](https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408)[[1]](#ref1), o uso desse diagrama contribui diretamente para o levantamento e a organização dos requisitos funcionais, servindo como uma ferramenta essencial na comunicação entre desenvolvedores, analistas e demais stakeholders. Dessa forma, o **Diagrama de Casos de Uso** não apenas delimita o escopo do sistema, mas também auxilia na visualização das funcionalidades principais de forma simples e intuitiva.
+Além disso, conforme destacado pelo site da [DevMedia](https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408)[[2]](#ref2), o uso desse diagrama contribui diretamente para o levantamento e a organização dos requisitos funcionais, servindo como uma ferramenta essencial na comunicação entre desenvolvedores, analistas e demais stakeholders. Dessa forma, o **Diagrama de Casos de Uso** não apenas delimita o escopo do sistema, mas também auxilia na visualização das funcionalidades principais de forma simples e intuitiva.
 
 Neste contexto, o presente artefato tem como **objetivo** apresentar o Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, evidenciando as interações entre os motoristas e passageiros e as funcionalidades disponibilizadas pelo sistema.
 
@@ -18,29 +18,28 @@ Com o propósito de demonstrar as funcionalidades da plataforma sob a perspectiv
 
 ## Metodologia
 
-Para a construção do diagrama, Serão seguidas as etapas abaixo:
+Para a construção do diagrama, serão seguidas as etapas abaixo:
 
 1.  Serão analisados os seguintes artefatos para identificação de atores, funcionalidades e escopo:
-    - [Requisitos Funcionais e Não Funcionais elicitados - Elaborados na entrega 1](../Modelagem/2.5.IniciativasExtras/RequisitosElicitados.md);
-    - [Diagrama de Classe](../Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md);
-    - [Diagrama de Comunicação](../Modelagem/2.2.ModelagemDinamica/Diagrama_de_comunicacao.md);
-    - [BrainStorming realizado na entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/Brainstorm).
-     - [Protótipo realizado na entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo).
+    - [Requisitos Funcionais e Não Funcionais elicitados — elaborados na Entrega 1](../2.5.IniciativasExtras/RequisitosElicitados.md);
+    - [Diagrama de Classes](../2.1.ModelagemEstatica/Diagrama_de_classes.md);
+    - [Diagrama de Comunicação](../2.2.ModelagemDinamica/Diagrama_de_comunicacao.md);
+    - [Brainstorming realizado na Entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/Brainstorm);
+    - [Protótipo realizado na Entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo).
 
-2.  Após a análise dos dados, serão feitas as seguintes etapas:
-    1. Identificação dos Atores principais.
-    2. Identificação dos Casos de Uso essenciais a partir dos requisitos funcionais.
-    3.  Identificação dos Relacionamentos entre Atores e Casos de Uso (Associação) e entre Atores (Generalização).
-    4.  Modelagem do diagrama utilizando a ferramenta Draw.io.
-    5. Verificação do diagrama por meio de revisão entre os membros do grupo, garantindo a coerência e a clareza das informações representadas.
-    6. Documentação do diagrama, explicando os elementos e as interações representadas, para facilitar a compreensão por parte de todos os envolvidos no projeto.
+2.  Após a análise dos dados, serão realizadas as seguintes etapas:
+    - Identificação dos atores principais.
+    - Identificação dos casos de uso essenciais a partir dos requisitos funcionais.
+    - Identificação dos relacionamentos entre atores e casos de uso (associação) e entre atores (generalização).
+    - Modelagem do diagrama utilizando a ferramenta Draw.io.
+    - Verificação do diagrama por meio de revisão entre os membros do grupo, garantindo a coerência e a clareza das informações representadas.
+    - Documentação do diagrama, explicando os elementos e as interações representadas, para facilitar a compreensão por parte de todos os envolvidos no projeto.
 
 ## Sobre o Diagrama de Casos de Uso
 
-> <a name="ref1"></a>**[1]** Creately. *Tutorial do diagrama de caso de uso (guia com exemplos)*. Disponível em: <https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-caso-de-uso/>. Acesso em: 22 abr. 2026.
-O Diagrama de Casos de Uso a seguir, na figura 2, elaborado com base nos princípios da UML de [Tutorial do diagrama de caso de uso (guia com exemplos)](), representa as principais interações funcionais da plataforma "Galáxia Conectada". Dessa maneira, ele destaca os `Atores` chave, como `Motorista`, `Passageiro` e sistemas como `Serviços de Autenticação`, `Sistema de Notificação`. Além disso, os `Casos de Uso` (elipses) representam as funcionalidades do sistemas, como realizar login, aceita/cancelar carona, entre outros.
+O Diagrama de Casos de Uso apresentado nas Figuras 2 e 3 foi elaborado com base nos princípios da UML e em guias de modelagem de casos de uso [[1]](#ref1)[[5]](#ref5). Ele evidencia os atores-chave, como `Motorista` e `Passageiro`, e sistemas externos, como `Serviços de Autenticação` e `Sistema de Notificação`. Além disso, os casos de uso (elipses) representam as funcionalidades do sistema, como realizar login e aceitar/cancelar solicitações de carona.
 
-Para compreensão dos diagramas, a figura 1 mostra a legenda;
+Para apoiar a leitura do diagrama, a Figura 1 apresenta a legenda.
 
 <font size="3"><p style="text-align: center">Figura 1: Legenda do Diagrama de Casos de Uso</p></font>
 
@@ -54,24 +53,32 @@ Para compreensão dos diagramas, a figura 1 mostra a legenda;
 
 ## Diagrama de Casos de Uso
 
-A Figura 3 mostra o diagrama de Casos de Uso do WebApp Carona Amiga FCTE. 
+As Figuras 2 e 3 mostram o diagrama de Casos de Uso do WebApp Carona Amiga FCTE, respectivamente nas versões 1.0 e 2.0.
 
 <details>
-    <summary size="20"><b>Versão 1.0</b></summary>
+    <summary><b>Versão 1.0</b></summary>
+
+<font size="3"><p style="text-align: center">Figura 2: Diagrama de Casos de Uso (Versão 1.0)</p></font>
+
 <div align="center">
               Figura 3: Diagrama de Casos de Usos.
 
-![Diagrama de Casos de Usos](../assets/Casos-de-usos.png)
+![Diagrama de Casos de Uso](../assets/Casos-de-usos.png)
 
 ?> *Nota:* Caso deseje visualizar ou baixar em PDF, clique aqui: [PDF do Diagrama de Casos de Uso](https://drive.google.com/file/d/1-OdkNTwh7X30XgMHm83Kl2MdM_VpxkS9/view?usp=sharing)
 
 </div>
+
+?> *Nota:* Caso deseje visualizar ou baixar em PDF, clique aqui: [PDF do Diagrama de Casos de Uso (v1.0)](https://drive.google.com/file/d/1-OdkNTwh7X30XgMHm83Kl2MdM_VpxkS9/view?usp=sharing)
+
 </details>
 
-<div align="center">
-              Figura 3: Diagrama de Casos de Usos.
+<font size="3"><p style="text-align: center">Figura 3: Diagrama de Casos de Uso (Versão 2.0)</p></font>
 
-![Diagrama de Casos de Usos](../assets/Casos-de-uso2.0.png)
+<div align="center">
+
+![Diagrama de Casos de Uso](../assets/Casos-de-uso2.0.png)
+
 </div>
 
 <font size="2"><p style="text-align: center">Fonte: Elaborado pelo(s) autor(es)[Ana Victória Guedes da Costa](https://github.com/navicg), [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Karoline Luz da Conceição](https://github.com/KarolineLuz), [Luiza da Silva Pugas](https://github.com/Luizaxx) e
@@ -95,7 +102,7 @@ As gravações abaixo registram a elaboração e a discussão do Diagrama de Cas
 ---
 
 ## Conclusão
-O Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, apresentado na figura 2, oferece uma visão clara e estruturada das funcionalidades principais do sistema, bem como das interações entre os atores envolvidos. Através da identificação dos casos de uso essenciais, foi possível delimitar o escopo funcional do sistema, facilitando a comunicação entre os membros da equipe e demais stakeholders. Este artefato serve como um guia visual para o desenvolvimento do sistema, garantindo que as funcionalidades sejam implementadas de acordo com as necessidades dos usuários e os requisitos elicitados.
+O Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, apresentado nas Figuras 2 e 3, oferece uma visão clara e estruturada das funcionalidades principais do sistema, bem como das interações entre os atores envolvidos. Através da identificação dos casos de uso essenciais, foi possível delimitar o escopo funcional do sistema, facilitando a comunicação entre os membros da equipe e demais stakeholders. Este artefato serve como um guia visual para o desenvolvimento do sistema, garantindo que as funcionalidades sejam implementadas de acordo com as necessidades dos usuários e os requisitos elicitados.
 
 ---
 
