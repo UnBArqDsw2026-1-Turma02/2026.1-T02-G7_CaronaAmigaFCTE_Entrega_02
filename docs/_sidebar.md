@@ -21,7 +21,7 @@
       - [2.3.2  Diagrama de Pacotes](Modelagem/2.3.ModelagemOrganizacionalCasosDeUso/Diagrama_de_pacotes.md)
     
     * 2.4. Participações
-      - [2.4.1 Participações](Modelagem/2.4.ParticipacoesModelagem/Participacoes.md)
+      - [2.4.1 Participações](Modelagem/2.4.ParticipacoesModelagem/ParticipacoesModelagem.md)
     
       
     * 2.5. Iniciativas Extras - Modelagem
@@ -31,10 +31,11 @@
       - [2.5.4 Requisitos Elicitados](Modelagem/2.5.IniciativasExtras/RequisitosElicitados.md)
 
     * 2.6. Verificação dos Diagramas
-      - [2.6.1 Verificação dos Diagramas](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDosDiagramas.md)
-      - [2.6.2 Verificação Diagrama de Classes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeClasses.md)
-      - [2.6.3 Verificação Diagrama de Comunicação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeComunicacao.md)
-       - [2.6.3 Verificação Diagrama de Casos de Uso](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeCasoDeUso.md)
+      - [2.6.1 Verificação Diagrama de Classes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeClasses.md)
+      - [2.6.2 Verificação Diagrama de Comunicação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeComunicacao.md)
+      - [2.6.3 Verificação Diagrama de Casos de Uso](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeCasoDeUso.md)
+      - [2.6.4 Verificação Diagrama de Implantação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeImplantacao.md)
+      - [2.6.5 Verificação Diagrama de Sequência](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeSequencia.md)
 
 - **Atas**
   - [1. Ata de Reunião](atas/ata01.md)
