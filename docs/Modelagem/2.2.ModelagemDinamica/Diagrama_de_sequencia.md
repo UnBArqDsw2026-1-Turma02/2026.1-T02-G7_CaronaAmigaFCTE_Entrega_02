@@ -6,7 +6,7 @@ O diagrama de sequência é um dos principais artefatos da UML utilizados para r
 
 A estrutura de um diagrama de sequência é organizada em dois eixos principais: o eixo vertical, que representa o tempo (de cima para baixo), e o eixo horizontal, que apresenta os participantes da interação, cada um com sua respectiva linha de vida. As mensagens trocadas entre esses elementos são representadas por setas, permitindo visualizar com clareza a ordem das operações e a comunicação entre os componentes do sistema, conforme descrito pela Creately <a href="#/Modelagem/2.2.ModelagemDinamica/Diagrama_de_sequencia?id=referencias-bibliograficas-4">[4]</a>.
 
-No contexto do projeto **Carona Amiga FCTE**, os diagramas de sequência são utilizados para detalhar as interações entre os usuários, especialmente passageiros e motoristas — e os componentes internos da aplicação, como interface, APIs, serviços e banco de dados. Esses diagramas complementam os modelos estruturais previamente desenvolvidos, como os diagramas de classes e de componentes, garantindo consistência entre a arquitetura do sistema e seu comportamento em tempo de execução.
+No contexto do projeto **Carona Amiga FCTE**, os diagramas de sequência são utilizados para detalhar as interações entre os usuários, especialmente passageiros e motoristas e os componentes internos da aplicação, como interface, APIs, serviços e banco de dados. Esses diagramas complementam os modelos estruturais previamente desenvolvidos, como os diagramas de classes e de componentes, garantindo consistência entre a arquitetura do sistema e seu comportamento em tempo de execução.
 
 Dessa forma, a modelagem por meio de diagramas de sequência contribui para o entendimento dos fluxos principais da aplicação, como cadastro, autenticação, busca de caronas, solicitação de participação e gerenciamento de viagens. Além disso, auxilia na identificação de responsabilidades, na validação dos requisitos e no suporte às etapas de implementação e manutenção do sistema.
 
@@ -133,6 +133,8 @@ Com base na tabela 1, abaixo está apresentado o diagrama de sequência correspo
     <br>
     <img src="assets/diagramas/diagrama_sequencia_cadastro.png">
     <br>
+    <b>Autora:</b> <a href="https://github.com/navicg">Ana Victória Guedes da Costa</a>.
+    <br>
 </div>
 
 </details>
@@ -183,6 +185,8 @@ Com base na tabela 2, abaixo está apresentado o diagrama de sequência correspo
     Figura 2: Diagrama de Sequência - Login
     <br>
     <img src="assets/diagramas/diagrama_sequencia_login.png">
+    <br>
+    <b>Autora:</b> <a href="https://github.com/navicg">Ana Victória Guedes da Costa</a>.
     <br>
 </div>
 
@@ -244,6 +248,8 @@ Com base na tabela 3, abaixo está apresentado o diagrama de sequência correspo
     Figura 3: Diagrama de Sequência - Busca de caronas
     <br>
     <img src="assets/diagramas/diagrama_sequencia_busca.png">
+    <br>
+    <b>Autora:</b> <a href="https://github.com/navicg">Ana Victória Guedes da Costa</a>.
     <br>
 </div>
 
@@ -441,13 +447,13 @@ O diagrama de sequência amplia a compreensão do comportamento do **Carona Amig
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição                                                                          | Autor(es)                                                   | Revisor(es)                                                 | Detalhes da Revisão |
-| ------ | ---------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ------------------- |
-| 1.0    | 21/04/2026 | Criação do artefato                                                                | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Revisão inicial da estrutura, do escopo e da organização do documento. |
-| 1.1    | 21/04/2026 | Adição da Introdução, objetivos e metodologia                                      | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Verificação da clareza textual, da coerência metodológica e do alinhamento com a proposta do artefato. |
-| 1.2    | 22/04/2026 | Adição do modelo do Diagrama de Sequência                                          | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Revisão da representação dos participantes, da ordem das mensagens e da aderência à notação UML. |
-| 1.3    | 23/04/2026 | Adição do fluxo de confirmação de embarque                                         | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Análise da consistência do fluxo, com foco nas validações, retornos e atualização de estados da carona. |
-| 1.4    | 23/04/2026 | Adição dos fluxos de publicação de carona e solicitação de participação em carona  | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Revisão da completude dos cenários, das interações entre ator e sistema e da compatibilidade com os requisitos funcionais. |
-| 1.5    | 23/04/2026 | Consolidação dos fluxos e inclusão dos respectivos diagramas                       | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Conferência da correspondência entre descrição textual, tabelas explicativas e diagramas apresentados. |
+| Versão | Data       | Descrição                                                                          | Autor(es)                                                   | Revisor(es)                                                 | Detalhes da Revisão                                                                                                          |
+| ------ | ---------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 1.0    | 21/04/2026 | Criação do artefato                                                                | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Revisão inicial da estrutura, do escopo e da organização do documento.                                                       |
+| 1.1    | 21/04/2026 | Adição da Introdução, objetivos e metodologia                                      | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Verificação da clareza textual, da coerência metodológica e do alinhamento com a proposta do artefato.                       |
+| 1.2    | 22/04/2026 | Adição do modelo do Diagrama de Sequência                                          | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Revisão da representação dos participantes, da ordem das mensagens e da aderência à notação UML.                             |
+| 1.3    | 23/04/2026 | Adição do fluxo de confirmação de embarque                                         | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Análise da consistência do fluxo, com foco nas validações, retornos e atualização de estados da carona.                      |
+| 1.4    | 23/04/2026 | Adição dos fluxos de publicação de carona e solicitação de participação em carona  | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Revisão da completude dos cenários, das interações entre ator e sistema e da compatibilidade com os requisitos funcionais.   |
+| 1.5    | 23/04/2026 | Consolidação dos fluxos e inclusão dos respectivos diagramas                       | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Conferência da correspondência entre descrição textual, tabelas explicativas e diagramas apresentados.                       |
 | 1.6    | 23/04/2026 | Adição dos diagramas de sequência relacionados a cadastro, login e busca de carona | [Ana Victória Guedes da Costa](https://github.com/navicg)   | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Revisão da legibilidade dos fluxos principais e da coerência entre entradas, processamentos e respostas exibidas ao usuário. |
-| 1.7    | 23/04/2026 | Adição correta da rastreabilidade                                                  | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Validação final das referências cruzadas com requisitos, diagrama de classes, diagrama de comunicação e protótipo. |
+| 1.7    | 23/04/2026 | Adição correta da rastreabilidade                                                  | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Ana Victória Guedes da Costa](https://github.com/navicg)   | Validação final das referências cruzadas com requisitos, diagrama de classes, diagrama de comunicação e protótipo.           |
