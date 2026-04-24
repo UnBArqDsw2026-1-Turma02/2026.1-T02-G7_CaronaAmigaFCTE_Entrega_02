@@ -62,7 +62,7 @@ Informações adicionais, como [5W2H](https://unbarqdsw2026-1-turma02.github.io/
 | **Conector de montagem** | Bola encaixada no soquete | Liga interface provida de um componente à requerida de outro. |
 | **Porta** | Pequeno quadrado na borda | Ponto de interação explícito de um componente com seu exterior. |
 
-<font size="2"><p style="text-align: center">Fonte: Elaborado pelos autores, 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
 
 ---
 
@@ -79,7 +79,7 @@ Para embasar a escolha dos relacionamentos presentes no diagrama, foi consultado
 | Conector de montagem | Liga a interface provida de um componente à interface requerida de outro. | Bola encaixada no soquete. | Forma mais comum no diagrama. |
 | Delegação | Redireciona uma requisição de uma porta externa a um componente interno. | Seta de delegação. | Usada em componentes compostos. |
 
-<font size="2"><p style="text-align: center">Fonte: Elaborado pelos autores, com base na Aula de Modelagem UML Estática [[3]](#ref3), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
 
 ---
 
@@ -112,7 +112,7 @@ Para embasar a escolha dos relacionamentos presentes no diagrama, foi consultado
 | Delegação interna | Porta → Componente interno | A requisição externa é repassada ao módulo responsável. |
 | Dependência estereotipada | `<<criar usuário>>` / `<<validar usuário>>` | Dependência com semântica de negócio explícita. |
 
-<font size="2"><p style="text-align: center">Fonte: Elaborado pelos autores, com base na Aula de Modelagem UML Estática [[3]](#ref3), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
 
 ---
 
@@ -127,7 +127,7 @@ Para embasar a escolha dos relacionamentos presentes no diagrama, foi consultado
 
 ![Diagrama de componentes](https://i.postimg.cc/2yZ9ThMh/Untitled-Diagram-drawio-(8).png)
 
-<font size="2"><p style="text-align: center">Fonte: Elaborado pelos autores, 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
 </div>
 
 ---
@@ -231,6 +231,16 @@ Camada de interação com avaliações e perfil do usuário.
 | `:Avaliação` | Ride events interface | Submete avaliação pós-corrida. |
 | `:Carona` | Ride management interface | Consulta/exibe detalhes da corrida. |
 | `:Perfil` | Passenger profile interface | Exibe e edita perfil público. |
+
+---
+
+
+## Reunião de Alinhamento sobre o diagrama de componentes
+
+<iframe width="1321" height="743" src="https://youtu.be/gsj8lC_sC0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/gsj8lC_sC0s" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
 
 ---
 
