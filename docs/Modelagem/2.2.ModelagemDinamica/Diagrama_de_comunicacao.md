@@ -123,6 +123,32 @@ Em linhas gerais, o processo adotado foi:
 
 ---
 
+## Diagrama de Comunicação — Motorista
+
+<div align="center">
+              Figura 3: Diagrama de Comunicação - Motorista - Versão 1.0.
+
+![Diagrama de Comunicação - Motorista](../assets/diagrama_de_comunicacao_motorista_v1.png)
+
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+</div>
+
+---
+
+## Diagrama de Comunicação — Passageiro
+
+<div align="center">
+              Figura 4: Diagrama de Comunicação - Passageiro - Versão 1.0.
+
+![Diagrama de Comunicação - Passageiro](../assets/diagrama_de_comunicacao_passageiro_v1.png)
+
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+</div>
+
+---
+
 ## Gravação da discussão do Diagrama de Comunicação
 
 As gravações abaixo registram a elaboração e a discussão do Diagrama de Comunicação do **Carona Amiga**.
@@ -163,4 +189,5 @@ A elaboração do Diagrama de Comunicação do projeto **Carona Amiga** permitiu
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 17/04/2026 | Criação do documento | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
 | 1.1  | 19/04/2026 | Adicionando melhorias no documento e arrumando hyperlinks | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
-| 1.2  | 20/04/2026 | Adicionando Diagrama de Comunicação [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
+| 1.2  | 20/04/2026 | Adicionando Diagrama de Comunicação | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
+| 1.3  | 23/04/2026 | Adicionando seções de Diagrama de Comunicação para Motorista e Passageiro | Equipe do projeto | - | Atualização estrutural |
