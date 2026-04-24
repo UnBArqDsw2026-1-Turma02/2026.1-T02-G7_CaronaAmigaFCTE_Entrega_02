@@ -16,7 +16,7 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 
 | Artefato                  | Início da Produção | Última Atualização | Total de Versões |
 |--------------------------|--------------------|---------------------|------------------|
-| Diagrama de Classes      | -                  | -                   | -                |
+| Diagrama de Classes      |         09/04/2026        | 23/04/2026                |    5         |
 | Diagrama de Componentes  | -                  | -                   | -                |
 | Diagrama de Implantação  | -                  | -                   | -                |
 | Diagrama de Atividades   | -                  | -                   | -                |
