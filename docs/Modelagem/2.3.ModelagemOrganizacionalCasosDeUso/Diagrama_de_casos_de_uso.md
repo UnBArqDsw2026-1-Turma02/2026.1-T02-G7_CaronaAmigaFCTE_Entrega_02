@@ -106,7 +106,7 @@ O Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, apresentado nas Figuras 
 
 ---
 
-## Bibliografia
+## Referências Bibliográficas
 
 > <a name="ref1"></a>**[1]** Creately. *Tutorial do diagrama de caso de uso (guia com exemplos)*. Disponível em: <https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-caso-de-uso/>. Acesso em: 22 abr. 2026.
 >
