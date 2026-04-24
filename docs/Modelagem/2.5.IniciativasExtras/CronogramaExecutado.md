@@ -18,12 +18,12 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 |--------------------------|--------------------|---------------------|------------------|
 | Diagrama de Classes      | 09/04/2026                | 23/04/2026                   | 5             |
 | Diagrama de Componentes  | -                  | -                   | -                |
-| Diagrama de Implantação  | -                  | -                   | -                |
-| Diagrama de Sequência    | -                  | -                   | -                |
+| Diagrama de Implantação  | 16/04/2026                 | 23/04/2026                 | 9                |
+| Diagrama de Sequência    | 20/04/2026              | 23/04/2026                   | 8                |
 | Diagrama de Atividades   | -                  | -                   | -                |
 | Diagrama de Comunicação/Colaboração  | 23/04/2026                 | 23/04/2026          | 2               |
 | Diagrama de Estados      | -                  | -                   | -                |
-| Diagrama de Casos de Uso | -                  | -                   | -                |
+| Diagrama de Casos de Uso | 23/04/2026                 | 23/04/2026                   |    2               |
 | Diagrama de Pacotes      | -                  | -                   | -                |
 
 
