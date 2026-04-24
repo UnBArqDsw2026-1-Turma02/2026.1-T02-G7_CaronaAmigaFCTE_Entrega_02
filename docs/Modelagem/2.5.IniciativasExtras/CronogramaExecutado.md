@@ -16,13 +16,13 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 
 | Artefato                  | Início da Produção | Última Atualização | Total de Versões |
 |--------------------------|--------------------|---------------------|------------------|
-| Diagrama de Classes      |         09/04/2026        | 23/04/2026                |    5         |
+| Diagrama de Classes      | -                  | -                   | -                |
 | Diagrama de Componentes  | -                  | -                   | -                |
 | Diagrama de Implantação  | -                  | -                   | -                |
-| Diagrama de Atividades   | -                  | -                   | -                |
-| Diagrama de Comunicação  | -                  | -                   | -                |
-| Diagrama de Estados      | -                  | -                   | -                |
 | Diagrama de Sequência    | -                  | -                   | -                |
+| Diagrama de Atividades   | -                  | -                   | -                |
+| Diagrama de Comunicação/Colaboração  | -                  | -                   | -                |
+| Diagrama de Estados      | -                  | -                   | -                |
 | Diagrama de Casos de Uso | -                  | -                   | -                |
 | Diagrama de Pacotes      | -                  | -                   | -                |
 
@@ -32,3 +32,5 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 07/04/2026 | Criação do artefato | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
+| 1.1  | 15/04/2026 | Atualização da Modelagem de Classes | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
+| 1.2  | 16/04/2026 | Atualizando o cronograma do Diagrama de Classes | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
