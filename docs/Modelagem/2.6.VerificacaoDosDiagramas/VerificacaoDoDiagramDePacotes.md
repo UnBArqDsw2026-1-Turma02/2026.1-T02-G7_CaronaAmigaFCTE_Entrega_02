@@ -46,49 +46,65 @@ Foram observados quatro aspectos principais:
 
 ## Tabela 1: Verificação da Estrutura Geral e Notação
 
+<font size="3"><p style="text-align: center">Tabela 1: Verificação do Diagrama de Pacotes</p></font>
+
 | ID  | Pergunta de Verificação                                                             | Verificado | Rastreabilidade                                                    |
 | --- | ----------------------------------------------------------------------------------- | :--------: | ------------------------------------------------------------------ |
-| 01  | O diagrama utiliza corretamente a notação de pacotes conforme definido pela UML?    |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)            |
-| 02  | Os pacotes Backend e Frontend estão claramente delimitados?                         |            | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
-| 03  | Os subpacotes estão corretamente contidos dentro de seus respectivos módulos?       |            | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
-| 04  | As dependências entre pacotes estão representadas por setas tracejadas apropriadas? |            | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
-| 05  | O diagrama evita poluição visual e mantém legibilidade estrutural?                  |            | Análise estrutural                                                 |
+| 01  | O diagrama utiliza corretamente a notação de pacotes conforme definido pela UML?    | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)            |
+| 02  | Os pacotes Backend e Frontend estão claramente delimitados?                         | Verificado | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
+| 03  | Os subpacotes estão corretamente contidos dentro de seus respectivos módulos?       | Verificado | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
+| 04  | As dependências entre pacotes estão representadas por setas tracejadas apropriadas? | Verificado | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
+| 05  | O diagrama evita poluição visual e mantém legibilidade estrutural?                  | Verificado | Análise estrutural                                                 |
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) 2026.</p></font>
 
 ---
 
 ## Tabela 2: Verificação do Backend
 
+<font size="3"><p style="text-align: center">Tabela 2: Verificação do Diagrama de Pacotes</p></font>
+
 | ID  | Pergunta de Verificação                                                                                   | Verificado | Rastreabilidade                                                    |
 | --- | --------------------------------------------------------------------------------------------------------- | :--------: | ------------------------------------------------------------------ |
-| 01  | O pacote `controllers` depende apenas de camadas de serviço e não acessa diretamente `domain` ou `model`? |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)            |
-| 02  | O pacote `services` centraliza regras de negócio e coordena acesso ao domínio?                            |            | Análise arquitetural                                               |
-| 03  | O pacote `domain` está desacoplado de camadas externas como `controllers`?                                |            | Princípios de Arquitetura Limpa                                    |
-| 04  | O pacote `ports` define contratos e evita dependência direta de infraestrutura?                           |            | Princípios de Arquitetura Hexagonal                                |
-| 05  | O pacote `adapters` implementa dependências externas respeitando as `ports`?                              |            | Princípios de Arquitetura Hexagonal                                |
-| 06  | Não existem dependências cíclicas entre pacotes do Backend?                                               |            | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
+| 01  | O pacote `controllers` depende apenas de camadas de serviço e não acessa diretamente `domain` ou `model`? | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)            |
+| 02  | O pacote `services` centraliza regras de negócio e coordena acesso ao domínio?                            | Verificado | Análise arquitetural                                               |
+| 03  | O pacote `domain` está desacoplado de camadas externas como `controllers`?                                | Verificado | Princípios de Arquitetura Limpa                                    |
+| 04  | O pacote `ports` define contratos e evita dependência direta de infraestrutura?                           | Verificado | Princípios de Arquitetura Hexagonal                                |
+| 05  | O pacote `adapters` implementa dependências externas respeitando as `ports`?                              | Verificado | Princípios de Arquitetura Hexagonal                                |
+| 06  | Não existem dependências cíclicas entre pacotes do Backend?                                               | Verificado | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) 2026.</p></font>
 
 ---
 
 ## Tabela 3: Verificação do Frontend
 
+<font size="3"><p style="text-align: center">Tabela 3: Verificação do Diagrama de Pacotes</p></font>
+
 | ID  | Pergunta de Verificação                                                                 | Verificado | Rastreabilidade                                         |
 | --- | --------------------------------------------------------------------------------------- | :--------: | ------------------------------------------------------- |
-| 01  | O pacote `components` é reutilizável e independente de `pages`?                         |            | Boas práticas de Frontend                               |
-| 02  | O pacote `pages` organiza as telas principais sem concentrar regras de negócio?         |            | Análise estrutural                                      |
-| 03  | O pacote `services` é responsável pela comunicação com o Backend?                       |            | Arquitetura em camadas                                  |
-| 04  | O pacote `context` centraliza gerenciamento de estado global?                           |            | Padrão Context API                                      |
-| 05  | O pacote `utils` contém funções auxiliares desacopladas da camada de interface?         |            | Boas práticas de modularização                          |
-| 06  | Não existem dependências cruzadas inadequadas entre `components`, `pages` e `services`? |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF) |
+| 01  | O pacote `components` é reutilizável e independente de `pages`?                         | Verificado | Boas práticas de Frontend                               |
+| 02  | O pacote `pages` organiza as telas principais sem concentrar regras de negócio?         | Verificado | Análise estrutural                                      |
+| 03  | O pacote `services` é responsável pela comunicação com o Backend?                       | Verificado | Arquitetura em camadas                                  |
+| 04  | O pacote `context` centraliza gerenciamento de estado global?                           | Verificado | Padrão Context API                                      |
+| 05  | O pacote `utils` contém funções auxiliares desacopladas da camada de interface?         | Verificado | Boas práticas de modularização                          |
+| 06  | Não existem dependências cruzadas inadequadas entre `components`, `pages` e `services`? | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF) |
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) 2026.</p></font>
 
 ---
 
 ## Tabela 4: Verificação da Integração Backend–Frontend
 
+<font size="3"><p style="text-align: center">Tabela 4: Verificação do Diagrama de Pacotes</p></font>
+
 | ID  | Pergunta de Verificação                                                                    | Verificado | Rastreabilidade                                                    |
 | --- | ------------------------------------------------------------------------------------------ | :--------: | ------------------------------------------------------------------ |
-| 01  | A comunicação entre Frontend e Backend ocorre exclusivamente por meio dos `services`?      |            | Arquitetura Cliente-Servidor                                       |
-| 02  | Não existem dependências diretas estruturais entre pacotes internos do Backend e Frontend? |            | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
-| 03  | O diagrama mantém clara separação de responsabilidades entre as camadas?                   |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)            |
+| 01  | A comunicação entre Frontend e Backend ocorre exclusivamente por meio dos `services`?      | Verificado | Arquitetura Cliente-Servidor                                       |
+| 02  | Não existem dependências diretas estruturais entre pacotes internos do Backend e Frontend? | Verificado | [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) |
+| 03  | O diagrama mantém clara separação de responsabilidades entre as camadas?                   | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)            |
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) 2026.</p></font>
 
 ---
 
@@ -102,18 +118,23 @@ Dessa forma, o documento atua como instrumento de apoio à validação técnica 
 
 ---
 
+## Vídeo de Verificação do Diagrama de Pacotes
+
+A gravação do vídeo de verificação serviu para validar o modelo desenvolvido, tomando como referência as questões de verificação para detectar falhas e inconsistências. Na sessão de gravação, foram abordados os aspectos positivos do diagrama, além das regiões que requeriam melhorias.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y0RPgiCZZsA?si=GGyptvlUrCeQjjJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://www.youtube.com/watch?v=y0RPgiCZZsA" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk), 2026.</p></font>
+
 ## Bibliografia
 
-> 1. OBJECT MANAGEMENT GROUP (OMG). **Unified Modeling Language (UML) Specification – Version 2.5.1**. 2017.  
->    Disponível em: https://www.omg.org/spec/UML/2.5.1/PDF  
->    Acesso em: 23 abr. 2026.
+> 1. OBJECT MANAGEMENT GROUP (OMG). **Unified Modeling Language (UML) Specification – Version 2.5.1**. 2017. Disponível em: https://www.omg.org/spec/UML/2.5.1/PDF. Acesso em: 23 abr. 2026.
 
-> 2. UML-DIAGRAMS. **Package Diagrams Overview**.  
->    Disponível em: [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html) Acesso em: 23 abr. 2026.
+> 2. UML-DIAGRAMS. **Package Diagrams Overview**. Disponível em: [UML-Diagrams](https://www.uml-diagrams.org/package-diagrams.html). Acesso em: 23 abr. 2026.
 
-> 3. UML-DIAGRAMS. **Package Diagram Reference**.  
->    Disponível em: https://www.uml-diagrams.org/package-diagrams-reference.html  
->    Acesso em: 23 abr. 2026.
+> 3. UML-DIAGRAMS. **Package Diagram Reference**. Disponível em: https://www.uml-diagrams.org/package-diagrams-reference.html. Acesso em: 23 abr. 2026.
 
 ---
 
@@ -121,4 +142,4 @@ Dessa forma, o documento atua como instrumento de apoio à validação técnica 
 
 | Versão |    Data    | Descrição                                                    | Autor(es)                                                              | Revisor(es) | Detalhes da revisão |
 | :----: | :--------: | ------------------------------------------------------------ | ---------------------------------------------------------------------- | ----------- | :-----------------: |
-|  1.0   | 23/04/2026 | Elaboração do artefato de verificação do Diagrama de Pacotes | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |             |                     |
+|  1.0   | 23/04/2026 | Elaboração do artefato de verificação do Diagrama de Pacotes | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) e [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharesss)| [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) |  Artefato Revisado  |

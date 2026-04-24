@@ -43,41 +43,65 @@ Foram observados quatro aspectos principais:
 
 ## Tabela 1: Verificação dos Estados e Estrutura Geral
 
+<font size="3"><p style="text-align: center">Tabela 1: Verificação do Diagrama de Estados</p></font>
+
 | ID  | Pergunta de Verificação                                                                                                   | Verificado | Rastreabilidade                                                                                                                                                   |
 | --- | ------------------------------------------------------------------------------------------------------------------------- | :--------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | O diagrama apresenta corretamente um estado inicial e pelo menos um estado final conforme a notação UML?                  |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF); [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml)             |
-| 02  | Os estados identificados (ATIVA, EM_ANDAMENTO, CONCLUIDA, CANCELADA) representam fases reais do ciclo de vida do sistema? |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 03  | Existe coerência entre os estados modelados e os possíveis valores de status dos usuários?                                |            | [Diagrama de Classes](../2.1.ModelagemEstatica/Diagrama_de_classes.md)                                                                                            |
-| 04  | Todos os estados possuem ao menos uma transição de entrada ou saída válida?                                               |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
-| 05  | Não existem estados inalcançáveis ou isolados no fluxo modelado?                                                          |            | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml)                                                                      |
-| 06  | O diagrama evita redundância de estados que poderiam ser representados como simples atributo booleano ou condição?        |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
+| 01  | O diagrama apresenta corretamente um estado inicial e pelo menos um estado final conforme a notação UML?                  | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF); [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml)             |
+| 02  | Os estados identificados (ATIVA, EM_ANDAMENTO, CONCLUIDA, CANCELADA) representam fases reais do ciclo de vida do sistema? | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 03  | Existe coerência entre os estados modelados e os possíveis valores de status dos usuários?                                | Verificado | [Diagrama de Classes](../2.1.ModelagemEstatica/Diagrama_de_classes.md)                                                                                            |
+| 04  | Todos os estados possuem ao menos uma transição de entrada ou saída válida?                                               | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
+| 05  | Não existem estados inalcançáveis ou isolados no fluxo modelado?                                                          | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml)                                                                      |
+| 06  | O diagrama evita redundância de estados que poderiam ser representados como simples atributo booleano ou condição?        | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026.</p></font>
 
 ---
 
 ## Tabela 2: Verificação das Transições, Eventos e Guardas
 
+<font size="3"><p style="text-align: center">Tabela 2: Verificação do Diagrama de Estados</p></font>
+
 | ID  | Pergunta de Verificação                                                                            | Verificado | Rastreabilidade                                                                                                                                                   |
 | --- | -------------------------------------------------------------------------------------------------- | :--------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | Todas as transições possuem evento explicitamente identificado?                                    |            | [UML Diagrams](https://www.uml-diagrams.org/state-machine-diagrams.html)                                                                                          |
-| 02  | As condições de guarda estão corretamente representadas entre colchetes (`[ ]`)?                   |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
-| 03  | As ações associadas às transições estão descritas após a barra (`/`) conforme padrão UML?          |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
-| 04  | A transição `confirmarEmbarque()` depende corretamente da condição `[passageiroValidado == true]`? |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 05  | O cancelamento durante EM_ANDAMENTO representa corretamente um incidente ou interrupção crítica?   |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 06  | A chegada ao destino gera corretamente as ações de registrar histórico e liberar avaliação?        |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 07  | As transições evitam ambiguidades ou múltiplos caminhos conflitantes para o mesmo evento?          |            | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
-| 08  | O fluxo impede que uma carona concluída retorne para estados anteriores?                           |            | Consistência comportamental                                                                                                                                       |
+| 01  | Todas as transições possuem evento explicitamente identificado?                                    | Verificado | [UML Diagrams](https://www.uml-diagrams.org/state-machine-diagrams.html)                                                                                          |
+| 02  | As condições de guarda estão corretamente representadas entre colchetes (`[ ]`)?                   | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
+| 03  | As ações associadas às transições estão descritas após a barra (`/`) conforme padrão UML?          | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
+| 04  | A transição `confirmarEmbarque()` depende corretamente da condição `[passageiroValidado == true]`? | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 05  | O cancelamento durante EM_ANDAMENTO representa corretamente um incidente ou interrupção crítica?   | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 06  | A chegada ao destino gera corretamente as ações de registrar histórico e liberar avaliação?        | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 07  | As transições evitam ambiguidades ou múltiplos caminhos conflitantes para o mesmo evento?          | Verificado | [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/PDF)                                                                                                           |
+| 08  | O fluxo impede que uma carona concluída retorne para estados anteriores?                           | Verificado | Consistência comportamental                                                                                                                                       |
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026.</p></font>
 
 ---
 
 ## Tabela 3: Verificação da Consistência do Fluxo Comportamental
 
+<font size="3"><p style="text-align: center">Tabela 3: Verificação do Diagrama de Estados</p></font>
+
 | ID  | Pergunta de Verificação                                                                | Verificado | Rastreabilidade                                                                                                                                                   |
 | --- | -------------------------------------------------------------------------------------- | :--------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | O fluxo principal (ATIVA → EM_ANDAMENTO → CONCLUIDA) está claramente representado?     |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 02  | A modelagem diferencia corretamente cancelamento antes e durante a execução da carona? |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 03  | O estado CONCLUIDA representa corretamente o encerramento normal do ciclo da carona?   |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 04  | O estado CANCELADA representa corretamente um encerramento excepcional?                |            | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
-| 05  | O diagrama cobre todos os cenários principais previstos no domínio da aplicação?       |            | Análise geral                                                                                                                                                     |
+| 01  | O fluxo principal (ATIVA → EM_ANDAMENTO → CONCLUIDA) está claramente representado?     | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 02  | A modelagem diferencia corretamente cancelamento antes e durante a execução da carona? | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 03  | O estado CONCLUIDA representa corretamente o encerramento normal do ciclo da carona?   | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 04  | O estado CANCELADA representa corretamente um encerramento excepcional?                | Verificado | [Requisitos do sistema](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/blob/main/docs/Base/2-Artefato-Generalista/MoSCoW.md) |
+| 05  | O diagrama cobre todos os cenários principais previstos no domínio da aplicação?       | Verificado | Análise geral                                                                                                                                                     |
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026.</p></font>
+
+---
+
+## Vídeo de Verificação do Diagrama de Estado
+
+A gravação do vídeo de verificação serviu para validar o modelo desenvolvido, tomando como referência as questões de verificação para detectar falhas e inconsistências. Na sessão de gravação, foram abordados os aspectos positivos do diagrama, além das regiões que requeriam melhorias.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqDH-_8_IOg?si=qHtOYPlwjKja6Fmt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://www.youtube.com/watch?v=XqDH-_8_IOg" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026.</p></font>
 
 ---
 
