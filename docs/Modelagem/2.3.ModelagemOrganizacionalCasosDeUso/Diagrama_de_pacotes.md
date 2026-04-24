@@ -51,21 +51,12 @@ A representação segue a notação UML, na qual cada pacote é identificado por
 
 ---
 
-## Tabela de Análise
-
-<font size="3"><p style="text-align: center">Tabela 1: Notações UML do Diagrama de Pacotes</p></font>
+## Legenda do Diagrama
 
 <div style="text-align: center;">
+<font size="2"><p style="text-align: center">Figura 01 - Legenda do Diagrama de Pacotes.</p></font>
 
-| Componente / Notação               | Representação                  | Descrição                                                                                                                   |
-| ---------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| **Pacote**                         | Retângulo com aba superior     | Representa um agrupador lógico utilizado para organizar elementos do sistema, como classes, casos de uso ou outros pacotes. |
-| **Elemento Contido**               | Elementos internos ao pacote   | Indica componentes pertencentes ao pacote, podendo possuir níveis de visibilidade definidos.                                |
-| **Dependência** (`<<dependency>>`) | Seta tracejada                 | Demonstra que um pacote depende de outro, podendo sofrer impacto em caso de modificações no fornecedor.                     |
-| **Importação** (`<<import>>`)      | Seta tracejada com estereótipo | Permite que elementos públicos de um pacote sejam utilizados diretamente por outro.                                         |
-| **Acesso** (`<<access>>`)          | Seta tracejada com estereótipo | Concede acesso controlado aos elementos de outro pacote.                                                                    |
-| **Mesclagem** (`<<merge>>`)        | Seta tracejada com estereótipo | Indica combinação de conteúdos entre pacotes.                                                                               |
-| **Generalização**                  | Seta com triângulo vazio       | Representa herança entre pacotes, indicando especialização.                                                                 |
+<img src="https://i.postimg.cc/MKqQ686k/Captura-de-tela-2026-04-23-101821.png" alt="Figura 01">
 
 </div>
 
@@ -73,26 +64,13 @@ A representação segue a notação UML, na qual cada pacote é identificado por
 
 ---
 
-## Legenda do Diagrama
-
-<div style="text-align: center;">
-Legenda do Diagrama de Pacotes  
-<br>
-<img src="https://i.postimg.cc/MKqQ686k/Captura-de-tela-2026-04-23-101821.png" alt="Figura 01">
-<font size="2"><p style="text-align: center">Figura 01.</p></font>
-</div>
-
-<font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
-
----
-
 ## Diagrama de Pacotes
 
 <div style="text-align: center;">
-Diagrama de Pacotes  
-<br>
-<img src="../../assets/diagrama_pacotes/diagramadepacotes.jpg" alt="Figura 02">
-<font size="2"><p style="text-align: center">Figura 02.</p></font>
+<font size="2"><p style="text-align: center">Figura 02 - Diagrama de Pacotes.</p></font>
+
+<img src="../../assets/diagrama_pacotes/diagramadepacotes.jpg" alt="Figura 01">
+
 </div>
 
 <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess), [João Vitor Santos de Oliveira](https://github.com/Jauzimm), [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) e [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), 2026.</p></font>
@@ -132,3 +110,5 @@ Além disso, o artefato fortalece a coerência entre os modelos produzidos, espe
 |  2.0   | 23/04/2026 | Integração ao padrão estrutural do projeto                  | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)  | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado   |
 |  2.1   | 23/04/2026 | Ajustes e consolidação das referências                      | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)                                                        | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado   |
 |  2.1   | 23/04/2026 | Ajustes dos links nas fontes                                | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado   |
+|  2.2   | 23/04/2026 | Ajustes dos links nas fontes                                | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato revisado   |
+
