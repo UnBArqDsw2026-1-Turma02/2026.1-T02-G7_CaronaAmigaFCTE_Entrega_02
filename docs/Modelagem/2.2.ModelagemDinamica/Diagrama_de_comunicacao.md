@@ -73,15 +73,15 @@ Em linhas gerais, o processo adotado foi:
 
 ---
 
-## Diagrama de Comunicação
+## Diagrama de Comunicação Geral
 
 <details>
     <summary size="20"><b>Versão 1.0</b></summary>
 
 <div align="center">
-              Figura 1: Diagrama de Comunicação.
+              Figura 1: Diagrama de Comunicação Geral - Versão 1.0.
 
-![Diagrama de Comunicação](../assets/diagrama_de_comunicacao.png)
+![Diagrama de Comunicação](../assets/diagrama_de_comunicacao_v1.png)
 
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
@@ -91,14 +91,35 @@ Em linhas gerais, o processo adotado foi:
 
 
 <div align="center">
-              Figura 1: Diagrama de Comunicação.
+              Figura 2: Diagrama de Comunicação Geral - Versão 2.0.
 
-![Diagrama de Comunicação](../assets/diagrama_de_comunicacao.png)
+![Diagrama de Comunicação](../assets/diagrama_de_comunicacao_v2.png)
 
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 </div>
 
+?> Nota: Foram identificados pontos de melhoria a partir do feedback da Profa. Milene. A seção abaixo registra os ajustes sugeridos para refino do modelo.
+
+<details>
+    <summary><strong>Melhorias sugeridas pela professora (checklist)</strong></summary>
+
+- **Fluxo inicial e paralelismo após `publicar_carona()`:** reavaliar se `aplicar_filtro()` e `favoritar_motorista()` realmente devem ocorrer em paralelo no fluxo iniciado em `2`. Verificar especialmente se o ato de favoritar é adequado nesse momento da interação.
+- **Transição após `calcularTempoEstimadoMin()`:** incluir uma etapa intermediária antes de `aceita_passageiro()`, por exemplo:
+    - `:Rota` → `:Notificação`: `notificarMotoristaRotaCalculada()`
+    - `:Notificação` → `:Motorista`: `liberarAceiteRotaCalculada()`
+  e só então `aceita_passageiro()`. Também padronizar nomenclatura dos métodos (sem misturar estilos).
+- **Fluxo de aceite e código de embarque (`[Carona_Aceita]`):** detalhar como o `:Passageiro` recebe o código e ajustar sentidos de setas quando necessário:
+    - em paralelo ao `disparar()[Carona_Aceita]`, solicitar `gerarCódigo()` entre `:Carona` e `:ValidaçãoEmbarque`;
+    - registrar `setCodigo(codigo)` como auto-relacionamento em `:Carona`;
+    - modelar `getCodigo()` de `:Passageiro` para `:Carona`, mantendo coerência de onde o código fica armazenado.
+- **Fluxo `4` (desvio de rota):** explicitar como `:Motorista` é informado sobre o desvio, adicionando notificação adequada no fluxo.
+- **Padronização de assinatura e nomenclatura de mensagens:** escolher um único padrão de nomes de método (ex.: `snake_case` ou `camelCase`) e aplicá-lo em todo o diagrama para evitar ambiguidade.
+- **Clareza sobre `get`/`set` e simplificações:** registrar no documento que retornos (`get`) e parâmetros (`set`) foram omitidos propositalmente em alguns pontos para manter legibilidade do diagrama.
+- **Nível de instância dos participantes:** considerar (como melhoria futura) diferenciar momentos genéricos de `:Carona` e momentos de uma instância específica (ex.: `carona:Carona`), sem aprofundar agora para não aumentar a complexidade.
+- **Estratégia de simplificação por ator/caso de uso:** avaliar divisão do fluxo em dois Diagramas de Comunicação (perspectiva de `:Motorista` e de `:Passageiro`), com apoio prévio no Diagrama de Casos de Uso (`<<include>>` para subfluxos obrigatórios e `<<extend>>` para opcionais), reduzindo a sobrecarga de um diagrama único. [[1]](#ref1)
+
+</details>
 
 ---
 
