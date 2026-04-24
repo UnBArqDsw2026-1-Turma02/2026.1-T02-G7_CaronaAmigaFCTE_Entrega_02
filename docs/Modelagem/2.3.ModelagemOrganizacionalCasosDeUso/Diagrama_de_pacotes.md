@@ -91,7 +91,7 @@ Legenda do Diagrama de Pacotes
 <div style="text-align: center;">
 Diagrama de Pacotes  
 <br>
-<img src="https://i.postimg.cc/BLQ1hxY6/diagramaPacotes.png" alt="Figura 02">
+<img src="../../assets/diagrama_pacotes/diagramadepacotes.jpg" alt="Figura 02">
 <font size="2"><p style="text-align: center">Figura 02.</p></font>
 </div>
 
