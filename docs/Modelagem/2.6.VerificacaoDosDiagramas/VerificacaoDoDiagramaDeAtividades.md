@@ -97,7 +97,7 @@ Foram observados quatro aspectos principais:
 
 ---
 
-## Vídeo de Verificação do Diagrama de Atividades
+## Verificação do Diagrama de Atividades
 
 A verificação do Diagrama de Atividades foi realizada de forma assíncrona, com cada membro da equipe analisando individualmente o diagrama com base nas perguntas de verificação elaboradas. Cada integrante revisou os componentes, subsistemas, interfaces e dependências de forma independente, registrando suas observações e identificando possíveis inconsistências. As conclusões foram posteriormente consolidadas pela equipe, garantindo que todos os critérios de verificação fossem devidamente avaliados antes da entrega final do artefato.
 
