@@ -71,8 +71,6 @@ A representação segue a notação UML, na qual cada pacote é identificado por
 
 ![Diagrama de Pacotes](../../assets/diagrama_pacotes/diagramadepacotes.jpg)
 
-![Diagrama de Comunicação](../assets/diagrama_de_comunicacao_v1.png)
-
 </div>
 
 <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess), [João Vitor Santos de Oliveira](https://github.com/Jauzimm), [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) e [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), 2026.</p></font>
