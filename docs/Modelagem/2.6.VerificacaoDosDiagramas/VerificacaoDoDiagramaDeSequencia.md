@@ -40,11 +40,11 @@ As tabelas abaixo funcionam como instrumento de conferência e não indicam, nes
 
 | ID  | Pergunta de Verificação | Verificado | Rastreabilidade |
 | --- | :---------------------- | :--------: | :-------------- |
-| 01 | As lifelines estão representadas de forma clara, identificando corretamente atores, interfaces, serviços e banco de dados nos fluxos modelados? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html) |
-| 02 | Os participantes possuem nomes coerentes com seus papéis no sistema, como `Usuário`, `Passageiro`, `Motorista`, `:App Passageiro`, `:Ride API` e `:Banco de Dados`? |  | [IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-sequence), [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml) |
-| 03 | A disposição dos participantes favorece a leitura da interação, mantendo atores e componentes organizados de forma lógica ao longo do fluxo? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [Creately](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/) |
-| 04 | As barras de ativação e demais elementos visuais de processamento estão sendo usadas de forma coerente quando necessárias? |  | [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-sequence-diagram-tutorial/) |
-| 05 | Os participantes representados nos diagramas estão consistentes com os elementos descritos nas tabelas de análise de cada fluxo? |  | Apostila UML, [Protótipo de Alta Fidelidade](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo) |
+| 01 | As lifelines estão representadas de forma clara, identificando corretamente atores, interfaces, serviços e banco de dados nos fluxos modelados? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html) |
+| 02 | Os participantes possuem nomes coerentes com seus papéis no sistema, como `Usuário`, `Passageiro`, `Motorista`, `:App Passageiro`, `:Ride API` e `:Banco de Dados`? | Verificado | [IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-sequence), [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml) |
+| 03 | A disposição dos participantes favorece a leitura da interação, mantendo atores e componentes organizados de forma lógica ao longo do fluxo? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [Creately](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/) |
+| 04 | As barras de ativação e demais elementos visuais de processamento estão sendo usadas de forma coerente quando necessárias? | Verificado | [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-sequence-diagram-tutorial/) |
+| 05 | Os participantes representados nos diagramas estão consistentes com os elementos descritos nas tabelas de análise de cada fluxo? |  Verificado | Apostila UML, [Protótipo de Alta Fidelidade](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo) |
 
 </details>
 
@@ -53,20 +53,20 @@ As tabelas abaixo funcionam como instrumento de conferência e não indicam, nes
 
 | ID  | Pergunta de Verificação | Verificado | Rastreabilidade |
 | --- | :---------------------- | :--------: | :-------------- |
-| 01 | As mensagens estão nomeadas de forma clara e compatível com as operações esperadas em cada fluxo, como `enviarCredenciais()`, `buscarCaronas()` e `confirmarEmbarque()`? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-sequence) |
-| 02 | A ordem das mensagens, de cima para baixo, representa corretamente a sequência temporal das interações modeladas? |  | [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-sequence-diagram-tutorial/) |
-| 03 | Os retornos e respostas estão representados de forma coerente com o comportamento esperado dos cenários de cadastro, login, busca e confirmação? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html) |
-| 04 | Os fluxos alternativos ou condicionais, quando necessários, estão indicados de maneira adequada para representar erro, sucesso ou ausência de resultados? |  | [IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-sequence), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-sequence-diagram-tutorial/) |
-| 05 | As mensagens apresentadas nos diagramas estão coerentes com os requisitos e com os fluxos descritos no artefato principal de sequência? |  | Apostila UML, [Protótipo de Alta Fidelidade](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo), [Creately](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/) |
+| 01 | As mensagens estão nomeadas de forma clara e compatível com as operações esperadas em cada fluxo, como `enviarCredenciais()`, `buscarCaronas()` e `confirmarEmbarque()`? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-sequence) |
+| 02 | A ordem das mensagens, de cima para baixo, representa corretamente a sequência temporal das interações modeladas? | Verificado  | [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-sequence-diagram-tutorial/) |
+| 03 | Os retornos e respostas estão representados de forma coerente com o comportamento esperado dos cenários de cadastro, login, busca e confirmação? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml), [UML Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html) |
+| 04 | Os fluxos alternativos ou condicionais, quando necessários, estão indicados de maneira adequada para representar erro, sucesso ou ausência de resultados? | Verificado | [IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-sequence), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-sequence-diagram-tutorial/) |
+| 05 | As mensagens apresentadas nos diagramas estão coerentes com os requisitos e com os fluxos descritos no artefato principal de sequência? | Verificado | Apostila UML, [Protótipo de Alta Fidelidade](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo), [Creately](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/) |
 
 </details>
 
 ---
 ## Vídeo de Verificação do Diagrama
 
-<iframe width="1321" height="743" src="https://www.youtube.com/embed/lEFFf72zMhw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/uXBxJdbYPbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p style="text-align: center"><a href="https://youtu.be/lEFFf72zMhw" target="_blank">Clique aqui para assistir no YouTube</a></p>
+<p style="text-align: center"><a href="https://youtu.be/uXBxJdbYPbY" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
@@ -103,4 +103,5 @@ Desse modo, o documento contribui para orientar a revisão dos diagramas e para 
 | Versão | Data       | Descrição | Autor(es) | Revisor(es) | Detalhes da Revisão |
 | ------ | ---------- | --------- | --------- | ----------- | ------------------- |
 | 1.0    | 23/04/2026 | Elaboração do artefato de verificação alinhado ao Diagrama de Sequência | [Ana Victória Guedes da Costa](https://github.com/navicg) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado |
-|  1.1   | 23/04/2026 | Elaboração das perguntas | [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Luiza da Silva Pugas](https://github.com/Luizaxx) | Artefato revisado |
+|  1.1   | 23/04/2026 | Elaboração das perguntas | [Ana Victória Guedes da Costa](https://github.com/navicg), e [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [Luiza da Silva Pugas](https://github.com/Luizaxx) | Artefato revisado |
+|  1.2   | 23/04/2026 | Adição do vídeo de verificação, e status da verificação                                                             | [Ana Victória Guedes da Costa](https://github.com/navicg), e [Karoline Luz da Conceição](https://github.com/KarolineLuz)       | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado  |

@@ -25,36 +25,35 @@ Dessa forma, elaboramos uma série de perguntas que buscam avaliar a qualidade d
 
 
 ## Tabela de Verificação do Diagrama de Casos de Uso
-## Tabela de Verificação do Diagrama de Casos de Uso
 
 | ID   | Pergunta de Verificação                                                                 | Verificado | Rastreabilidade |
 |------|------------------------------------------------------------------------------------------|------------|-----------------|
-| 01 | O sistema está delimitado por um retângulo que representa claramente seu escopo?       |  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 02 | Todos os casos de uso estão posicionados dentro do limite do sistema?                  | | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 03 | Os atores são representados por ícones de boneco (stick figure)?                       |  | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
-| 04 | Cada ator representa um papel (humano ou sistema externo) que interage com o sistema?  |  | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
-| 05 | Os atores estão posicionados fora do limite do sistema?                                |  | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
-| 06 | Os atores foram nomeados de forma genérica (ex: “Usuário”, “Administrador”)?           | | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
-| 07 | O ator primário está posicionado preferencialmente à esquerda do sistema?              |  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 08 | O ator primário inicia interações com os casos de uso?                                 |  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 09 | Os atores secundários respondem ou dão suporte às interações do sistema?               | | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
-| 10 | Os casos de uso estão nomeados com verbos no infinitivo (ex: “Realizar Login”)?        | | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 11 | Cada caso de uso representa uma funcionalidade clara e independente do sistema?        | | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
-| 12 | As associações entre atores e casos de uso estão representadas por linhas simples?     |  | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
-| 13 | Os relacionamentos <<include>> estão corretamente utilizados para reutilização?        |  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 14 | Os relacionamentos <<extend>> representam comportamentos opcionais ou condicionais?    |  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 15 | As generalizações entre atores ou casos de uso estão corretamente indicadas?           |  | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
-| 16 | O diagrama mantém clareza e legibilidade, evitando excesso de elementos?               |  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
-| 17 | Todos os casos de uso possuem pelo menos um ator associado?                            | | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
-| 18 | O diagrama cobre todas as funcionalidades principais dos requisitos do sistema?        | | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
-| 19 | As interações entre atores e sistema estão consistentes com o comportamento esperado?  |  | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
-| 20 | O diagrama está coerente com outros artefatos (ex: classes, comunicação)?                |  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 01 | O sistema está delimitado por um retângulo que representa claramente seu escopo?       | Verificado | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 02 | Todos os casos de uso estão posicionados dentro do limite do sistema?                  | Verificado | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 03 | Os atores são representados por ícones de boneco (stick figure)?                       | Verificado  | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
+| 04 | Cada ator representa um papel (humano ou sistema externo) que interage com o sistema?  |  Verificado | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
+| 05 | Os atores estão posicionados fora do limite do sistema?                                | Verificado  | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
+| 06 | Os atores foram nomeados de forma genérica (ex: “Usuário”, “Administrador”)?           | Verificado | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
+| 07 | O ator primário está posicionado preferencialmente à esquerda do sistema?              | Verificado  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 08 | O ator primário inicia interações com os casos de uso?                                 | Verificado  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 09 | Os atores secundários respondem ou dão suporte às interações do sistema?               |Verificado  | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
+| 10 | Os casos de uso estão nomeados com verbos no infinitivo (ex: “Realizar Login”)?        |Verificado | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 11 | Cada caso de uso representa uma funcionalidade clara e independente do sistema?        | Verificado| https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
+| 12 | As associações entre atores e casos de uso estão representadas por linhas simples?     | Verificado | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
+| 13 | Os relacionamentos <<include>> estão corretamente utilizados para reutilização?        | Verificado | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 14 | Os relacionamentos <<extend>> representam comportamentos opcionais ou condicionais?    | Verificado | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 15 | As generalizações entre atores ou casos de uso estão corretamente indicadas?           |Verificado | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
+| 16 | O diagrama mantém clareza e legibilidade, evitando excesso de elementos?               |Verificado  | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
+| 17 | Todos os casos de uso possuem pelo menos um ator associado?                            |Verificado  | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
+| 18 | O diagrama cobre todas as funcionalidades principais dos requisitos do sistema?        | Verificado | https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 |
+| 19 | As interações entre atores e sistema estão consistentes com o comportamento esperado?  | Verificado  | https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298 |
+| 20 | O diagrama está coerente com outros artefatos (ex: classes, comunicação)?                | Verificado   | https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml |
 
 ## Vídeo de Verificação do Diagrama de Casos de Uso
 
-<iframe width="1321" height="743" src="https://www.youtube.com/embed/lEFFf72zMhw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/7jPwppomrm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p style="text-align: center"><a href="https://youtu.be/lEFFf72zMhw" target="_blank">Clique aqui para assistir no YouTube</a></p>
+<p style="text-align: center"><a href="https://youtu.be/7jPwppomrm0" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
 <font size="2"><p style="text-align: center">Fonte: [Luiza da Silva Pugas](https://github.com/Luizaxx), 2026.</p></font>
 
@@ -71,5 +70,7 @@ A verificação do diagrama de casos de uso é um processo essencial para garant
 
 | Versão |    Data    | Descrição                                                                                                                                                                                                    | Autor(es)                                                              | Revisor(es)                                                       | Detalhes da revisão |
 | :----: | :--------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------------------------------- | :-----------------: |
-|  1.0   | 23/04/2026 | Criação do Artefato                                             | [Luiza da Silva Pugas](https://github.com/Luizaxx)              | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS)   | -  |
-|  1.1   | 23/04/2026 | Elaboração das Perguntas                                                                       | [Luiza da Silva Pugas](https://github.com/Luizaxx)   [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr)           | [Karoline Luz da Conceição](https://github.com/KarolineLuz)  | -  |
+|  1.0   | 23/04/2026 | Criação do Artefato                                             | [Luiza da Silva Pugas](https://github.com/Luizaxx)              | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS)   | Artefato revisado |
+|  1.1   | 23/04/2026 | Elaboração das Perguntas                                                                       | [Ana Victória Guedes da Costa](https://github.com/navicg),[Karoline Luz da Conceição](https://github.com/KarolineLuz),[Luiza da Silva Pugas](https://github.com/Luizaxx)   [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr)           | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado  |
+|  1.2   | 23/04/2026 | Adição do vídeo de verificação, e status da verificação                                                             | [Ana Victória Guedes da Costa](https://github.com/navicg),[Karoline Luz da Conceição](https://github.com/KarolineLuz),[Luiza da Silva Pugas](https://github.com/Luizaxx)   [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr)           | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado  |
+

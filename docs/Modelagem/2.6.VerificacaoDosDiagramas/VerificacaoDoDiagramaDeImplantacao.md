@@ -40,11 +40,11 @@ A partir desses critérios, foi elaborada a checklist a seguir para apoiar a rev
 
 | ID  | Pergunta de Verificação | Verificado | Rastreabilidade |
 | --- | :---------------------- | :--------: | :-------------- |
-| 01 | Os nós do diagrama correspondem aos elementos definidos na tabela de análise (`dispositivo-estudante`, `Firewall`, `backend: Servidor` e `banco: Servidor`)? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
-| 02 | Os nomes e estereótipos dos nós estão coerentes com seus papéis na infraestrutura do sistema? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [IBM](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams), [UML Diagrams](https://www.uml-diagrams.org/deployment-diagrams-overview.html) |
-| 03 | As responsabilidades atribuídas a cada nó estão alinhadas às funcionalidades e aos requisitos considerados no projeto? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
-| 04 | Os ambientes de execução principais foram identificados de forma consistente (`Navegador Web`, serviço de firewall, `Node.js Runtime` e `PostgreSQL`)? |  | [OMG](https://www.omg.org/spec/UML/), [IBM](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams) |
-| 05 | A arquitetura representada separa de forma clara as camadas de cliente, segurança, aplicação e persistência? |  | [OMG](https://www.omg.org/spec/UML/), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-deployment-diagram/) |
+| 01 | Os nós do diagrama correspondem aos elementos definidos na tabela de análise (`dispositivo-estudante`, `Firewall`, `backend: Servidor` e `banco: Servidor`)? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
+| 02 | Os nomes e estereótipos dos nós estão coerentes com seus papéis na infraestrutura do sistema? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [IBM](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams), [UML Diagrams](https://www.uml-diagrams.org/deployment-diagrams-overview.html) |
+| 03 | As responsabilidades atribuídas a cada nó estão alinhadas às funcionalidades e aos requisitos considerados no projeto? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
+| 04 | Os ambientes de execução principais foram identificados de forma consistente (`Navegador Web`, serviço de firewall, `Node.js Runtime` e `PostgreSQL`)? | Verificado | [OMG](https://www.omg.org/spec/UML/), [IBM](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams) |
+| 05 | A arquitetura representada separa de forma clara as camadas de cliente, segurança, aplicação e persistência? | Verificado | [OMG](https://www.omg.org/spec/UML/), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-deployment-diagram/) |
 
 </details>
 
@@ -53,11 +53,11 @@ A partir desses critérios, foi elaborada a checklist a seguir para apoiar a rev
 
 | ID  | Pergunta de Verificação | Verificado | Rastreabilidade |
 | --- | :---------------------- | :--------: | :-------------- |
-| 01 | Os artefatos e componentes associados a cada nó estão coerentes com a tabela de análise do diagrama? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-deployment-diagram/) |
-| 02 | A distribuição entre front-end no dispositivo do usuário, lógica de negócio no backend e persistência no banco está representada de forma clara? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
-| 03 | Os caminhos de comunicação representam corretamente o fluxo entre dispositivo do estudante, firewall, backend e banco de dados? |  | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
-| 04 | Os protocolos indicados nos canais de comunicação, como HTTPS e TCP/IP, estão compatíveis com a arquitetura proposta? |  | [OMG](https://www.omg.org/spec/UML/), [IBM](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams) |
-| 05 | O diagrama está consistente com os diagramas de classes e componentes utilizados como base para sua elaboração? |  | [UML Diagrams](https://www.uml-diagrams.org/deployment-diagrams-overview.html), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-deployment-diagram/) |
+| 01 | Os artefatos e componentes associados a cada nó estão coerentes com a tabela de análise do diagrama? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-deployment-diagram/) |
+| 02 | A distribuição entre front-end no dispositivo do usuário, lógica de negócio no backend e persistência no banco está representada de forma clara? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
+| 03 | Os caminhos de comunicação representam corretamente o fluxo entre dispositivo do estudante, firewall, backend e banco de dados? | Verificado | [Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml), [Edraw](https://www.edrawsoft.com/pt/deployment-chart-example.html) |
+| 04 | Os protocolos indicados nos canais de comunicação, como HTTPS e TCP/IP, estão compatíveis com a arquitetura proposta? | Verificado | [OMG](https://www.omg.org/spec/UML/), [IBM](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams) |
+| 05 | O diagrama está consistente com os diagramas de classes e componentes utilizados como base para sua elaboração? | Verificado | [UML Diagrams](https://www.uml-diagrams.org/deployment-diagrams-overview.html), [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-deployment-diagram/) |
 
 </details>
 
@@ -65,9 +65,9 @@ A partir desses critérios, foi elaborada a checklist a seguir para apoiar a rev
 
 ## Vídeo de Verificação do Diagrama
 
-<iframe width="1321" height="743" src="https://www.youtube.com/embed/lEFFf72zMhw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/YPZcmYfgGVE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p style="text-align: center"><a href="https://youtu.be/lEFFf72zMhw" target="_blank">Clique aqui para assistir no YouTube</a></p>
+<p style="text-align: center"><a href="https://youtu.be/YPZcmYfgGVE" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
@@ -103,3 +103,4 @@ Desse modo, o documento contribui para orientar a revisão do artefato e para re
 | :----: | :--------: | --------- | --------- | ----------- | :-----------------: |
 |  1.0   | 23/04/2026 | Elaboração do artefato de verificação alinhado ao Diagrama de Implantação | [Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Artefato revisado |
 |  1.1   | 23/04/2026 | Elaboração das perguntas | [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
+|  1.2   | 23/04/2026 | Adição do vídeo de verificação, e status da verificação           | [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
