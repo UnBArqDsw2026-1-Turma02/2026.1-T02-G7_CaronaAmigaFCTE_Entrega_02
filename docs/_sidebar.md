@@ -33,8 +33,8 @@
       - [2.6.3 Verificação Diagrama de Casos de Uso](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeCasoDeUso.md)
       - [2.6.4 Verificação Diagrama de Implantação](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeImplantacao.md)
       - [2.6.5 Verificação Diagrama de Sequência](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeSequencia.md)
-      - [2.6.5 Verificação Diagrama de Estado](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeEstados.md)
-      - [2.6.5 Verificação Diagrama de Pacotes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDePacotes.md)
+      - [2.6.6 Verificação Diagrama de Estado](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramaDeEstados.md)
+      - [2.6.7 Verificação Diagrama de Pacotes](Modelagem/2.6.VerificacaoDosDiagramas/VerificacaoDoDiagramDePacotes.md)
 
 - **Atas**
   - [1. Ata de Reunião](atas/ata01.md)
