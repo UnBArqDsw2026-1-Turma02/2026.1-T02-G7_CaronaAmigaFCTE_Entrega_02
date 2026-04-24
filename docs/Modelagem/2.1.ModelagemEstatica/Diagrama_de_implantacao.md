@@ -75,12 +75,9 @@ A Tabela 1 tem como finalidade apoiar a análise e a identificação dos nós re
 
 A fim de proporcionar uma melhor compreensão do diagrama, a Figura 1 apresenta a legenda dos elementos que o compõem.
 
-<div style="text-align: center;">
-Legenda do Diagrama de Implantação
-<br>
-<img src="../../assets/diagrama_implantacao/diagrama_implantacao.png" alt="Legenda do Diagrama de Implantação">
-<font size="2"><p style="text-align: center;">Figura 1.</p></font>
-</div>
+<font size="3"><p style="text-align: center">Figura 1: Legenda do Diagrama de Implantação</p></font>
+
+![Diagrama de Implantação](../assets/diagrama_implantacao.png)
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
@@ -88,25 +85,19 @@ Legenda do Diagrama de Implantação
 
 ### Apresentação do Diagrama de Implantação
 
-<div style="text-align: center;">
-Diagrama de Implantação, Versão 2
+<font size="3"><p style="text-align: center">Figura 2: Diagrama de Implantação, Versão 1.0</p></font>
 
-<br>
-<img src="../../assets/diagrama_implantacao/diagrama_de_implantacao.png" alt="Diagrama de Implantação">
-<font size="2"><p style="text-align: center">Figura 2.</p></font>
-</div>
+![Diagrama de Implantação](../assets/diagrama_de_implantacao.png)
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
-<div style="text-align: center;">
-Diagrama de Implantação, Versão 2.
-<br>
-<img src="../../assets/diagrama_implantacao/diagrama_de_implantacao_v2.png" alt="Diagrama de Implantação">
-<font size="2"><p style="text-align: center">Figura 3.</p></font>
+---
 
-Nota:  Com base no feedback da professora, foi realizado uma segunda versão do diagrama de implantação.
+<font size="3"><p style="text-align: center">Figura 3: Diagrama de Implantação, Versão 2.0</p></font>
 
-</div>
+![Diagrama de Implantação](../assets/diagrama_de_implantacao_v2.png)
+
+?> *Nota:* Com base no feedback da professora, foi realizado uma segunda versão do diagrama de implantação.
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
@@ -144,16 +135,16 @@ Sob essa perspectiva, o diagrama produzido contribui de maneira significativa pa
 
 ---
 
-## Bibliografia
+## Referências Bibliográficas
 
 > <a id="referencias-bibliograficas-1">1.</a> LUCID SOFTWARE INC. **O que é diagrama de implementação UML**. Lucidchart, 2024. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml. Acesso em: 19 abr. 2026.
-
+>
 > <a id="referencias-bibliograficas-2">2.</a> CREATELY. **O Guia Fácil de Diagramas de Implantação UML**. Creately Blog, 2024. Disponível em: https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-implantacao/. Acesso em: 19 abr. 2026.
-
+>
 > <a id="referencias-bibliograficas-3">3.</a> IBM CORPORATION. **Diagramas de implantação**. IBM Documentation, 2024. Disponível em: https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams. Acesso em: 19 abr. 2026 .
-
+>
 > <a id="referencias-bibliograficas-4">4.</a> UML-DIAGRAMS. **Deployment Diagrams Overview**. Disponível em: https://www.uml-diagrams.org/deployment-diagrams-overview.html. Acesso em: 23 abr. 2026.
-
+>
 > <a id="referencias-bibliograficas-5">5.</a> Curso de UML - Diagrama de Implantação. Disponível em: https://www.youtube.com/watch?v=DgERD0HgggQ. Acesso em: 23 abr. 2026.
 
 ---
