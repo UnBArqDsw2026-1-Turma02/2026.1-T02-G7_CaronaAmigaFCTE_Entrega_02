@@ -61,5 +61,5 @@ Prazo final de entrega: 23/04/2026.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 07/04/2026 | Criação do artefato | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
-| 1.1  | 15/04/2026 | Ajuste do cronograma conforme as etapas | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
+| 1.0  | 07/04/2026 | Criação do artefato | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Criação da versão inicial do cronograma planejado (v1 do cronograma). |
+| 1.1  | 15/04/2026 | Ajuste do cronograma conforme as etapas | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Ajustes de organização do documento e refinamento das etapas planejadas do cronograma. |
