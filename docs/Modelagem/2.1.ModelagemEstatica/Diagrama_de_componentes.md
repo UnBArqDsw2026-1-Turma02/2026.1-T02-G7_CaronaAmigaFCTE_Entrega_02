@@ -234,6 +234,16 @@ Camada de interação com avaliações e perfil do usuário.
 
 ---
 
+
+## Reunião de Alinhamento sobre o diagrama de componentes
+
+<iframe width="1321" height="743" src="https://youtu.be/gsj8lC_sC0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/gsj8lC_sC0s" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+
+---
+
 ## Conclusão
 
 A elaboração do Diagrama de Componentes do projeto **Carona Amiga** permitiu representar, de forma estruturada, os principais módulos do sistema, seus contratos de interface e as dependências entre subsistemas. O artefato contribui para o alinhamento arquitetural da equipe e para a rastreabilidade entre requisitos e implementação. Dessa forma, o diagrama também se torna uma referência para evolução, manutenção e tomada de decisões técnicas ao longo do projeto.
