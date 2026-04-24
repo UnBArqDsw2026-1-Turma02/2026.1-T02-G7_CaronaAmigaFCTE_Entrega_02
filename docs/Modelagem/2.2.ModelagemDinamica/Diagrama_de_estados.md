@@ -96,7 +96,7 @@ O Diagrama de Estados descreve o ciclo de vida de uma Carona, desde a sua criaç
 <font size="2"><p style="text-align: center">
 Figura 02 - Diagrama de Estados.</p></font>
 
-<img src="../../assets/diagrama_estado/diagrama_estado.png" alt="figura ">
+![Diagrama de Estado](../../assets/diagrama_estado/diagrama_estado.png)
 
 </div>
 
