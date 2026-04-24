@@ -69,7 +69,9 @@ A representação segue a notação UML, na qual cada pacote é identificado por
 <div style="text-align: center;">
 <font size="2"><p style="text-align: center">Figura 02 - Diagrama de Pacotes.</p></font>
 
-<img src="../../assets/diagrama_pacotes/diagramadepacotes.jpg" alt="Figura 01">
+![Diagrama de Pacotes](../../assets/diagrama_pacotes/diagramadepacotes.jpg)
+
+![Diagrama de Comunicação](../assets/diagrama_de_comunicacao_v1.png)
 
 </div>
 
