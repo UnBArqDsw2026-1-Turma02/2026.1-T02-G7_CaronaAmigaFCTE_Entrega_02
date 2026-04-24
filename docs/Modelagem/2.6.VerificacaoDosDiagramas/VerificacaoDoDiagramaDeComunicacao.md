@@ -1,8 +1,8 @@
-
 # Verficação do Diagrama de Comunicação
+
 ## Introdução
 
-Ao considerar a Apostila UML [1], Um diagrama de colaboração mostra de maneira semelhante ao diagrama de sequencia, a colaboração dinâmica entre os objetos, além de mostrar a troca de mensagens entre os objetos,percebe-se também os objetos com os seus relacionamentos.
+Ao considerar a Apostila UML [[1]](#ref1), Um diagrama de colaboração mostra de maneira semelhante ao diagrama de sequencia, a colaboração dinâmica entre os objetos, além de mostrar a troca de mensagens entre os objetos,percebe-se também os objetos com os seus relacionamentos.
 
 ## Objetivos da  Verificação
 
@@ -18,7 +18,7 @@ Dessa forma, de acordo com os critérios acima e a bibliografia contida no apren
 
 ## Tabela de Verificação do Diagrama de Comunicação
 
-## Tabela de Verificação do Diagrama de Comunicação
+<font size="3"><p style="text-align: center">Tabela 1: Verificação do Diagrama de Comunicação</p></font>
 
 | ID   | Pergunta de Verificação                                                                 | Verificado | Rastreabilidade |
 |------|------------------------------------------------------------------------------------------|------------|-----------------|
@@ -38,6 +38,9 @@ Dessa forma, de acordo com os critérios acima e a bibliografia contida no apren
 | 29  | O diagrama mantém boa legibilidade, evitando excesso de elementos?                     | Verificado | Apostila UML; https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/uml-diagrama-comunicacao_v01.pdf |
 | 30  | O diagrama está consistente com outros diagramas (ex: sequência ou casos de uso)?      | Verificado | Apostila UML; https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/uml-diagrama-comunicacao_v01.pdf |
 
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
 
 ## Vídeo de Verificação do Diagrama de Classes
 O vídeo de verificação do Diagrama de Classes foi gravado para validar o modelo criado, utilizando as perguntas de verificação como guia para identificar possíveis erros e inconsistências. Durante a gravação, foram discutidos os pontos fortes do diagrama, bem como as áreas que necessitavam de ajustes.
@@ -46,14 +49,21 @@ O vídeo de verificação do Diagrama de Classes foi gravado para validar o mode
 
 <p style="text-align: center"><a href="https://youtu.be/1fyOMXWQXog" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
-<font size="2"><p style="text-align: center">Fonte: [Luiza da Silva Pugas](https://github.com/Luizaxx), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
 
 ## Conclusão
+
 A verificação do diagrama de comunicação é um processo essencial para garantir a qualidade e a eficácia do modelo de software. Através das perguntas de verificação, foi possível identificar pontos fortes e áreas de melhoria no diagrama, contribuindo parra que a construção do WebApp seja mais eficaz e evite gargalos futuros para nós desenvolvedores.
 
-## Bibliografia
- 1. APOSTILA UML. Seção sobre representação de classes. Disponíbilizada pela professora. Acesso em: 23 abr. 2026. 
- 2. FIGUEIREDO, Fábio. UML - Diagrama de Comunicação. Disponível em: https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/uml-diagrama-comunicacao_v01.pdf. Acesso em: 23 de abril de 2026.
+---
+
+## Referências Bibliográficas
+
+> <a name="ref1"></a>1. APOSTILA UML. Seção sobre representação de classes. Disponíbilizada pela professora. Acesso em: 23 abr. 2026. 
+>
+> <a name="ref2"></a>2. FIGUEIREDO, Fábio. UML - Diagrama de Comunicação. Disponível em: https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/uml-diagrama-comunicacao_v01.pdf. Acesso em: 23 de abril de 2026.
 
 ## Histórico de Versões
 

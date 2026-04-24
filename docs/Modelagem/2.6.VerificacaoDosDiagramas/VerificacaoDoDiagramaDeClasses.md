@@ -77,9 +77,10 @@ O vídeo de verificação do Diagrama de Classes foi gravado para validar o mode
 ---
 
 ## Conclusão
+
 A verificação do Diagrama de Classes é um processo fundamental para garantir a qualidade e a eficácia do modelo de um sistema. Ao seguir uma metodologia estruturada de verificação, é possível identificar e corrigir erros, inconsistências e omissões no diagrama, garantindo que ele seja uma representação precisa e útil do sistema. A validação com stakeholders é especialmente importante para garantir que o modelo atenda às necessidades do sistema e seja compreendido por todos os envolvidos no projeto. Em última análise, a verificação do Diagrama de Classes contribui para o sucesso do desenvolvimento do sistema, proporcionando uma base sólida para a implementação e manutenção futura.
 
-## Bibliografia
+## Referências Bibliográficas
 
 >  1. APOSTILA UML. Seção sobre representação de classes. Disponíbilizada pela professora. Acesso em: 23 abr. 2026.
 >  2. BÓSON TREINAMENTOS. Introdução à UML – Unified Modeling Language. Disponível em: https://www.youtube.com/watch?v=C3xYBT3o_5k. Acesso em: 23 abr. 2026.
