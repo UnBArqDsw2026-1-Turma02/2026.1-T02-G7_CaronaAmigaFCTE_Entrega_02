@@ -53,6 +53,10 @@ A representação segue a notação UML, na qual cada pacote é identificado por
 
 ## Tabela de Análise
 
+<font size="3"><p style="text-align: center">Tabela 1: Notações UML do Diagrama de Pacotes</p></font>
+
+<div style="text-align: center;">
+
 | Componente / Notação               | Representação                  | Descrição                                                                                                                   |
 | ---------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | **Pacote**                         | Retângulo com aba superior     | Representa um agrupador lógico utilizado para organizar elementos do sistema, como classes, casos de uso ou outros pacotes. |
@@ -62,6 +66,10 @@ A representação segue a notação UML, na qual cada pacote é identificado por
 | **Acesso** (`<<access>>`)          | Seta tracejada com estereótipo | Concede acesso controlado aos elementos de outro pacote.                                                                    |
 | **Mesclagem** (`<<merge>>`)        | Seta tracejada com estereótipo | Indica combinação de conteúdos entre pacotes.                                                                               |
 | **Generalização**                  | Seta com triângulo vazio       | Representa herança entre pacotes, indicando especialização.                                                                 |
+
+</div>
+
+<font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess), [João Vitor Santos de Oliveira](https://github.com/Jauzimm), [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) e [Pedro Henrique Faria da Mota](https://github.com/PhFariaa), 2026.</p></font>
 
 ---
 
@@ -121,6 +129,6 @@ Além disso, o artefato fortalece a coerência entre os modelos produzidos, espe
 |  1.1   | 21/04/2026 | Inserção do diagrama e estruturação do conteúdo             | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) e [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | Artefato revisado   |
 |  1.2   | 22/04/2026 | Ajustes na explicação e melhoria da descrição dos elementos | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) e [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | Artefato revisado   |
 |  1.3   | 23/04/2026 | Revisão final e padronização do documento                   | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) e [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | Artefato revisado   |
-|  2.0   | 23/04/2026 | Integração ao padrão estrutural do projeto                  | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)                                                        |                                                              |                     |
-|  2.1   | 23/04/2026 | Ajustes e consolidação das referências                      | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)                                                        |                                                              |                     |
-|  2.1   | 23/04/2026 | Ajustes dos links nas fontes                                | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)                                                        |                                                              |                     |
+|  2.0   | 23/04/2026 | Integração ao padrão estrutural do projeto                  | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)  | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado   |
+|  2.1   | 23/04/2026 | Ajustes e consolidação das referências                      | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)                                                        | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado   |
+|  2.1   | 23/04/2026 | Ajustes dos links nas fontes                                | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado   |
