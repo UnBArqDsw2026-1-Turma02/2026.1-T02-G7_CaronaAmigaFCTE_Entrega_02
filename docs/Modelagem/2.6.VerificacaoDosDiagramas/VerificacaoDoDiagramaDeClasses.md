@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Ao considerar a Apostila UML [1], o Diagrama de Classes é um dos elementos centrais da modelagem estática em UML, usado para representar a estrutura de um sistema por meio de suas classes, atributos, métodos e relacionamentos. Sendo assim, no projeto da Carona Amiga FCTE, esse diagrama foi elaborado para modelar as entidades principais do sistema. 
+Ao considerar a Apostila UML [[1]](#ref1), o Diagrama de Classes é um dos elementos centrais da modelagem estática em UML, usado para representar a estrutura de um sistema por meio de suas classes, atributos, métodos e relacionamentos. Sendo assim, no projeto da Carona Amiga FCTE, esse diagrama foi elaborado para modelar as entidades principais do sistema. 
 
 A validação e a verificação do Diagrama de Classes são etapas cruciais para garantir que o modelo esteja correto, completo e consistente com os requisitos do sistema. A validação é o processo de assegurar que o diagrama representa fielmente os requisitos e as necessidades do sistema, enquanto a verificação é o processo de avaliar se o diagrama foi construído corretamente, conforme os critérios da UML. A seguir, serão detalhados os processos de validação e verificação do Diagrama de Classes, destacando a importância de cada etapa para o desenvolvimento de um sistema.
 
@@ -22,6 +22,8 @@ Com essa metodologia, criamos perguntas baseadas nas referências bibliográfica
 
 ## Tabela de Verificação do Diagrama de Classes
 
+<font size="3"><p style="text-align: center">Tabela 1: Verificação do Diagrama de Classes</p></font>
+
 | ID   | Pergunta de Verificação                                                                 | Verificado                                                                 | Rastreabilidade |
 |------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------|
 | 01  | O nome da classe foi iniciado com letra maiúscula conforme o padrão de nomenclatura?   | Verificado                                                                  | [Webel IT Australia](https://www.webel.com.au/node/669) |
@@ -40,8 +42,13 @@ Com essa metodologia, criamos perguntas baseadas nas referências bibliográfica
 | 14  | Os nomes dos métodos utilizam verbos no infinitivo para indicar ações?                 | Verificado                                                                  | [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/) |
 | 15  | Os métodos apresentam seus parâmetros acompanhados dos respectivos tipos?             | Verificado                                                                  | [UML Diagrams](https://www.uml-diagrams.org/class-reference.html) |
 
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
 
 ## Verificação de Relacionamentos no Diagrama de Classes
+
+<font size="3"><p style="text-align: center">Tabela 2: Verificação dos Relacionamentos no Diagrama de Classes</p></font>
 
 | ID   | Pergunta de Verificação                                                                 | Verificado                                                                  | Rastreabilidade |
 |------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------|
@@ -54,6 +61,10 @@ Com essa metodologia, criamos perguntas baseadas nas referências bibliográfica
 | 07 | As associações em que a classe se relaciona consigo mesma estão corretamente representadas? | Verificado                                                                  | [Guru99](https://www.guru99.com/uml-class-diagram.html) |
 | 08 | As implementações de interfaces estão indicadas com linha tracejada e seta com triângulo vazio apontando para a interface? | Verificado                                                                  | [GeeksforGeeks](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/) |
 
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
+
 ## Vídeo de Verificação do Diagrama de Classes
 O vídeo de verificação do Diagrama de Classes foi gravado para validar o modelo criado, utilizando as perguntas de verificação como guia para identificar possíveis erros e inconsistências. Durante a gravação, foram discutidos os pontos fortes do diagrama, bem como as áreas que necessitavam de ajustes.
 
@@ -61,9 +72,9 @@ O vídeo de verificação do Diagrama de Classes foi gravado para validar o mode
 
 <p style="text-align: center"><a href="https://youtu.be/lEFFf72zMhw" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
-<font size="2"><p style="text-align: center">Fonte: [Luiza da Silva Pugas](https://github.com/Luizaxx), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
-
+---
 
 ## Conclusão
 A verificação do Diagrama de Classes é um processo fundamental para garantir a qualidade e a eficácia do modelo de um sistema. Ao seguir uma metodologia estruturada de verificação, é possível identificar e corrigir erros, inconsistências e omissões no diagrama, garantindo que ele seja uma representação precisa e útil do sistema. A validação com stakeholders é especialmente importante para garantir que o modelo atenda às necessidades do sistema e seja compreendido por todos os envolvidos no projeto. Em última análise, a verificação do Diagrama de Classes contribui para o sucesso do desenvolvimento do sistema, proporcionando uma base sólida para a implementação e manutenção futura.
@@ -89,3 +100,4 @@ A verificação do Diagrama de Classes é um processo fundamental para garantir 
 | Versão |    Data    | Descrição                                                                                                                                                                                                    | Autor(es)                                                              | Revisor(es)                                                       | Detalhes da revisão |
 | :----: | :--------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------------------------------- | :-----------------: |
 |  1.0   | 23/04/2026 | Criação do artefato e elaboração da tabela de verificação | [Luiza da Silva Pugas](https://github.com/Luizaxx) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Estrutura inicial do documento e checklist de verificação |
+|  1.1   | 23/04/2026 | Arrumando os links e adicionando os nomes | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Verificação dos links e nomes dos videos e corrigindo ordem |
