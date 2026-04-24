@@ -74,6 +74,8 @@ Em linhas gerais, o processo adotado foi:
 
 ## Diagrama de Comunicação
 
+<details>
+    <summary size="20"><b>Versão 1.0</b></summary>
 
 <div align="center">
               Figura 1: Diagrama de Comunicação.
@@ -84,15 +86,36 @@ Em linhas gerais, o processo adotado foi:
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 </div>
 
+</details>
+
+
+<div align="center">
+              Figura 1: Diagrama de Comunicação.
+
+![Diagrama de Comunicação](../assets/diagrama_de_comunicacao.png)
+
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+</div>
+
+
 ---
 
 ## Gravação da discussão do Diagrama de Comunicação
 
 As gravações abaixo registram a elaboração e a discussão do Diagrama de Comunicação do **Carona Amiga**.
 
-<iframe width="1321" height="743" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/VabdmkAR938" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p style="text-align: center"><a href="https://youtu.be/" target="_blank">Clique aqui para assistir no YouTube</a></p>
+<p style="text-align: center"><a href="https://youtu.be/VabdmkAR938" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/1fyOMXWQXog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/1fyOMXWQXog" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
