@@ -52,7 +52,30 @@ A elaboração do Diagrama de Estados do projeto **Carona Amiga FCTE** será rea
 
 ---
 
-## Modelagem-
+## Modelagem
+
+O Diagrama de Estados descreve o ciclo de vida de uma Carona, desde a sua criação pelo motorista/passageiro até o seu encerramento.
+
+<details>
+  <summary><strong>Ciclo de Vida da Carona</strong></summary>
+
+
+**Tabela 1**: Transições de Estados - Ciclo de Vida da Carona
+
+| Estado Origem | Evento / Gatilho | Condição de Guarda | Ação Executada | Estado Destino |
+|---|---|---|---|---|
+| - (Inicial) | iniciarCarona | - | publicar() | ATIVA |
+| ATIVA | solicitarCarona() | [vagaDisponiveis > 0] | decrementaVagas | ATIVA |
+| ATIVA | registraConfirmado | - | confirmarEmbarque() | ANDAMENTO |
+| ATIVA | cancelar() | - | - | CANCELADA |
+| ANDAMENTO | chegadaAoDestino | - | receberAvaliacao() | CONCLUÍDA |
+| ANDAMENTO | cancelar() | - | - | CANCELADA |
+| CANCELADA | - | - | - | Final |
+| CONCLUÍDA | - | - | - | Final |
+
+<font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
+
+</details>
 
 ---
 
@@ -82,7 +105,7 @@ Legenda do Diagrama de Estados
 <div style="text-align: center;">
 Diagrama de Estados  
 <br>
-<img src="" alt="figura ">
+<img src="../../assets/diagrama_estado/diagrama_estado.png" alt="figura ">
 <font size="2"><p style="text-align: center">Figura 02.</p></font>
 </div>
 
@@ -116,5 +139,7 @@ Além disso, o artefato fortalece a coerência entre os requisitos definidos, o 
 | :----: | :--------: | ----------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------- | :-----------------: |
 |  1.0   | 21/04/2026 | Criação do documento          | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
 |  1.1   | 21/04/2026 | Criação do corrção dos links  | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
-|  1.2   | 21/04/2026 | Adição da legenda do diagrama | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |                                                             |                     |
-|  1.3   | 21/04/2026 | Correção das figuras          | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |                                                             |                     |
+|  1.2   | 21/04/2026 | Adição da legenda do diagrama | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |[João Vitor Santos de Oliveira](https://github.com/Jauzimm)|  Artefato Revisado  |
+|  1.3   | 21/04/2026 | Correção das figuras          | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |[João Vitor Santos de Oliveira](https://github.com/Jauzimm)|  Artefato Revisado  |
+|  1.4   | 21/04/2026 | Adição do diagrama de estados | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)|[Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)|  Artefato Revisado  |
+
