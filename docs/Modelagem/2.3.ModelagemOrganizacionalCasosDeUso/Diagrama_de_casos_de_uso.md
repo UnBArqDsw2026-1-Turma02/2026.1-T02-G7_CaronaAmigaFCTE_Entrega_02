@@ -57,7 +57,7 @@ A Figura 2 mostra o diagrama de Casos de Uso do WebApp Carona Amiga FCTE.
 <div align="center">
     <b>Figura 2:</b> o Diagrama de Casos de Uso
     <br>
-    <img src="" width="1000">
+    <img src="../docs/assets/diagrama_casos_uso/Casos%20de%20uso.png" width="1000">
     <br>
     Fonte: Elaborado pelo(s) autor(es) (
 
@@ -68,8 +68,8 @@ A Figura 2 mostra o diagrama de Casos de Uso do WebApp Carona Amiga FCTE.
 [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026)
 </div>
 
-<p><strong>Observação:</strong> Caso deseje visualizar ou baixar em PDF, clique aqui: 
-<a href="">PDF do Diagrama de Casos de Uso</a></p>
+**Observação:** Caso deseje visualizar ou baixar em PDF, clique aqui:  
+[PDF do Diagrama de Casos de Uso](https://drive.google.com/file/d/1-OdkNTwh7X30XgMHm83Kl2MdM_VpxkS9/view?usp=sharing)
 
 ## Conclusão
 O Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, apresentado na figura 2, oferece uma visão clara e estruturada das funcionalidades principais do sistema, bem como das interações entre os atores envolvidos. Através da identificação dos casos de uso essenciais, foi possível delimitar o escopo funcional do sistema, facilitando a comunicação entre os membros da equipe e demais stakeholders. Este artefato serve como um guia visual para o desenvolvimento do sistema, garantindo que as funcionalidades sejam implementadas de acordo com as necessidades dos usuários e os requisitos elicitados.
@@ -89,3 +89,4 @@ O Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, apresentado na figura 2,
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 23/04/2026 | Criação do documento [#10](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_02/issues/10) | [Luiza da S. Pugas](https://github.com/Luizaxx) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS)  |  |
+| 1.1  | 23/04/2026 | Adição do png e pdf do diagrama de casos de uso [#10](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_02/issues/10) |[Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) |  |
