@@ -78,7 +78,7 @@ A fim de proporcionar uma melhor compreensão do diagrama, a Figura 1 apresenta 
 <div style="text-align: center;">
 Legenda do Diagrama de Implantação
 <br>
-<img src="../../assets/diagrama_implantacao/diagrama_implantacao.png" alt="Legenda do Diagrama de Implantação">
+<img src="../assets/diagrama_implantacao.png" alt="Legenda do Diagrama de Implantação">
 <font size="2"><p style="text-align: center;">Figura 1.</p></font>
 </div>
 
@@ -92,7 +92,7 @@ Legenda do Diagrama de Implantação
 Diagrama de Implantação, Versão 2
 
 <br>
-<img src="../../assets/diagrama_implantacao/diagrama_de_implantacao.png" alt="Diagrama de Implantação">
+<img src="../assets/diagrama_de_implantacao.png" alt="Diagrama de Implantação">
 <font size="2"><p style="text-align: center">Figura 2.</p></font>
 </div>
 
@@ -101,7 +101,7 @@ Diagrama de Implantação, Versão 2
 <div style="text-align: center;">
 Diagrama de Implantação, Versão 2.
 <br>
-<img src="../../assets/diagrama_implantacao/diagrama_de_implantacao_v2.png" alt="Diagrama de Implantação">
+<img src="../assets/diagrama_de_implantacao_v2.png" alt="Diagrama de Implantação">
 <font size="2"><p style="text-align: center">Figura 3.</p></font>
 
 Nota:  Com base no feedback da professora, foi realizado uma segunda versão do diagrama de implantação.
