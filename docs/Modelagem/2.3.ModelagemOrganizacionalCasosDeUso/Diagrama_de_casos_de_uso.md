@@ -1,1 +1,129 @@
-# teste
+# Diagrama de Casos de Uso
+
+## Introdução
+
+O Diagrama de Casos de Uso integra o conjunto de diagramas comportamentais da UML (Unified Modeling Language) e tem como finalidade representar, de maneira clara, as funcionalidades de um sistema sob a ótica dos usuários. De acordo com a literatura especializada, como apresentado pela [Lucidchart](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml)[[3]](#ref3), esse tipo de diagrama permite identificar os atores envolvidos — sejam eles usuários ou sistemas externos — e explicitar as interações realizadas com o sistema, facilitando a compreensão do seu funcionamento.
+
+Além disso, conforme destacado pelo site da [DevMedia](https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408)[[2]](#ref2), o uso desse diagrama contribui diretamente para o levantamento e a organização dos requisitos funcionais, servindo como uma ferramenta essencial na comunicação entre desenvolvedores, analistas e demais stakeholders. Dessa forma, o **Diagrama de Casos de Uso** não apenas delimita o escopo do sistema, mas também auxilia na visualização das funcionalidades principais de forma simples e intuitiva.
+
+Neste contexto, o presente artefato tem como **objetivo** apresentar o Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, evidenciando as interações entre os motoristas e passageiros e as funcionalidades disponibilizadas pelo sistema.
+
+## Objetivos
+
+Com o propósito de demonstrar as funcionalidades da plataforma sob a perspectiva dos usuários e sistemas externos, este documento busca:
+
+- Representar as principais funcionalidades do sistema de forma visual e compreensível;
+- Identificar os atores envolvidos e suas respectivas interações com a plataforma;
+- Delimitar o escopo funcional do WebApp entre os envolvidos no desenvolvimento do sistema por meio de uma visão geral estruturada.
+
+## Metodologia
+
+Para a construção do diagrama, serão seguidas as etapas abaixo:
+
+1.  Serão analisados os seguintes artefatos para identificação de atores, funcionalidades e escopo:
+    - [Requisitos Funcionais e Não Funcionais elicitados — elaborados na Entrega 1](../2.5.IniciativasExtras/RequisitosElicitados.md);
+    - [Diagrama de Classes](../2.1.ModelagemEstatica/Diagrama_de_classes.md);
+    - [Diagrama de Comunicação](../2.2.ModelagemDinamica/Diagrama_de_comunicacao.md);
+    - [Brainstorming realizado na Entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/Brainstorm);
+    - [Protótipo realizado na Entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo).
+
+2.  Após a análise dos dados, serão realizadas as seguintes etapas:
+    - Identificação dos atores principais.
+    - Identificação dos casos de uso essenciais a partir dos requisitos funcionais.
+    - Identificação dos relacionamentos entre atores e casos de uso (associação) e entre atores (generalização).
+    - Modelagem do diagrama utilizando a ferramenta Draw.io.
+    - Verificação do diagrama por meio de revisão entre os membros do grupo, garantindo a coerência e a clareza das informações representadas.
+    - Documentação do diagrama, explicando os elementos e as interações representadas, para facilitar a compreensão por parte de todos os envolvidos no projeto.
+
+## Sobre o Diagrama de Casos de Uso
+
+O Diagrama de Casos de Uso apresentado nas Figuras 2 e 3 foi elaborado com base nos princípios da UML e em guias de modelagem de casos de uso [[1]](#ref1)[[5]](#ref5). Ele evidencia os atores-chave, como `Motorista` e `Passageiro`, e sistemas externos, como `Serviços de Autenticação` e `Sistema de Notificação`. Além disso, os casos de uso (elipses) representam as funcionalidades do sistema, como realizar login e aceitar/cancelar solicitações de carona.
+
+Para apoiar a leitura do diagrama, a Figura 1 apresenta a legenda.
+
+<font size="3"><p style="text-align: center">Figura 1: Legenda do Diagrama de Casos de Uso</p></font>
+
+<div align="center">
+    <img src="https://i.postimg.cc/fZxMGrPC/legenda-uml.png" width="500">
+</div>
+
+<font size="2"><p style="text-align: center">Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx), 2026.</p></font>
+
+---
+
+## Diagrama de Casos de Uso
+
+As Figuras 2 e 3 mostram o diagrama de Casos de Uso do WebApp Carona Amiga FCTE, respectivamente nas versões 1.0 e 2.0.
+
+<details>
+    <summary><b>Versão 1.0</b></summary>
+
+<font size="3"><p style="text-align: center">Figura 2: Diagrama de Casos de Uso (Versão 1.0)</p></font>
+
+<div align="center">
+              Figura 3: Diagrama de Casos de Usos.
+
+![Diagrama de Casos de Uso](../assets/Casos-de-usos.png)
+
+?> *Nota:* Caso deseje visualizar ou baixar em PDF, clique aqui: [PDF do Diagrama de Casos de Uso](https://drive.google.com/file/d/1-OdkNTwh7X30XgMHm83Kl2MdM_VpxkS9/view?usp=sharing)
+
+</div>
+
+?> *Nota:* Caso deseje visualizar ou baixar em PDF, clique aqui: [PDF do Diagrama de Casos de Uso (v1.0)](https://drive.google.com/file/d/1-OdkNTwh7X30XgMHm83Kl2MdM_VpxkS9/view?usp=sharing)
+
+</details>
+
+<font size="3"><p style="text-align: center">Figura 3: Diagrama de Casos de Uso (Versão 2.0)</p></font>
+
+<div align="center">
+
+![Diagrama de Casos de Uso](../assets/Casos-de-uso2.0.png)
+
+</div>
+
+<font size="2"><p style="text-align: center">Fonte: Elaborado pelo(s) autor(es)[Ana Victória Guedes da Costa](https://github.com/navicg), [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Karoline Luz da Conceição](https://github.com/KarolineLuz), [Luiza da Silva Pugas](https://github.com/Luizaxx) e
+[Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+?> *Nota:* Caso deseje visualizar ou baixar em PDF, clique aqui: [PDF do Diagrama de Casos de Uso](https://drive.google.com/file/d/1Ty3SHy32KZYMLthr7ics9do1KiRjHKwk/view?usp=sharing)
+
+---
+
+## Gravação da discussão do Diagrama de Casos de Uso
+
+As gravações abaixo registram a elaboração e a discussão do Diagrama de Casos de Uso do **Carona Amiga**, incluindo o alinhamento sobre casos de uso, atributos e relacionamentos, além das decisões tomadas durante a modelagem.
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/7jPwppomrm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/7jPwppomrm0" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: Elaborado pelo(s) autor(es)[Ana Victória Guedes da Costa](https://github.com/navicg), [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Karoline Luz da Conceição](https://github.com/KarolineLuz), [Luiza da Silva Pugas](https://github.com/Luizaxx) e
+[Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+---
+
+## Conclusão
+O Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, apresentado nas Figuras 2 e 3, oferece uma visão clara e estruturada das funcionalidades principais do sistema, bem como das interações entre os atores envolvidos. Através da identificação dos casos de uso essenciais, foi possível delimitar o escopo funcional do sistema, facilitando a comunicação entre os membros da equipe e demais stakeholders. Este artefato serve como um guia visual para o desenvolvimento do sistema, garantindo que as funcionalidades sejam implementadas de acordo com as necessidades dos usuários e os requisitos elicitados.
+
+---
+
+## Bibliografia
+
+> <a name="ref1"></a>**[1]** Creately. *Tutorial do diagrama de caso de uso (guia com exemplos)*. Disponível em: <https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-caso-de-uso/>. Acesso em: 22 abr. 2026.
+>
+> <a name="ref2"></a>**[2]** DevMedia. *O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML*. Disponível em: <https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408>. Acesso em: 22 abr. 2026.
+>
+> <a name="ref3"></a>**[3]** Lucidchart. *Diagrama de caso de uso UML: O que é, como fazer e exemplos*. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml>. Acesso em: 22 abr. 2026.
+>
+> <a name="ref4"></a>**[4]** Lucid Software (YouTube). *Tutorial de Caso de Uso UML - Lucid Software Português*. Disponível em: <https://www.youtube.com/watch?v=ab6eDdwS3rA>. Acesso em: 22 abr. 2026.
+>
+> <a name="ref5"></a>**[5]** Microsoft. *Criar um diagrama de caso de uso UML*. Disponível em: <https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298>. Acesso em: 22 abr. 2026.
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
+| :----: | :--: | --------- | ----------- | ------ | :---: |
+| 1.0  | 23/04/2026 | Criação do documento [#10](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_02/issues/10) | [Luiza da S. Pugas](https://github.com/Luizaxx) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS)  | Artefato corrigido o link da issue |
+| 1.1  | 23/04/2026 | Adição do png e pdf do diagrama de casos de uso [#10](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_02/issues/10) |[Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Adicionado o link do pdf e correção do link do png |
+| 1.2  | 23/04/2026 | Adicionando as imgs versão antiga e a nova 2.0 | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Luiza da S. Pugas](https://github.com/Luizaxx) | Adicionado o link do pdf e correção do link do png |
+| 1.3  | 23/04/2026 | Adicionando o historico de versões escrito | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Arrumando como esstva escrito as referencias |
+| 1.4  | 23/04/2026 | Adicionando as notas com as versões | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Ana Victória Guedes da Costa](https://github.com/navicg) | Arrumando o link do drive meu e do João Marcos |

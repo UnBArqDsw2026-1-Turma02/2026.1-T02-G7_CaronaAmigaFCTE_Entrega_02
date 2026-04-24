@@ -4,7 +4,7 @@
 - [Projetos](/Projeto/Projeto.md)
 
 - **Modelagem**
-  - [2. Desenho de Software (Modelagem)](Modelagem/2.Modelagem.md)
+  * 2. Desenho de Software (Modelagem)
     * 2.1. Modelagem UML Estática
       - [2.1.1  Diagrama de Classes](Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md)
       - [2.1.2  Diagrama de Componentes](Modelagem/2.1.ModelagemEstatica/Diagrama_de_componentes.md)
