@@ -78,7 +78,7 @@ A fim de proporcionar uma melhor compreensão do diagrama, a Figura 1 apresenta 
 <div style="text-align: center;">
 Legenda do Diagrama de Implantação
 <br>
-<img src="../../assets/diagrama_implantacao/diagrama_implantacao.png" alt="Legenda do Diagrama de Implantação">
+<img src="../docs/assets/diagrama_implantacao/diagrama_implantacao.png" alt="Legenda do Diagrama de Implantação">
 <font size="2"><p style="text-align: center;">Figura 1.</p></font>
 </div>
 
@@ -92,7 +92,7 @@ Legenda do Diagrama de Implantação
 Diagrama de Implantação, Versão 2
 
 <br>
-<img src="../../assets/diagrama_implantacao/diagrama_de_implantacao.png" alt="Diagrama de Implantação">
+<img src="../docs/assets/diagrama_implantacao/diagrama_de_implantacao.png" alt="Diagrama de Implantação">
 <font size="2"><p style="text-align: center">Figura 2.</p></font>
 </div>
 
@@ -101,7 +101,7 @@ Diagrama de Implantação, Versão 2
 <div style="text-align: center;">
 Diagrama de Implantação, Versão 2.
 <br>
-<img src="../../assets/diagrama_implantacao/diagrama_de_implantacao_v2.png" alt="Diagrama de Implantação">
+<img src="../docs/assets/diagrama_implantacao/diagrama_de_implantacao_v2.png" alt="Diagrama de Implantação">
 <font size="2"><p style="text-align: center">Figura 3.</p></font>
 
 Nota:  Com base no feedback da professora, foi realizado uma segunda versão do diagrama de implantação.
@@ -111,6 +111,28 @@ Nota:  Com base no feedback da professora, foi realizado uma segunda versão do 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), [João Vitor Santos de Oliveira](https://github.com/Jauzimm) e [Karoline Luz da Conceição](https://github.com/KarolineLuz), 2026.</p></font>
 
 ---
+
+## Gravação da discussão do Diagrama de Implantação
+
+A gravaçõe abaixo registram o processo de elaboração e discussão do Diagrama de Implantação do *Carona Amiga*, incluindo o alinhamento sobre a estrutura de implantação do sistema, os nós (dispositivos e ambientes de execução), os artefatos distribuídos e as relações de comunicação, além das principais decisões tomadas durante a modelagem.
+
+### Reunião 1
+
+A primeira reunião teve como foco a discussão teórica e o estudo dos conceitos relacionados ao diagrama de implantação. Já a segunda reunião foi dedicada à organização e estruturação do diagrama, definindo seus elementos e a forma de representação do sistema.
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/L7cldaCjV-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/L7cldaCjV-4" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+---
+
+### Reunião 2
+
+A gravaçõe abaixo registram o processo de elaboração e discussão do Diagrama de Implantação do *Carona Amiga*, incluindo o alinhamento sobre os nós, artefatos e relações de comunicação do sistema, bem como as decisões tomadas durante a modelagem.
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/D_kRKRohL50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/D_kRKRohL50" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
 ## Conclusão
 
@@ -140,12 +162,13 @@ Sob essa perspectiva, o diagrama produzido contribui de maneira significativa pa
 
 | Versão |    Data    | Descrição                                                                        | Autor(es)                                                              | Revisor(es)                                                            | Detalhes da revisão |
 | :----: | :--------: | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | :-----------------: |
-|  1.0   | 16/04/2026 | Criação do documento                                                             | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | [Ana Victória Guedes da Costa](https://github.com/navicg)              |  Artefato revisado  |
-|  1.1   | 19/04/2026 | Adição da Introdução,objetivos e legenda do Diagrama de Implantação              | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            |  Artefato revisado  |
-|  1.2   | 20/04/2026 | Adição da metodologia e conclusão do Diagrama de Implantação                     | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato atualizado |
-|  1.3   | 23/04/2026 | Adição da legenda do Diagrama de Implantação                                     | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            |  Artefato revisado  |
-|  1.4   | 23/04/2026 | Correção das figuras                                                             | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Ana Victória Guedes da Costa](https://github.com/navicg)              |  Artefato revisado  |
-|  1.5   | 23/04/2026 | Adição do diagrama de implantação e da tabela de análise                         | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            |  Artefato revisado  |
-|  1.6   | 23/04/2026 | Inclusão de links clicáveis de rastreabilidade na coluna de requisitos atendidos | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |  Artefato revisado  |
-|  1.7   | 23/04/2026 | Correção os links das imagens                                                    | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            |  Artefato revisado  |
-|  1.8   | 23/04/2026 | Adição da V2 no diagrama de implantação | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) |  Artefato revisado  |
+|  1.0   | 16/04/2026 | Criação do documento                                                             | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | [Ana Victória Guedes da Costa](https://github.com/navicg)              | Revisão da estrutura inicial do artefato e conferência da proposta do diagrama. |
+|  1.1   | 19/04/2026 | Adição da Introdução,objetivos e legenda do Diagrama de Implantação              | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            | Verificação da coerência textual entre contextualização teórica, objetivos e elementos visuais adicionados. |
+|  1.2   | 20/04/2026 | Adição da metodologia e conclusão do Diagrama de Implantação                     | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Análise da consistência entre método adotado, resultado apresentado e fechamento do artefato. |
+|  1.3   | 23/04/2026 | Adição da legenda do Diagrama de Implantação                                     | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            | Conferência da padronização visual da legenda e da correspondência com os símbolos do diagrama. |
+|  1.4   | 23/04/2026 | Correção das figuras                                                             | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Ana Victória Guedes da Costa](https://github.com/navicg)              | Revisão dos arquivos de imagem, legendas e posicionamento das figuras no documento. |
+|  1.5   | 23/04/2026 | Adição do diagrama de implantação e da tabela de análise                         | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | Validação da relação entre os nós modelados, os artefatos alocados e a tabela de apoio analítica. |
+|  1.6   | 23/04/2026 | Inclusão de links clicáveis de rastreabilidade na coluna de requisitos atendidos | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Conferência da rastreabilidade entre requisitos e elementos de implantação, com foco na navegação do artefato. |
+|  1.7   | 23/04/2026 | Correção os links das imagens                                                    | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            | Revisão funcional dos links internos das imagens e ajuste de referências quebradas. |
+|  1.8   | 23/04/2026 | Adição da V2 no diagrama de implantação                                          | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)            | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | Avaliação das alterações feitas após feedback externo e conferência da nova versão do diagrama. |
+|  1.9   | 23/04/2026 | Adição das gravações de discussões                                               | [Ana Victória Guedes da Costa](https://github.com/navicg)              | [Karoline Luz da Conceição](https://github.com/KarolineLuz)            | Revisão dos registros de reunião para garantir alinhamento entre discussões, decisões e versão publicada do artefato. |
