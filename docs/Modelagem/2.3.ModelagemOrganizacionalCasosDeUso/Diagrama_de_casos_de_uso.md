@@ -2,7 +2,7 @@
 
 O Diagrama de Casos de Uso integra o conjunto de diagramas comportamentais da UML (Unified Modeling Language) e tem como finalidade representar, de maneira clara, as funcionalidades de um sistema sob a ótica dos usuários. De acordo com a literatura especializada, como apresentado pela [Lucidchart](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml), esse tipo de diagrama permite identificar os atores envolvidos — sejam eles usuários ou sistemas externos — e explicitar as interações realizadas com o sistema, facilitando a compreensão do seu funcionamento.
 
-Além disso, conforme destacado pelo site da [DevMedia](https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408), o uso desse diagrama contribui diretamente para o levantamento e a organização dos requisitos funcionais, servindo como uma ferramenta essencial na comunicação entre desenvolvedores, analistas e demais stakeholders. Dessa forma, o **Diagrama de Casos de Uso** não apenas delimita o escopo do sistema, mas também auxilia na visualização das funcionalidades principais de forma simples e intuitiva.
+Além disso, conforme destacado pelo site da [DevMedia](https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408)[[1]](#ref1), o uso desse diagrama contribui diretamente para o levantamento e a organização dos requisitos funcionais, servindo como uma ferramenta essencial na comunicação entre desenvolvedores, analistas e demais stakeholders. Dessa forma, o **Diagrama de Casos de Uso** não apenas delimita o escopo do sistema, mas também auxilia na visualização das funcionalidades principais de forma simples e intuitiva.
 
 Neste contexto, o presente artefato tem como **objetivo** apresentar o Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, evidenciando as interações entre os motoristas e passageiros e as funcionalidades disponibilizadas pelo sistema.
 
@@ -19,11 +19,11 @@ Com o propósito de demonstrar as funcionalidades da plataforma sob a perspectiv
 Para a construção do diagrama, Serão seguidas as etapas abaixo:
 
 1.  Serão analisados os seguintes artefatos para identificação de atores, funcionalidades e escopo:
-    - [Requisitos Funcionais e Não Funcionais elicitados - Elaborados na entrega 1]();
-    - [Diagrama de Classe](/Modelagem/2.1.ModelagemEstatica/Diagrama_de_classe.md);
-    - [Diagrama de Comunicação](/Modelagem/2.2.ModelagemDinamica/Diagrama_de_comunicacao.md);
-    - [BrainStorming realizado na entrega 1](2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/docs/Base/2-Artefato-Generalista/Brainstorm.md).
-     - [Protótipo realizado na entrega 1](2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/docs/Base/1-Design-Sprint/Prototipo.md).
+    - [Requisitos Funcionais e Não Funcionais elicitados - Elaborados na entrega 1](../Modelagem/2.5.IniciativasExtras/RequisitosElicitados.md);
+    - [Diagrama de Classe](../Modelagem/2.1.ModelagemEstatica/Diagrama_de_classes.md);
+    - [Diagrama de Comunicação](../Modelagem/2.2.ModelagemDinamica/Diagrama_de_comunicacao.md);
+    - [BrainStorming realizado na entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/2-Artefato-Generalista/Brainstorm).
+     - [Protótipo realizado na entrega 1](https://unbarqdsw2026-1-turma02.github.io/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/#/Base/1-Design-Sprint/Prototipo).
 
 2.  Após a análise dos dados, serão feitas as seguintes etapas:
     1. Identificação dos Atores principais.
@@ -40,39 +40,35 @@ O Diagrama de Casos de Uso a seguir, na figura 2, elaborado com base nos princí
 
 Para compreensão dos diagramas, a figura 1 mostra a legenda;
 
+<font size="3"><p style="text-align: center">Figura 1: Legenda do Diagrama de Casos de Uso</p></font>
+
+
 <div align="center">
-    Figura 1: Legenda do Diagrama de Casos de Uso
-    <br>
     <img src="https://i.postimg.cc/fZxMGrPC/legenda-uml.png" width="500">
-    <br>
-    Fonte: Elaborado pelo(s) autor(es) [Luiza da Silva Pugas](https://github.com/Luizaxx)
-    <br>
 </div>
+
+<font size="2"><p style="text-align: center">Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx), 2026.</p></font>
 
 ## Diagrama de Casos de Uso
 
-
 A Figura 2 mostra o diagrama de Casos de Uso do WebApp Carona Amiga FCTE. 
 
-<div align="center">
-    <b>Figura 2:</b> o Diagrama de Casos de Uso
-    <br>
-    <img src="../docs/assets/diagrama_casos_uso/Casos%20de%20uso.png" width="1000">
-    <br>
-    Fonte: Elaborado pelo(s) autor(es) (
+<font size="3"><p style="text-align: center">Figura 2: Diagrama de Casos de Uso</p></font>
 
-[Ana Victória Guedes da Costa](https://github.com/navicg),
-[João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),
-[Karoline Luz da Conceição](https://github.com/KarolineLuz),
-[Luiza da Silva Pugas](https://github.com/Luizaxx),
-[Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026)
+<div align="center">
+    <img src="../docs/assets/diagrama_casos_uso/Casos%20de%20uso.png" width="1000">
 </div>
+
+<font size="2"><p style="text-align: center">Fonte: Elaborado pelo(s) autor(es): [Ana Victória Guedes da Costa](https://github.com/navicg), [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Karoline Luz da Conceição](https://github.com/KarolineLuz), [Luiza da Silva Pugas](https://github.com/Luizaxx) e
+[Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 **Observação:** Caso deseje visualizar ou baixar em PDF, clique aqui:  
 [PDF do Diagrama de Casos de Uso](https://drive.google.com/file/d/1-OdkNTwh7X30XgMHm83Kl2MdM_VpxkS9/view?usp=sharing)
 
 ## Conclusão
 O Diagrama de Casos de Uso do WebApp Carona Amiga FCTE, apresentado na figura 2, oferece uma visão clara e estruturada das funcionalidades principais do sistema, bem como das interações entre os atores envolvidos. Através da identificação dos casos de uso essenciais, foi possível delimitar o escopo funcional do sistema, facilitando a comunicação entre os membros da equipe e demais stakeholders. Este artefato serve como um guia visual para o desenvolvimento do sistema, garantindo que as funcionalidades sejam implementadas de acordo com as necessidades dos usuários e os requisitos elicitados.
+
+---
 
 ## Bibliografia
 
