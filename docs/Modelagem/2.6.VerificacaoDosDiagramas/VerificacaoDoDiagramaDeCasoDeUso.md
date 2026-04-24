@@ -62,7 +62,8 @@ Dessa forma, elaboramos uma série de perguntas que buscam avaliar a qualidade d
 
 <p style="text-align: center"><a href="https://youtu.be/7jPwppomrm0" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
-<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: Elaborado pelo(s) autor(es)[Ana Victória Guedes da Costa](https://github.com/navicg), [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Karoline Luz da Conceição](https://github.com/KarolineLuz), [Luiza da Silva Pugas](https://github.com/Luizaxx) e
+[Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 ---
 
@@ -89,3 +90,4 @@ A verificação do diagrama de casos de uso é um processo essencial para garant
 |  1.0   | 23/04/2026 | Criação do artefato e elaboração da tabela de verificação | [Luiza da Silva Pugas](https://github.com/Luizaxx) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Estrutura inicial do documento e checklist de verificação |
 |  1.1   | 23/04/2026 | Adição do vídeo de verificação | [Ana Victória Guedes da Costa](https://github.com/navicg) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Inclusão do registro em vídeo da revisão |
 |  1.2   | 23/04/2026 | Arrumando os links e adicionando os nomes | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Verificação dos links e nomes dos videos e corrigindo ordem |
+|  1.3   | 23/04/2026 | Arrumando os links e adicionando os nomes | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Verificação dos links e nomes dos videos e corrigindo ordem |
