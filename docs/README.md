@@ -27,7 +27,30 @@ O **CaronaAmiga** é uma plataforma web e mobile desenvolvida como trabalho prá
 
 
 ## Screenshots da Segunda Entrega
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
+
+<div align="center">
+Figura 1: Diagrama de Classes.
+
+![Diagrama de Classes](Modelagem/assets/diagrama_de_classes1.0.png)
+
+<font size="2"><p style="text-align: center">Fonte: Equipe Carona Amiga FCTE, 2026.</p></font>
+</div>
+
+<div align="center">
+Figura 2: Diagrama de Casos de Uso.
+
+![Diagrama de Casos de Uso](Modelagem/assets/Casos-de-uso2.0.png)
+
+<font size="2"><p style="text-align: center">Fonte: Equipe Carona Amiga FCTE, 2026.</p></font>
+</div>
+
+<div align="center">
+Figura 3: Diagrama de Comunicação.
+
+![Diagrama de Comunicação](Modelagem/assets/diagrama_de_comunicacao_v2.png)
+
+<font size="2"><p style="text-align: center">Fonte: Equipe Carona Amiga FCTE, 2026.</p></font>
+</div>
 
 ## Há algo a ser executado?
 
@@ -42,3 +65,4 @@ Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 09/04/2026 | Criação do documento | [Luiza da Silva Pugas](https://github.com/luizaxx) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
+| 1.1  | 23/04/2026 | Adição de screenshots da modelagem no README | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Inclusão de três figuras centralizadas com legenda e fonte |
