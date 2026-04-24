@@ -21,7 +21,7 @@ A tabela abaixo consolida a evolução dos principais artefatos, com base nos re
 | Diagrama de Implantação  | -                  | -                   | -                |
 | Diagrama de Sequência    | -                  | -                   | -                |
 | Diagrama de Atividades   | -                  | -                   | -                |
-| Diagrama de Comunicação/Colaboração  | -                  | -                   | -                |
+| Diagrama de Comunicação/Colaboração  | 23/04/2026                 | 23/04/2026          | 2               |
 | Diagrama de Estados      | -                  | -                   | -                |
 | Diagrama de Casos de Uso | -                  | -                   | -                |
 | Diagrama de Pacotes      | -                  | -                   | -                |
