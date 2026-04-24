@@ -13,7 +13,6 @@ No projeto **Carona Amiga**, um web app para conectar motoristas e passageiros, 
 ## Objetivos
 
 Este artefato tem como finalidade apresentar, de forma clara e estruturada, os principais elementos do sistema Carona Amiga, suas características e relações, apoiando a comunicação do time e servindo de guia para o desenvolvimento.
-Este artefato tem como finalidade apresentar, de forma clara e estruturada, os principais elementos do sistema Carona Amiga, suas características e relações, apoiando a comunicação do time e servindo de guia para o desenvolvimento.
 As metas principais são:
 
 - Apresentar o Diagrama de Classes do web app Carona Amiga, evidenciando classes, atributos, operações e relacionamentos principais;
@@ -121,14 +120,38 @@ Autores: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Lui
 
 </div>
 
+<details>
+    <summary size="20"><b>Versão 1.0</b></summary>
 <div align="center">
               Figura 1: Diagrama de Classes.
 
 ![Diagrama de Classes](../assets/diagrama_de_classes.png)
+</div>
+</details>
 
+<div align="center">
+              Figura 2: Diagrama de Classes.
+
+![Diagrama de Classes](../assets/diagrama_de_classes1.0.png)
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS),  [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), 2026.</p></font>
 </div>
+
+?> **Nota (Versão 2.0):** Foram identificados pontos de melhoria a partir do feedback da Profa. Milene. A seção abaixo registra os ajustes sugeridos para refino do modelo.
+
+<details>
+    <summary><strong>Melhorias sugeridas pela professora (checklist)</strong></summary>
+
+- **Seta entre `Usuário` e `Mensagem`:** revisar a notação, pois a seta utilizada remete à **Realização** (implementação). Caso a intenção seja **Dependência**, manter a linha tracejada e usar seta aberta (não preenchida).
+- **Generalização/Herança:** ajustar o tamanho/estilo das setas de herança para ficar coerente com a notação padrão (referência: UML Diagrams). [[1]](#ref1)
+- **Relações todo-parte na parte inferior do modelo:** reavaliar as composições/agregações para garantir que a semântica e as cardinalidades representem o domínio corretamente. Em especial:
+    - `HistóricoViagem` ↔ `Carona`: verificar se há de fato composição (toda carona necessariamente possui histórico), ou se a relação deveria indicar **criação/dependência** (ex.: carona cria o histórico quando necessário).
+    - `Localização` ↔ `Carona`: checar se “possui” faz sentido e se a cardinalidade deve permitir `0..*` (uma localização pode não ter caronas associadas).
+    - `Localização` ↔ `Rota`: revalidar a composição conforme a decisão anterior, para manter consistência do modelo.
+- **Semântica `Avaliação` ↔ `Carona`:** substituir o verbo genérico “avaliar” por uma semântica mais clara (ex.: “carona **tem** avaliação”), coerente com o tipo de relação representada.
+- **Semânticas ausentes:** adicionar a descrição/semântica em relacionamentos que ainda estão sem rótulo (ex.: `Carona` ↔ `CaronaRecorrente`), para facilitar a compreensão do modelo.
+
+</details>
 
 ---
 
