@@ -2,7 +2,7 @@
 
 ## Introdução
 
-De acordo com a apostila UML [1], a modelagem de um diagrama use-case é uma técnica usada para descrever e definir os requisitos funcionais de um sistema. Eles são escritos em termos de atores externos, use-
+De acordo com a apostila UML [[1]](#ref1), a modelagem de um diagrama use-case é uma técnica usada para descrever e definir os requisitos funcionais de um sistema. Eles são escritos em termos de atores externos, use-
 cases e o sistema modelado. Os atores representam o papel de uma entidade externa ao
 sistema como um usuário, um hardware, ou outro sistema que interage com o sistema
 modelado. Os atores iniciam a comunicação com o sistema através dos use-cases, onde o use-
@@ -57,14 +57,21 @@ Dessa forma, elaboramos uma série de perguntas que buscam avaliar a qualidade d
 
 <font size="2"><p style="text-align: center">Fonte: [Luiza da Silva Pugas](https://github.com/Luizaxx), 2026.</p></font>
 
+---
+
 ## Conclusão
+
 A verificação do diagrama de casos de uso é um processo essencial para garantir a qualidade e a eficácia do modelo de software. Através das perguntas de verificação, foi possível identificar pontos fortes e áreas de melhoria no diagrama, contribuindo para a construção de um modelo mais robusto e eficaz.
 
-## Bibliografia
- 1. APOSTILA UML. Seção sobre representação de classes. Disponíbilizada pela professora. Acesso em: 23 abr. 2026. 
- 2. LUCIDCHART. Diagrama de Caso de Uso UML: Guia Completo com Exemplos. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 23 de abril de 2026.
- 3. DEVMEDIA. O que é UML e Diagramas de Caso de Uso? Introdução Prática à UML. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acesso em: 23 de abril de 2026.
- 4. MICROSOFT SUPPORT. Criar um diagrama de caso de uso UML. Disponível em: https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298. Acesso em: 23 de abril de 2026.
+## Referências Bibliográficas
+
+> <a name="ref1"></a>1. APOSTILA UML. Seção sobre representação de classes. Disponíbilizada pela professora. Acesso em: 23 abr. 2026. 
+>
+> <a name="ref2"></a>2. LUCIDCHART. Diagrama de Caso de Uso UML: Guia Completo com Exemplos. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 23 de abril de 2026.
+>
+> <a name="ref3"></a>3. DEVMEDIA. O que é UML e Diagramas de Caso de Uso? Introdução Prática à UML. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acesso em: 23 de abril de 2026.
+>
+> <a name="ref4"></a>4. MICROSOFT SUPPORT. Criar um diagrama de caso de uso UML. Disponível em: https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-caso-de-uso-uml-92cc948d-fc74-466c-9457-e82d62ee1298. Acesso em: 23 de abril de 2026.
 
 ## Histórico de Versões
 
