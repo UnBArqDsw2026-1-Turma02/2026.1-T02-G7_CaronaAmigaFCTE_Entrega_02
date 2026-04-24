@@ -59,8 +59,7 @@ O Diagrama de Estados descreve o ciclo de vida de uma Carona, desde a sua criaç
 <details>
   <summary><strong>Ciclo de Vida da Carona</strong></summary>
 
-
-**Tabela 1**: Transições de Estados - Ciclo de Vida da Carona
+<font size="2"><p style="text-align: center">**Tabela 1**: Transições de Estados - Ciclo de Vida da Carona</p></font>
 
 | Estado Origem | Evento / Gatilho | Condição de Guarda | Ação Executada | Estado Destino |
 |---|---|---|---|---|
@@ -82,31 +81,23 @@ O Diagrama de Estados descreve o ciclo de vida de uma Carona, desde a sua criaç
 ## Tabela de Análise
 
 <div style="text-align: center;">
-Legenda do Diagrama de Estados  
-<br>
+<font size="2"><p style="text-align: center">Figura 1 - Legenda do Diagrama de Estados. </p></font>
+
 <img src="https://i.postimg.cc/j5Xk72Kn/image.png" alt="figura 1">
-<font size="2"><p style="text-align: center">Figura 01.</p></font>
+
 </div>
-<!-- | Elemento               | Representação | Descrição                                                                                                                |
-| ---------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Estado Inicial**     |               | Indica o ponto de início do ciclo de vida do elemento modelado. É representado por um círculo preenchido.                |
-| **Estado**             |               | Representa uma condição ou situação na qual o objeto permanece por determinado período, podendo executar ações internas. |
-| **Estado Final**       |               | Indica o término do ciclo de vida do objeto. É representado por um círculo com contorno externo.                         |
-| **Transição**          |               | Representa a mudança de um estado para outro, geralmente desencadeada por um evento.                                     |
-| **Evento**             |               | Fato ou ocorrência que provoca a transição entre estados.                                                                |
-| **Condição de Guarda** |               | Expressão booleana que deve ser satisfeita para que a transição ocorra.                                                  |
-| **Ação**               |               | Atividade executada como resultado de uma transição ou durante a permanência em um estado.                               |
-| **Estado Composto**    |               | Estado que contém subestados internos, permitindo detalhamento adicional do comportamento.                               | -->
 
 <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
 
 ## Diagrama de Estados
 
 <div style="text-align: center;">
-Diagrama de Estados  
-<br>
+
+<font size="2"><p style="text-align: center">
+Figura 02 - Diagrama de Estados.</p></font>
+
 <img src="../../assets/diagrama_estado/diagrama_estado.png" alt="figura ">
-<font size="2"><p style="text-align: center">Figura 02.</p></font>
+
 </div>
 
 <font size="2"><p style="text-align: center">Fonte: [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
@@ -141,5 +132,5 @@ Além disso, o artefato fortalece a coerência entre os requisitos definidos, o 
 |  1.1   | 21/04/2026 | Criação do corrção dos links  | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |  Artefato Revisado  |
 |  1.2   | 21/04/2026 | Adição da legenda do diagrama | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |[João Vitor Santos de Oliveira](https://github.com/Jauzimm)|  Artefato Revisado  |
 |  1.3   | 21/04/2026 | Correção das figuras          | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |[João Vitor Santos de Oliveira](https://github.com/Jauzimm)|  Artefato Revisado  |
-|  1.4   | 21/04/2026 | Adição do diagrama de estados | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)|[Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)|  Artefato Revisado  |
-
+|  1.4   | 23/04/2026 | Adição do diagrama de estados | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)|[Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)|  Artefato Revisado  |
+|  1.5   | 23/04/2026 | Pequenas alterações no artefato | [João Vitor Santos de Oliveira](https://github.com/Jauzimm)|[Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)|  Artefato Revisado  |
